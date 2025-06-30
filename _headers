@@ -5,40 +5,40 @@
   Cache-Control: no-cache
 
 /*.js
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.css
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.png
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.jpg
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.jpeg
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.svg
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.webp
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.woff2
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.woff
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.ttf
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.eot
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /*.otf
-  Cache-Control: public, max-age=86400
+  Cache-Control: public, max-age=2592000
 
 /safelink/*.html
   Cache-Control: no-cache
