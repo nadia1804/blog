@@ -3,12 +3,44 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-06-29T14:13:09+08:00</updated>
+    <updated>2025-06-30T16:03:01+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Text Fixer</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/text-fixer/index.html"/>
+        <id>https://deddme.id/artikel/text-fixer/index.html</id>
+            <category term="Tools"/>
+
+        <updated>2025-06-30T16:01:03+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Perbaiki Salin Reset
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <div><div style="margin: 1rem 0; padding: 1rem 0;">
+  <textarea id="inputText" rows="6" style="width:100%; margin-bottom: 1rem;" placeholder="Tulis teks di sini..."></textarea>
+
+  <div style="margin-bottom: 1rem;">
+    <button onclick="fixText()">Perbaiki</button>
+    <button onclick="copyText()">Salin</button>
+    <button onclick="resetText()">Reset</button>
+  </div>
+
+  <textarea id="outputText" rows="6" style="width:100%;" readonly placeholder="Hasil perbaikan akan muncul di sini..."></textarea>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Jurnal pembelajaran gagal divalidasi : Pdf tidak terbaca</title>
         <author>
