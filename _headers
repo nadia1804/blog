@@ -1,6 +1,47 @@
 /*
+  Vary: Accept-Encoding
+
+/*.css
   Cache-Control: public, max-age=2592000
+  Vary: Accept-Encoding
+
+/*.js
+  Cache-Control: public, max-age=2592000
+  Vary: Accept-Encoding
+
+/*.woff2
+  Cache-Control: public, max-age=2592000
+  Vary: Accept-Encoding
+
+/*.woff
+  Cache-Control: public, max-age=2592000
+  Vary: Accept-Encoding
+
+/*.ttf
+  Cache-Control: public, max-age=2592000
+  Vary: Accept-Encoding
 
 /*.html
-  Cache-Control: no-cache
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
+
+/artikel/*.html
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
+
+/*.jpg
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
+
+/*.png
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
+
+/*.webp
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
+
+/*.svg
+  Cache-Control: public, max-age=2592000, must-revalidate
+  Vary: Accept-Encoding
 
