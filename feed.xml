@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-06-30T17:44:34+08:00</updated>
+    <updated>2025-06-30T18:04:25+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -16,17 +16,29 @@
         </author>
         <link href="https://deddme.id/artikel/text-fixer/"/>
         <id>https://deddme.id/artikel/text-fixer/</id>
+        <media:content url="https://deddme.id/media/posts/10/textfixer.png" medium="image" />
             <category term="Tools"/>
 
         <updated>2025-06-30T16:01:03+08:00</updated>
             <summary>
                 <![CDATA[
-                    Perbaiki Salin Reset
+                        <img src="https://deddme.id/media/posts/10/textfixer.png" alt="" />
+                    
+  <p>
+    Salin teks anda disini untuk menghapus spasi berlebih
+  </p>
+
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <div><div style="margin: 1rem 0; padding: 1rem 0;">
+                    <p><img src="https://deddme.id/media/posts/10/textfixer.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Salin teks anda disini untuk menghapus spasi berlebih
+  </p>
+
+<div><div style="margin: 1rem 0; padding: 1rem 0;">
   <textarea id="inputText" rows="6" style="width:100%; margin-bottom: 1rem;" placeholder="Tulis teks di sini..."></textarea>
 
   <div style="margin-bottom: 1rem;">
@@ -36,12 +48,7 @@
   </div>
 
   <textarea id="outputText" rows="6" style="width:100%;" readonly placeholder="Hasil perbaikan akan muncul di sini..."></textarea>
-</div>
-</div>
-
-  <p>
-    
-  </p>
+</div></div>
             ]]>
         </content>
     </entry>
