@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-06-30T21:32:26+08:00</updated>
+    <updated>2025-06-30T21:36:39+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -16,13 +16,13 @@
         </author>
         <link href="https://deddme.id/artikel/text-fixer/index.html"/>
         <id>https://deddme.id/artikel/text-fixer/index.html</id>
-        <media:content url="https://deddme.id/media/posts/10/textfixer.png" medium="image" />
+        <media:content url="https://deddme.id/media/posts/10/textfixer-2.png" medium="image" />
             <category term="Tools"/>
 
         <updated>2025-06-30T16:01:03+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://deddme.id/media/posts/10/textfixer.png" alt="" />
+                        <img src="https://deddme.id/media/posts/10/textfixer-2.png" alt="textfixer" />
                     
   <p>
     Saiin teks anda disini untuk menghapus spasi berlebih
@@ -32,7 +32,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/10/textfixer.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://deddme.id/media/posts/10/textfixer-2.png" class="type:primaryImage" alt="textfixer" /></p>
                 
   <p>
     Saiin teks anda disini untuk menghapus spasi berlebih
