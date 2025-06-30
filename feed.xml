@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-06-30T18:04:25+08:00</updated>
+    <updated>2025-06-30T21:28:38+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/text-fixer/"/>
-        <id>https://deddme.id/artikel/text-fixer/</id>
+        <link href="https://deddme.id/artikel/text-fixer/index.html"/>
+        <id>https://deddme.id/artikel/text-fixer/index.html</id>
         <media:content url="https://deddme.id/media/posts/10/textfixer.png" medium="image" />
             <category term="Tools"/>
 
@@ -23,22 +23,13 @@
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/10/textfixer.png" alt="" />
-                    
-  <p>
-    Salin teks anda disini untuk menghapus spasi berlebih
-  </p>
-
+                    Perbaiki Salin Reset
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://deddme.id/media/posts/10/textfixer.png" class="type:primaryImage" alt="" /></p>
-                
-  <p>
-    Salin teks anda disini untuk menghapus spasi berlebih
-  </p>
-
-<div><div style="margin: 1rem 0; padding: 1rem 0;">
+                <div><div style="margin: 1rem 0; padding: 1rem 0;">
   <textarea id="inputText" rows="6" style="width:100%; margin-bottom: 1rem;" placeholder="Tulis teks di sini..."></textarea>
 
   <div style="margin-bottom: 1rem;">
@@ -48,7 +39,12 @@
   </div>
 
   <textarea id="outputText" rows="6" style="width:100%;" readonly placeholder="Hasil perbaikan akan muncul di sini..."></textarea>
-</div></div>
+</div>
+</div>
+
+  <p>
+    
+  </p>
             ]]>
         </content>
     </entry>
@@ -57,8 +53,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/"/>
-        <id>https://deddme.id/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/</id>
+        <link href="https://deddme.id/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html"/>
+        <id>https://deddme.id/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html</id>
         <media:content url="https://deddme.id/media/posts/9/deddme.id-featured-image.png" medium="image" />
             <category term="PPG"/>
 
@@ -138,8 +134,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/</id>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html</id>
         <media:content url="https://deddme.id/media/posts/5/soal-ppg-2025.png" medium="image" />
             <category term="Soal PPG"/>
 
@@ -162,8 +158,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/</id>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html</id>
         <media:content url="https://deddme.id/media/posts/4/soal-ppg-2025.png" medium="image" />
             <category term="Soal PPG"/>
 
@@ -193,8 +189,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/</id>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html</id>
         <media:content url="https://deddme.id/media/posts/3/soal-ppg-2025-2.png" medium="image" />
             <category term="Soal PPG"/>
 
@@ -229,8 +225,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/</id>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html</id>
         <media:content url="https://deddme.id/media/posts/2/soal-ppg-2025.png" medium="image" />
             <category term="Soal PPG"/>
 
@@ -253,8 +249,8 @@
         <author>
             <name>Deddy Hidayat</name>
         </author>
-        <link href="https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/"/>
-        <id>https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/</id>
+        <link href="https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html"/>
+        <id>https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html</id>
         <media:content url="https://deddme.id/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png" medium="image" />
             <category term="Even"/>
 
