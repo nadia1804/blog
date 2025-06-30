@@ -11,21 +11,6 @@
     },
     "items": [
         {
-            "id": "https://deddme.id/artikel/text-fixer-2/index.html",
-            "url": "https://deddme.id/artikel/text-fixer-2/index.html",
-            "title": "Text Fixer 2",
-            "summary": "Perbaiki Salin Reset",
-            "content_html": "<div><div style=\"margin: 1rem 0; padding: 1rem 0;\">\n  <textarea id=\"inputText\" rows=\"6\" style=\"width:100%; margin-bottom: 1rem;\" placeholder=\"Tulis teks di sini...\"></textarea>\n\n  <div style=\"margin-bottom: 1rem;\">\n    <button onclick=\"fixText()\">Perbaiki</button>\n    <button onclick=\"copyText()\">Salin</button>\n    <button onclick=\"resetText()\">Reset</button>\n  </div>\n\n  <textarea id=\"outputText\" rows=\"6\" style=\"width:100%;\" readonly placeholder=\"Hasil perbaikan akan muncul di sini...\"></textarea>\n</div>\n</div>\n\n  <p>\n    \n  </p>",
-            "author": {
-                "name": "Deddy Hidayat"
-            },
-            "tags": [
-                   "Tools"
-            ],
-            "date_published": "2025-06-30T16:46:17+08:00",
-            "date_modified": "2025-06-30T16:46:34+08:00"
-        },
-        {
             "id": "https://deddme.id/artikel/text-fixer/index.html",
             "url": "https://deddme.id/artikel/text-fixer/index.html",
             "title": "Text Fixer",
@@ -38,7 +23,7 @@
                    "Tools"
             ],
             "date_published": "2025-06-30T16:01:03+08:00",
-            "date_modified": "2025-06-30T16:22:01+08:00"
+            "date_modified": "2025-06-30T16:49:05+08:00"
         },
         {
             "id": "https://deddme.id/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
