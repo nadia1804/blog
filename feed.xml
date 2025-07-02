@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-02T22:11:36+08:00</updated>
+    <updated>2025-07-02T22:34:24+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -24,14 +24,14 @@
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/12/ghost.png" alt="" />
-                    🧭 Panduan Instalasi Ghost di Windows 11 (Lokal + Solusi Masalah Umum) Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum. Buka Command Prompt sebagai Administrator, lalu jalankan: npm install -g ghost-cli 🗂️ 2. Siapkan Folder Instalasi Disini saya menggunakan drive D dengan&hellip;
+                    🧭 Panduan Instalasi Ghost di Windows 11 (Lokal + Solusi Masalah Umum) Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum., jadi di komputer anda harus sudah terinstall node js, npm, c++, dan memiliki akses administraor dan tahu cara membuka dan menjalankan cmd&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://deddme.id/media/posts/12/ghost.png" class="type:primaryImage" alt="" /></p>
                 <h2 id="🧭-panduan-instalasi-ghost-di-windows-11-lokal--solusi-masalah-umum">🧭 Panduan Instalasi Ghost di Windows 11 (Lokal + Solusi Masalah Umum)</h2>
-<p>Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum.</p><hr>
+<p>Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum., </p><hr>
 <h2 id="📋-prasyarat">📋 Prasyarat</h2>
 <ul>
 <li>Windows 10/11 (64-bit)  </li>
@@ -40,18 +40,18 @@
 <li>Visual Studio Build Tools dengan workload <strong>Desktop development with C++</strong>  </li>
 <li>Akses Administrator untuk terminal &amp; file <code>hosts</code></li>
 </ul>
-<hr>
+<p>jadi di komputer anda harus sudah terinstall <code>node js</code>, <code>npm</code>, <code>c++</code>, dan memiliki akses administraor dan tahu cara membuka dan menjalankan <code>cmd</code> (sedikit)</p><p>anda bisa melihat cms ghost yang saya install secara lokal kemudian saya push ke netlify : <a href="https://ghost.deddme.id"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Ghost CMS deddme</a> </p><hr>
 <h2 id="🛠️-1-instal-ghost-cli">🛠️ 1. Instal Ghost CLI</h2>
 <p>Buka <code>Command Prompt</code>  <strong>sebagai Administrator</strong>, lalu jalankan:</p><pre><code>npm install -g ghost-cli
 </code></pre>
-<h2 id="🗂️-2-siapkan-folder-instalasi">🗂️ 2. Siapkan Folder Instalasi</h2>
-<p>Disini saya menggunakan drive <code>D</code> dengan folder <code>ghost</code> maka path nya akan seperti ini <code>D:ghost</code> karena windows bisa mudah membuat manual, klik kanan buat folder <code>ghost</code>, lalu di <code>Command Prompt</code> (cmd) jalankan perintah ini :</p><pre><code>D:
+<p>ini berfungsi menginstall kode perintah ghost di sistem windows</p><h2 id="🗂️-2-siapkan-folder-instalasi">🗂️ 2. Siapkan Folder Instalasi</h2>
+<p>Selanjutnya kita akan membuat folder tempat ghost disimpan</p><p>Disini saya menggunakan drive <code>D</code> dengan folder <code>ghost</code> maka path nya akan seperti ini <code>D:\ghost</code> karena windows bisa mudah membuat manual, klik kanan buat folder <code>ghost</code>, lalu di <code>Command Prompt</code> (cmd) jalankan perintah ini :</p><pre><code>D:
 cd ghost
 </code></pre>
-<p>perintah ini akan membuat <code>cmd</code> menuju lokasi folder</p><h2 id="🚀-3-install-ghost-lokal">🚀 3. Install Ghost Lokal</h2>
+<p>perintah ini akan memberikan instruksi kepada <code>cmd</code> menuju lokasi folder, di folder inilah kita akan menginstall ghost</p><h2 id="🚀-3-install-ghost-lokal">🚀 3. Install Ghost Lokal</h2>
 <p>Jalankan perintah:</p><pre><code>ghost install local
 </code></pre>
-<p>tunggu hingga selesai instalasinya, jika berhasil maka ghost dapat dibuka di browser dengan url:  <code>http://localhost:2368</code> </p><p><strong>anda mungkin akan menemukan error saat menginstall ghost, karena belum ada database <code>sqlite3</code> lihat panduan no 4 untuk mengatasi ini</strong> namun jika tidak ada masalah, skip panduan no 4</p><p>atau jalankan secara manual untuk memulai ghost</p><pre><code>ghost start
+<p><strong>anda mungkin akan menemukan error saat menginstall ghost, karena windows belum ada database yang bernama <code>sqlite3</code> , cara mengatasinya lihat panduan no 4</strong> namun jika tidak ada masalah, skip panduan no 4</p><p>tunggu hingga selesai instalasinya, jika berhasil maka ghost dapat dibuka di browser dengan url:  <code>http://localhost:2368</code> </p><p>untuk memulai ghost</p><pre><code>ghost start
 </code></pre>
 <p>dan untuk menghentikan ghost gunakan ini</p><pre><code>ghost stop
 </code></pre>
@@ -60,14 +60,12 @@ cd ghost
 <p>pada tahap sebelumnya, jika muncul <em>error</em> cannot find module <code>sqlite3</code> maka kita perlu install secara manual:</p><pre><code>npm install sqlite3 --save
 </code></pre>
 <p>Setelah berhasil, jalankan ulang Ghost, buka kembali url:  <code>http://localhost:2368</code></p><h2 id="🌐-5-konfigurasi-domain-lokal-ghostlocal">🌐 5. Konfigurasi Domain Lokal (ghost.local)</h2>
-<p>masalah muncul pada tahap ini, ketika anda menjalankan ghost di browser  <code>http://localhost:2368</code> maka browser akan membuka menjadi HTTPS  <code>https://localhost:2368</code> sehingga anda akan menemukan error,</p><p>untuk mengatasinya ikuti langkah berikut:</p><ol>
-<li>Cari dan Edit file dari directory ini menggunakan text editor :</li>
+<p>pada tahap ini <code>ghost</code> sudah terpasang, ketika server dijalankan <code>ghost start</code> kita dapat membuka ghost di <code>http://localhost:2368</code></p><p><strong>namun akan masalah muncul masalah baru pada tahap ini.</strong></p><p>ketika anda menjalankan ghost di browser  <code>http://localhost:2368</code> maka browser akan membukanya menjadi HTTPS  <code>https://localhost:2368</code> sehingga anda akan menemukan error,</p><p>untuk mengatasinya ikuti langkah berikut:</p><ol>
+<li>Edit file dari directory ini <code>C:\Windows\System32\drivers\etc\hosts</code> menggunakan text editor Tambahkan baris didalamnya pada dibagian bawah :</li>
 </ol>
-<pre><code>C:\Windows\System32\drivers\etc\hosts
+<pre><code>127.0.0.1    ghost.local
 </code></pre>
-<p>atau salin ini tempelkan di file manager windows <code>C:\Windows\System32\drivers\etc\hosts</code> tekan enter</p><p>Tambahkan baris dibagian bawah :</p><pre><code>127.0.0.1    ghost.local
-</code></pre>
-<p>penjelasannya <code>localhost</code> akan dibuka pada domain <code>ghost.local</code>, (ini adalah domain dummy) anda juga bisa mengganti domainnya dengan xxxx.com tapi cari yang dummy</p><ol start="2">
+<p>penjelasannya ghost tidak akan lagi dibuka melalui <code>localhost</code> akan tetapi dibuka pada domain <code>ghost.local</code> (ini adalah domain dummy) </p><ol start="2">
 <li>Selanjutnya kita juga perlu mengubah konfigurasi di folder Ghost : <code>D:\ghost\config.development.json</code> ganti nilai menjadi:</li>
 </ol>
 <pre><code>{
@@ -91,13 +89,13 @@ cd ghost
 </ol>
 <pre><code>ghost restart
 </code></pre>
-<p>sekarang ghost bisa dibuka melalui <code>http://ghost.local:2368</code></p><hr>
+<p>sekarang ghost bisa dibuka melalui <code>http://ghost.local:2368</code> dan browser tidak akan memaksa HTTPS lagi</p><hr>
 <h2 id="✅-6-akses-ghost">✅ 6. Akses Ghost</h2>
-<ul>
+<p>sampai tahap ini anda telah bisa menulis dan mengedit website di admin panel</p><ul>
 <li><strong>Frontend</strong>: <code>http://ghost.local:2368</code></li>
 <li><strong>Admin panel</strong>: <code>http://ghost.local:2368/ghost</code></li>
 </ul>
-<p>anda bisa menulis dan mengedit website di admin panel</p><hr>
+<hr>
 <h2 id="🛠️-7-skrip-shortcut-opsional">🛠️ 7. Skrip <em>Shortcut</em> (Opsional)</h2>
 <p>Langkah ini opsional, hanya untuk mempermudah anda agar tidak sering membuka  <code>cmd</code> lagi saat ingin menjalankan ghost </p><p>Buat file dengan nama <code>start-ghost.bat</code> letakkan di <code>D:\ghost</code> dan isinya adalah ini (edit dengan text editor):</p><pre><code>@echo off
 cd /d D:\ghost

@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "94348adaca455fd180a715fa28b03da4"
+        "md5": "f5c4fe0d5637c167397c82386e0d0caf"
     },
     {
         "path": "artikel",
@@ -12,7 +12,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "2cc20d2cbe1165e69edd4b303dc8664d"
+        "md5": "44ae5631a4039dfa4c299f739c4b5e17"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -22,7 +22,7 @@
     {
         "path": "/artikel/install-ghost-local-di-windows-11/index.html",
         "type": "file",
-        "md5": "99a13f610cd0cca7303b30c976f62c1a"
+        "md5": "9b97f3054ae78776e917bd34f4ab59b2"
     },
     {
         "path": "artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca",
@@ -32,7 +32,7 @@
     {
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
-        "md5": "7de9574d535593f9222fa26e66d4ae66"
+        "md5": "a9b7c49b0f86fb5f668e20e790e6a170"
     },
     {
         "path": "artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah",
@@ -42,7 +42,7 @@
     {
         "path": "/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
         "type": "file",
-        "md5": "ddf6137f8833e94f3d2b5ab0a73e2641"
+        "md5": "918016cce7c9ad5e20bff7621dd6ca3f"
     },
     {
         "path": "artikel/soal-ppg-2025-cultury-responsive-teaching-crt",
@@ -52,7 +52,7 @@
     {
         "path": "/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html",
         "type": "file",
-        "md5": "8659257d3f228832ad9b1235b9d92485"
+        "md5": "1df358e4aad41f6870a7c4597b271ad9"
     },
     {
         "path": "artikel/soal-ppg-2025-pembelajaran-berdifferensiasi",
@@ -62,7 +62,7 @@
     {
         "path": "/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html",
         "type": "file",
-        "md5": "13e2d13502795239950c51e7042a6ae0"
+        "md5": "3be7950733a3f896dbb5e7ed930c1e4e"
     },
     {
         "path": "artikel/soal-ppg-2025-teaching-at-the-right-level-tarl",
@@ -72,7 +72,7 @@
     {
         "path": "/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html",
         "type": "file",
-        "md5": "df26241d32dcf7ab3914023f19ea8568"
+        "md5": "deefc925ec9993f3dae98cf7c678a54e"
     },
     {
         "path": "artikel/soal-ppg-2025-understanding-by-design-ubd",
@@ -82,7 +82,7 @@
     {
         "path": "/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html",
         "type": "file",
-        "md5": "588df080d309ea014fb0d404ab50518d"
+        "md5": "63ccdcdba2a8f8a0502f6fa6fbd7b829"
     },
     {
         "path": "artikel/text-fixer",
@@ -92,7 +92,7 @@
     {
         "path": "/artikel/text-fixer/index.html",
         "type": "file",
-        "md5": "23b2827c4f8b51dc584732a66dc290b4"
+        "md5": "e8c6ec371b9f957cd5edbf7e5568cfd6"
     },
     {
         "path": "assets",
@@ -162,17 +162,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "d0dea6caf72f596045f37b58089e4fe7"
+        "md5": "685d5d16b0d5c3c8578ba8c57757276e"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "2e4b21ceaae86c0571225eb7ff2d5d5b"
+        "md5": "98354b171aaafb57dd5b8acf0592eadb"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "557b7039e2f975ca16f62a3cb2f6e819"
+        "md5": "0b8d697c0cc98d31888e50cc8878ef80"
     },
     {
         "path": "kategori",
@@ -187,7 +187,7 @@
     {
         "path": "/kategori/even/index.html",
         "type": "file",
-        "md5": "a95ea7b551c6fa164bbeca2e625273e8"
+        "md5": "5905efe3e7e97fe598953052568c6a19"
     },
     {
         "path": "kategori/ghost",
@@ -197,12 +197,12 @@
     {
         "path": "/kategori/ghost/index.html",
         "type": "file",
-        "md5": "edb6919ac918c6d1c5d11a4361bc05b9"
+        "md5": "f82e858b02ea985c9acbde60e8907b8b"
     },
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "3d3954b040d54a8b69d2e00cb8610c71"
+        "md5": "dd173082f7118fa2cff852afe1e812f1"
     },
     {
         "path": "kategori/ppg",
@@ -212,7 +212,7 @@
     {
         "path": "/kategori/ppg/index.html",
         "type": "file",
-        "md5": "9d640e231522534a9203bf129bf24afb"
+        "md5": "634eb76d141e8540aac7051da50ac4b0"
     },
     {
         "path": "kategori/soal",
@@ -222,7 +222,7 @@
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "371a290f11ef3b4de28f794d272841e8"
+        "md5": "351bd54e30a1836d955de9e2f6c0fe00"
     },
     {
         "path": "kategori/tools",
@@ -232,7 +232,7 @@
     {
         "path": "/kategori/tools/index.html",
         "type": "file",
-        "md5": "277e2a77b67c14f6b7bffc33d4d1e1b5"
+        "md5": "cb5bffac6d41f0b0cfd3cdde19fe64bf"
     },
     {
         "path": "kategori/web",
@@ -242,7 +242,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "bee314b53854a337b0f9ea8951949330"
+        "md5": "4f11da10c0ec293020adaee2853cc834"
     },
     {
         "path": "media",
@@ -622,7 +622,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "b90eee31edcbedf7776354dfb28894b6"
+        "md5": "27976110ba427c940c4563e3fd8208ec"
     },
     {
         "path": "robots.txt",
@@ -632,7 +632,7 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "d1a8a42a0aee0004aac4278e86ca7c1f"
+        "md5": "55a687469e78fa0ac885a0c29ff9a03d"
     },
     {
         "path": "sitemap.xml",
