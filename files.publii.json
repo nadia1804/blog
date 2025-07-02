@@ -1,0 +1,652 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "2b1c7c781d307ca2bb158d772b323827"
+    },
+    {
+        "path": "artikel",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/index.html",
+        "type": "file",
+        "md5": "6ca27d9b784ae11a458b81b393c4b0f4"
+    },
+    {
+        "path": "artikel/install-ghost-local-di-windows-11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/install-ghost-local-di-windows-11/index.html",
+        "type": "file",
+        "md5": "ec3e79e8747c8630dd657bb27ac64512"
+    },
+    {
+        "path": "artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
+        "type": "file",
+        "md5": "291f10ded0e6094244b90613f26dd1db"
+    },
+    {
+        "path": "artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
+        "type": "file",
+        "md5": "e776cb2edbc5892afd9afb5db009d899"
+    },
+    {
+        "path": "artikel/soal-ppg-2025-cultury-responsive-teaching-crt",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html",
+        "type": "file",
+        "md5": "66ec23e1274592cd48077d3eedc61072"
+    },
+    {
+        "path": "artikel/soal-ppg-2025-pembelajaran-berdifferensiasi",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html",
+        "type": "file",
+        "md5": "64d614be9251504260f2b28d8f402080"
+    },
+    {
+        "path": "artikel/soal-ppg-2025-teaching-at-the-right-level-tarl",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html",
+        "type": "file",
+        "md5": "32b1be87a43c1cbbe762993a44b8eebb"
+    },
+    {
+        "path": "artikel/soal-ppg-2025-understanding-by-design-ubd",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html",
+        "type": "file",
+        "md5": "780f0efca0e086302b1910f89d24f52f"
+    },
+    {
+        "path": "artikel/text-fixer",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/text-fixer/index.html",
+        "type": "file",
+        "md5": "19ff65d3dfb6066c6e43c0b77eab8dd2"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "02826e60c8e393ddf3e98ce0b47abac6"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "4c82d10ee783ab47573e0cf2e3690206"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "bd19e1795647692f2fe6f2249792391f"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "8680a80b5605dca08d4eef4416e29e9f"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "aa1ff23a8df2377a60f48f5b4d433ab5"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "c8df4110c4ebd38fbb95093ee7b4e317"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "1c143890a610b3bc7efdaef108fef1fe"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "aacef9af46d361867c9a08c2770b25b9"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "ab8090eb8e7122f084196e320412d31a"
+    },
+    {
+        "path": "kategori",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "kategori/even",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/even/index.html",
+        "type": "file",
+        "md5": "13cc3e5eed44b77e614fb8d6240eb6d2"
+    },
+    {
+        "path": "kategori/ghost",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/ghost/index.html",
+        "type": "file",
+        "md5": "c2cea959fc518842615700c7624f6de6"
+    },
+    {
+        "path": "/kategori/index.html",
+        "type": "file",
+        "md5": "85b7bc499e2f2955bffa865d0783537b"
+    },
+    {
+        "path": "kategori/ppg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/ppg/index.html",
+        "type": "file",
+        "md5": "80a6d4b9c72d5a9b3d642c6ddacbba81"
+    },
+    {
+        "path": "kategori/soal",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/soal/index.html",
+        "type": "file",
+        "md5": "886a452bfd16db463407f49223a84a17"
+    },
+    {
+        "path": "kategori/tools",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/tools/index.html",
+        "type": "file",
+        "md5": "ed70aac7d57646201ba181dfc4e10fa4"
+    },
+    {
+        "path": "kategori/web",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/web/index.html",
+        "type": "file",
+        "md5": "a0773a80e0f5d387d23b0761309e1768"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/files",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/files/textfixer.js",
+        "type": "file",
+        "md5": "a32de19e345dc9c143091f5dd2008528"
+    },
+    {
+        "path": "media/plugins",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/plugins/pagePrefetching",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/plugins/pagePrefetching/quicklink.umd.js",
+        "type": "file",
+        "md5": "9bf2c039e22db3d0962eb567cbe5954d"
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/responsive/Selamat-Tahun-baru-islam-1447H-featured-md.webp",
+        "type": "file",
+        "md5": "8a1ab197b8a47ad141d5d1dac6cf7633"
+    },
+    {
+        "path": "/media/posts/1/responsive/Selamat-Tahun-baru-islam-1447H-featured-sm.webp",
+        "type": "file",
+        "md5": "8a1ab197b8a47ad141d5d1dac6cf7633"
+    },
+    {
+        "path": "/media/posts/1/responsive/Selamat-Tahun-baru-islam-1447H-featured-xl.webp",
+        "type": "file",
+        "md5": "8a1ab197b8a47ad141d5d1dac6cf7633"
+    },
+    {
+        "path": "/media/posts/1/responsive/Selamat-Tahun-baru-islam-1447H-featured-xs.webp",
+        "type": "file",
+        "md5": "9cbaee3312ddd80bfbcee9513bf053c2"
+    },
+    {
+        "path": "/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png",
+        "type": "file",
+        "md5": "01e0e5ca061da6d284196f0344c8d9df"
+    },
+    {
+        "path": "media/posts/10",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/10/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/responsive/textfixer-2-md.webp",
+        "type": "file",
+        "md5": "e87d12341c9f7c650bd3a7b44aa7ede8"
+    },
+    {
+        "path": "/media/posts/10/responsive/textfixer-2-sm.webp",
+        "type": "file",
+        "md5": "8dba47da43f4e028fdaacecb3efda193"
+    },
+    {
+        "path": "/media/posts/10/responsive/textfixer-2-xl.webp",
+        "type": "file",
+        "md5": "2143e20d9bd05e618b8356566dec85fb"
+    },
+    {
+        "path": "/media/posts/10/responsive/textfixer-2-xs.webp",
+        "type": "file",
+        "md5": "dd1f4a5000a42b25fbcb1962ebd7016d"
+    },
+    {
+        "path": "/media/posts/10/textfixer-2.png",
+        "type": "file",
+        "md5": "a2ac4af3b4dea497ec6fcc55b7bb5dcc"
+    },
+    {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/ghost.png",
+        "type": "file",
+        "md5": "6eccbf80a60d49ef6b27437c326c323a"
+    },
+    {
+        "path": "media/posts/12/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/responsive/ghost-md.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/12/responsive/ghost-sm.webp",
+        "type": "file",
+        "md5": "38341f7883efa0ea396f044ac445c984"
+    },
+    {
+        "path": "/media/posts/12/responsive/ghost-xl.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/12/responsive/ghost-xs.webp",
+        "type": "file",
+        "md5": "0e8990f81cbd45da351c59d0c6fdbaad"
+    },
+    {
+        "path": "media/posts/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/2/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/2/responsive/soal-ppg-2025-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/2/responsive/soal-ppg-2025-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/2/responsive/soal-ppg-2025-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/2/responsive/soal-ppg-2025-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/2/soal-ppg-2025.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
+    },
+    {
+        "path": "media/posts/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/3/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/3/responsive/soal-ppg-2025-2-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/3/responsive/soal-ppg-2025-2-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/3/responsive/soal-ppg-2025-2-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/3/responsive/soal-ppg-2025-2-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/3/soal-ppg-2025-2.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
+    },
+    {
+        "path": "media/posts/4",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/4/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/4/responsive/soal-ppg-2025-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/4/responsive/soal-ppg-2025-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/4/responsive/soal-ppg-2025-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/4/responsive/soal-ppg-2025-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/4/soal-ppg-2025.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
+    },
+    {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/soal-ppg-2025-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/5/responsive/soal-ppg-2025-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/5/responsive/soal-ppg-2025-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/5/responsive/soal-ppg-2025-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/5/soal-ppg-2025.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/deddme.id-featured-image.png",
+        "type": "file",
+        "md5": "848c72dcd5087376cb70da851c7ea2ab"
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/deddme.id-featured-image-md.webp",
+        "type": "file",
+        "md5": "7247fd418cd2c059a6c49cdb87cbff76"
+    },
+    {
+        "path": "/media/posts/9/responsive/deddme.id-featured-image-sm.webp",
+        "type": "file",
+        "md5": "b9a3f8f5c4e77fd30b28f457244bcbdb"
+    },
+    {
+        "path": "/media/posts/9/responsive/deddme.id-featured-image-xl.webp",
+        "type": "file",
+        "md5": "7247fd418cd2c059a6c49cdb87cbff76"
+    },
+    {
+        "path": "/media/posts/9/responsive/deddme.id-featured-image-xs.webp",
+        "type": "file",
+        "md5": "26c5fe3e615538808ed361bdfad3610d"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/deddy-hidayat-pic.png",
+        "type": "file",
+        "md5": "64ae533aa79ea789479a236f30c772c0"
+    },
+    {
+        "path": "/media/website/fallback-img-deddme.webp",
+        "type": "file",
+        "md5": "5042dd330df8f7948aea88b1d1a5bc12"
+    },
+    {
+        "path": "/media/website/favicon.ico",
+        "type": "file",
+        "md5": "ab8f84bd5e551b29f75c1ffd1b0e7bdd"
+    },
+    {
+        "path": "/media/website/Logo.png",
+        "type": "file",
+        "md5": "a84567ad721b74c659beb1695ea29409"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/deddy-hidayat-pic-xs.webp",
+        "type": "file",
+        "md5": "021a1fa6e2654e98952e445b347b7726"
+    },
+    {
+        "path": "/media/website/responsive/fallback-img-deddme-xs.webp",
+        "type": "file",
+        "md5": "753e4e10f37e339820cd7a3f62a3bdff"
+    },
+    {
+        "path": "/media/website/responsive/favicon-2-xs.png",
+        "type": "file",
+        "md5": "9e2980eb0b607033962ad7abb212ca3e"
+    },
+    {
+        "path": "/media/website/responsive/Logo-xs.webp",
+        "type": "file",
+        "md5": "c560d9410da83cae71b21c41c0fbbec8"
+    },
+    {
+        "path": "penulis",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "penulis/deddy-hidayat",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/penulis/deddy-hidayat/index.html",
+        "type": "file",
+        "md5": "33d48c4c4fb5dfc76fbd048a64d55851"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "7ba9a32480de1e45812b8bfd44fb4570"
+    },
+    {
+        "path": "search.html",
+        "type": "file",
+        "md5": "a16a84a620442f8eed9e64e00b7ceff9"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "e4ddfaae7d3fd38e478b7014ce157496"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
+    },
+    {
+        "path": "_headers",
+        "type": "file",
+        "md5": "28a1edb3934d82ad5e4364361bb854ad"
+    }
+]

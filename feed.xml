@@ -3,12 +3,118 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-06-30T21:38:11+08:00</updated>
+    <updated>2025-07-02T21:28:27+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Install ghost local di windows 11</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/install-ghost-local-di-windows-11/index.html"/>
+        <id>https://deddme.id/artikel/install-ghost-local-di-windows-11/index.html</id>
+        <media:content url="https://deddme.id/media/posts/12/ghost.png" medium="image" />
+            <category term="Web"/>
+            <category term="Ghost"/>
+
+        <updated>2025-07-02T21:20:31+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/12/ghost.png" alt="" />
+                    🧭 Panduan Instalasi Ghost di Windows 11 (Lokal + Solusi Masalah Umum) Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum. Buka PowerShell atau Command Prompt sebagai Administrator, lalu jalankan: npm install -g ghost-cli 🗂️ 2. Siapkan Folder Instalasi Pindah ke drive D:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/12/ghost.png" class="type:primaryImage" alt="" /></p>
+                <h2 id="🧭-panduan-instalasi-ghost-di-windows-11-lokal--solusi-masalah-umum">🧭 Panduan Instalasi Ghost di Windows 11 (Lokal + Solusi Masalah Umum)</h2>
+<p>Panduan ini membimbing kamu menjalankan Ghost secara lokal di Windows 11, lengkap dengan solusi error umum.</p><hr>
+<h2 id="📋-prasyarat">📋 Prasyarat</h2>
+<ul>
+<li>Windows 10/11 (64-bit)  </li>
+<li>Node.js v22.x <em>(non-LTS; perlu build manual)</em>  </li>
+<li>NPM (terinstal bersama Node.js)  </li>
+<li>Visual Studio Build Tools dengan workload <strong>Desktop development with C++</strong>  </li>
+<li>Akses Administrator untuk terminal &amp; file <code>hosts</code></li>
+</ul>
+<hr>
+<h2 id="🛠️-1-instal-ghost-cli">🛠️ 1. Instal Ghost CLI</h2>
+<p>Buka PowerShell atau Command Prompt <strong>sebagai Administrator</strong>, lalu jalankan:</p><pre><code>npm install -g ghost-cli
+</code></pre>
+<h2 id="🗂️-2-siapkan-folder-instalasi">🗂️ 2. Siapkan Folder Instalasi</h2>
+<p>Pindah ke drive D: dan buat direktori ghost:</p><pre><code>D:
+mkdir ghost
+cd ghost
+</code></pre>
+<h2 id="🚀-3-install-ghost-lokal">🚀 3. Install Ghost Lokal</h2>
+<p>Jalankan perintah:</p><pre><code>ghost install local
+</code></pre>
+<p>Ghost akan:</p><ul>
+<li>Mengecek <em>environment</em></li>
+<li>Mengunduh Ghost versi terbaru</li>
+<li>Menggunakan SQLite sebagai <em>database</em></li>
+<li>Menjalankan <em>server</em> di <code>http://localhost:2368</code></li>
+</ul>
+<hr>
+<h2 id="🔧-4-mengatasi-error-cannot-find-module-sqlite3">🔧 4. Mengatasi Error “Cannot find module ‘sqlite3’”</h2>
+<p>Jika muncul <em>error</em> tersebut:</p><ol>
+<li>Pastikan <strong>Visual Studio Build Tools</strong> sudah terpasang dengan <em>workload</em> <strong>Desktop development with C++</strong>.</li>
+<li>Instal <code>sqlite3</code> secara manual:</li>
+</ol>
+<pre><code>npm install sqlite3 --save
+</code></pre>
+<ol start="3">
+<li>Setelah berhasil, jalankan ulang Ghost:</li>
+</ol>
+<pre><code>ghost start
+</code></pre>
+<h2 id="🌐-5-konfigurasi-domain-lokal-ghostlocal">🌐 5. Konfigurasi Domain Lokal (ghost.local)</h2>
+<p>Agar tidak mengalami redirect paksa ke HTTPS saat membuka /ghost, ikuti langkah berikut:</p><ol>
+<li>Edit file hosts Buka dengan teks editor (sebagai Administrator):</li>
+</ol>
+<pre><code>C:\Windows\System32\drivers\etc\hosts
+</code></pre>
+<p>Tambahkan baris:</p><pre><code>127.0.0.1    ghost.local
+</code></pre>
+<ol start="2">
+<li>Ubah konfigurasi Ghost Edit D:\ghost\config.development.json menjadi:</li>
+</ol>
+<pre><code>{
+  &quot;url&quot;: &quot;http://ghost.local:2368&quot;,
+  &quot;server&quot;: {
+    &quot;port&quot;: 2368,
+    &quot;host&quot;: &quot;127.0.0.1&quot;
+  }
+}
+</code></pre>
+<ol start="3">
+<li>Restart Ghost</li>
+</ol>
+<pre><code>ghost restart
+</code></pre>
+<hr>
+<h2 id="✅-6-akses-ghost">✅ 6. Akses Ghost</h2>
+<ul>
+<li><strong>Frontend</strong>: <code>http://ghost.local:2368</code></li>
+<li><strong>Admin panel</strong>: <code>http://ghost.local:2368/ghost</code></li>
+</ul>
+<hr>
+<h2 id="🛠️-7-skrip-shortcut-opsional">🛠️ 7. Skrip <em>Shortcut</em> (Opsional)</h2>
+<h2 id="buat-file-start-ghostbat-di-dghost-echo-off-cd-d-dghost-ghost-start-pause">Buat <em>file</em> <code>start-ghost.bat</code> di <code>D:\ghost</code>:
+<code>@echo off cd /d D:\ghost ghost start pause</code></h2>
+<h2 id="🏁-penutup">🏁 Penutup</h2>
+<p>Dengan panduan ini, kamu dapat:</p><ul>
+<li>Menjalankan Ghost lokal di Windows 11.</li>
+<li>Mengatasi <em>error</em> modul <code>sqlite3</code> pada Node.js v22.</li>
+<li>Menghindari <em>redirect</em> HTTPS di <code>/ghost</code>.</li>
+</ul>
+<p>Selamat mencoba, dan nantikan artikel selanjutnya tentang konversi Ghost ke situs statis dan <em>deployment</em> ke GitHub Pages! 🚀</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Text Fixer</title>
         <author>
