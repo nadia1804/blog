@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-02T22:04:33+08:00</updated>
+    <updated>2025-07-02T22:11:36+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -51,7 +51,7 @@ cd ghost
 <p>perintah ini akan membuat <code>cmd</code> menuju lokasi folder</p><h2 id="🚀-3-install-ghost-lokal">🚀 3. Install Ghost Lokal</h2>
 <p>Jalankan perintah:</p><pre><code>ghost install local
 </code></pre>
-<p>tunggu hingga selesai instalasinya, jika berhasil maka ghost dapat dibuka di browser dengan url:  <code>http://localhost:2368</code></p><p>atau jalankan secara manual untuk memulai ghost</p><pre><code>ghost start
+<p>tunggu hingga selesai instalasinya, jika berhasil maka ghost dapat dibuka di browser dengan url:  <code>http://localhost:2368</code> </p><p><strong>anda mungkin akan menemukan error saat menginstall ghost, karena belum ada database <code>sqlite3</code> lihat panduan no 4 untuk mengatasi ini</strong> namun jika tidak ada masalah, skip panduan no 4</p><p>atau jalankan secara manual untuk memulai ghost</p><pre><code>ghost start
 </code></pre>
 <p>dan untuk menghentikan ghost gunakan ini</p><pre><code>ghost stop
 </code></pre>
@@ -99,8 +99,12 @@ cd ghost
 </ul>
 <p>anda bisa menulis dan mengedit website di admin panel</p><hr>
 <h2 id="🛠️-7-skrip-shortcut-opsional">🛠️ 7. Skrip <em>Shortcut</em> (Opsional)</h2>
-<p>Langkah ini opsional, hanya untuk mempermudah anda agar tidak sering membuka  <code>cmd</code> lagi saat ingin menjalankan ghost</p><h2 id="buat-file-dengan-nama-start-ghostbat-letakkan-di-dghost-dan-isinya-adalah-ini-edit-dengan-text-editor-echo-off-cd-d-dghost-ghost-start-pause">Buat file dengan nama <code>start-ghost.bat</code> letakkan di <code>D:\ghost</code> dan isinya adalah ini (edit dengan text editor):
-<code>@echo off cd /d D:\ghost ghost start pause</code></h2>
+<p>Langkah ini opsional, hanya untuk mempermudah anda agar tidak sering membuka  <code>cmd</code> lagi saat ingin menjalankan ghost </p><p>Buat file dengan nama <code>start-ghost.bat</code> letakkan di <code>D:\ghost</code> dan isinya adalah ini (edit dengan text editor):</p><pre><code>@echo off
+cd /d D:\ghost
+ghost start
+pause
+</code></pre>
+<hr>
 <h2 id="🏁-penutup">🏁 Penutup</h2>
 <p>Dengan panduan ini, kamu dapat:</p><ul>
 <li>Menjalankan Ghost lokal di Windows 11.</li>
