@@ -2,7 +2,17 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "f5c4fe0d5637c167397c82386e0d0caf"
+        "md5": "1203c385af733964ac6ccd7c5f004028"
+    },
+    {
+        "path": "about",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/about/index.html",
+        "type": "file",
+        "md5": "07249828b7b9d28923e1202498ac37b8"
     },
     {
         "path": "artikel",
@@ -22,12 +32,12 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "0bf316dfe655a96911ac47ab3066231e"
+        "md5": "da74bb39de416a19145b1ed9d09e4083"
     },
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "26315cc403c9b87d915251556192da5e"
+        "md5": "fc7d5bd25859c1170dadc58bfa34934b"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -37,7 +47,7 @@
     {
         "path": "/artikel/install-ghost-local-di-windows-11/index.html",
         "type": "file",
-        "md5": "e649d89af68ec7f50b08d58b3ebd7f2e"
+        "md5": "e6a3cc5576edea87498e06985e12eb9e"
     },
     {
         "path": "artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca",
@@ -47,7 +57,17 @@
     {
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
-        "md5": "a9b7c49b0f86fb5f668e20e790e6a170"
+        "md5": "5299e6d87d3de6900b4ab9f519d09031"
+    },
+    {
+        "path": "artikel/mengganti-url-localhost-pada-ghost",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/mengganti-url-localhost-pada-ghost/index.html",
+        "type": "file",
+        "md5": "c97e6e4f1b9b70093eb72940fbebb936"
     },
     {
         "path": "artikel/menghosting-ghost",
@@ -57,7 +77,7 @@
     {
         "path": "/artikel/menghosting-ghost/index.html",
         "type": "file",
-        "md5": "5e4a54e11838f115b170948a471af682"
+        "md5": "81291a97b0ad6a30032efa363fc2f5d9"
     },
     {
         "path": "artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah",
@@ -67,7 +87,7 @@
     {
         "path": "/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
         "type": "file",
-        "md5": "ab1428540a5d996413964a84ad69db70"
+        "md5": "27d85479d867f4738736c13d607db5cf"
     },
     {
         "path": "artikel/soal-ppg-2025-cultury-responsive-teaching-crt",
@@ -77,7 +97,7 @@
     {
         "path": "/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html",
         "type": "file",
-        "md5": "d1fdff3b22861efbde754d727434cc0c"
+        "md5": "cd860b01912048148a578fee648acc31"
     },
     {
         "path": "artikel/soal-ppg-2025-pembelajaran-berdifferensiasi",
@@ -87,7 +107,7 @@
     {
         "path": "/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html",
         "type": "file",
-        "md5": "92fc62546f98e01d6ee76947edbf824f"
+        "md5": "55eea6d1e28c8e1ff04fb16f155fad13"
     },
     {
         "path": "artikel/soal-ppg-2025-teaching-at-the-right-level-tarl",
@@ -97,7 +117,7 @@
     {
         "path": "/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html",
         "type": "file",
-        "md5": "3a0f75889507823f4c7b7a705311ee1d"
+        "md5": "44ea781e60c9f6003248333d7899fceb"
     },
     {
         "path": "artikel/soal-ppg-2025-understanding-by-design-ubd",
@@ -107,7 +127,7 @@
     {
         "path": "/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html",
         "type": "file",
-        "md5": "cab5df9234e9517d9e67e648592f2b39"
+        "md5": "641bce0338dc6f52ee79e3df9a6deea6"
     },
     {
         "path": "artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru",
@@ -117,7 +137,7 @@
     {
         "path": "/artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru/index.html",
         "type": "file",
-        "md5": "391778578a40c797448c745bb9d5127a"
+        "md5": "50e665a23ddc5b4e78b1f7000d568ec6"
     },
     {
         "path": "artikel/text-fixer",
@@ -127,7 +147,7 @@
     {
         "path": "/artikel/text-fixer/index.html",
         "type": "file",
-        "md5": "e8c6ec371b9f957cd5edbf7e5568cfd6"
+        "md5": "0eed61e265ed5f999cc05400629719ac"
     },
     {
         "path": "assets",
@@ -197,17 +217,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "bdf16852c2ffba302638ee9a282a9e0f"
+        "md5": "d50a9b0406909348525a4f981d68da0f"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "530523b78b613f37825ee8c8be2020b5"
+        "md5": "1e0f0336e85e9d090a346abdfe396ce5"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "fdced51f526a97735639bd788a156d65"
+        "md5": "18f5c8291eea59647242a3d4db92bc2e"
     },
     {
         "path": "kategori",
@@ -222,7 +242,7 @@
     {
         "path": "/kategori/even/index.html",
         "type": "file",
-        "md5": "cdaebcf5c25bff33626c068f3b2d7d9c"
+        "md5": "56c34bd9b294009a80f78f53adfedaaf"
     },
     {
         "path": "kategori/ghost",
@@ -232,12 +252,12 @@
     {
         "path": "/kategori/ghost/index.html",
         "type": "file",
-        "md5": "eb7c24eb80a85980d391eb696024ec73"
+        "md5": "dd6cac3d23bf5510702348992b3b8b5b"
     },
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "6663926920a44b2022c53c5c243c3212"
+        "md5": "9724c19f413b0f275828654c6e8d96e6"
     },
     {
         "path": "kategori/pendidikan",
@@ -247,7 +267,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "712cc3802cc308b52afa6eb21ab48972"
+        "md5": "4e51497e49984eef49f8e47d701017dc"
     },
     {
         "path": "kategori/ppg",
@@ -257,7 +277,7 @@
     {
         "path": "/kategori/ppg/index.html",
         "type": "file",
-        "md5": "99c2760d70558d88527bf9e453861d09"
+        "md5": "a69d7740905bdb26cd4db4422656814a"
     },
     {
         "path": "kategori/soal",
@@ -267,7 +287,7 @@
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "3dd8ac05029ba0c9fc7079a78e816441"
+        "md5": "1034a9bf3123321869536522feeafc19"
     },
     {
         "path": "kategori/tools",
@@ -277,7 +297,7 @@
     {
         "path": "/kategori/tools/index.html",
         "type": "file",
-        "md5": "0937d168528debdc5658eb4c1eaf3adf"
+        "md5": "4ace7d1be943f869cdbaeb63b2af9d98"
     },
     {
         "path": "kategori/web",
@@ -287,7 +307,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "815dfe8d303b8db7be68eac9a8efc7c4"
+        "md5": "2f41bb7d06e6ce20563738deb8de4aa7"
     },
     {
         "path": "media",
@@ -500,6 +520,41 @@
         "md5": "0e8990f81cbd45da351c59d0c6fdbaad"
     },
     {
+        "path": "media/posts/15",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/15/ghost.png",
+        "type": "file",
+        "md5": "6eccbf80a60d49ef6b27437c326c323a"
+    },
+    {
+        "path": "media/posts/15/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/15/responsive/ghost-md.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/15/responsive/ghost-sm.webp",
+        "type": "file",
+        "md5": "38341f7883efa0ea396f044ac445c984"
+    },
+    {
+        "path": "/media/posts/15/responsive/ghost-xl.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/15/responsive/ghost-xs.webp",
+        "type": "file",
+        "md5": "0e8990f81cbd45da351c59d0c6fdbaad"
+    },
+    {
         "path": "media/posts/2",
         "type": "directory",
         "md5": false
@@ -640,6 +695,41 @@
         "md5": "5076c455d5491de56299fa6f4b2e236a"
     },
     {
+        "path": "media/posts/6",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/featured-img-deddme.webp",
+        "type": "file",
+        "md5": "5042dd330df8f7948aea88b1d1a5bc12"
+    },
+    {
+        "path": "media/posts/6/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/6/responsive/featured-img-deddme-md.webp",
+        "type": "file",
+        "md5": "63081d76de2aaa44cfde88a4bee6a9c2"
+    },
+    {
+        "path": "/media/posts/6/responsive/featured-img-deddme-sm.webp",
+        "type": "file",
+        "md5": "78a18f2a732c10a7abf5460bd38bfb52"
+    },
+    {
+        "path": "/media/posts/6/responsive/featured-img-deddme-xl.webp",
+        "type": "file",
+        "md5": "b48df90b929e73a3e2acb5e3073901ee"
+    },
+    {
+        "path": "/media/posts/6/responsive/featured-img-deddme-xs.webp",
+        "type": "file",
+        "md5": "b6a53ef413db394f8569b8c01f50e6e8"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -737,7 +827,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "a6590f80302a01c583e3c418b5e58c30"
+        "md5": "f32ab6ac23ae50810085a7588ec983e6"
     },
     {
         "path": "robots.txt",
@@ -747,17 +837,27 @@
     {
         "path": "search.html",
         "type": "file",
-        "md5": "55a687469e78fa0ac885a0c29ff9a03d"
+        "md5": "d19749fef5a9847a722e6e796d6601f8"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "090ec23832e4e2125a39544caf1c9339"
+        "md5": "cb9757bd60154b07f22f152aab5c79e1"
     },
     {
         "path": "sitemap.xsl",
         "type": "file",
         "md5": "03c2f9a7fdcc46ff05c435907614a0b8"
+    },
+    {
+        "path": "terms-of-service-tos",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/terms-of-service-tos/index.html",
+        "type": "file",
+        "md5": "7af3d47e2952f0f4f2613dcc17afe435"
     },
     {
         "path": "_headers",

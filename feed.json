@@ -11,6 +11,23 @@
     },
     "items": [
         {
+            "id": "https://deddme.id/artikel/mengganti-url-localhost-pada-ghost/index.html",
+            "url": "https://deddme.id/artikel/mengganti-url-localhost-pada-ghost/index.html",
+            "title": "Mengganti url localhost pada ghost",
+            "summary": "setelah kita konversi ghost menjadi situs statis html, biasanya muncul suatu masalah, yaitu didalam situs anda akan terdapat serpihan teks seperti ini http://ghost.static:2368/ artikel ini adalah lanjutan dari panduan ghost sebelumnya, dimana saya pernah menulis artikel cara menginstall ghost di windows 11 dan artikel kedua cara menghosting ghost, dan artikel&hellip;",
+            "content_html": "<p>setelah kita konversi ghost menjadi situs <code>statis html</code>,  biasanya muncul suatu <strong>masalah</strong>, yaitu didalam situs anda akan  terdapat <strong>serpihan teks</strong> seperti ini <code>http://ghost.static:2368/</code> </p><blockquote>\n<p>artikel ini adalah lanjutan dari panduan ghost sebelumnya, dimana saya pernah menulis artikel <a href=\"https://deddme.id/artikel/install-ghost-local-di-windows-11/\">cara menginstall ghost di windows 11</a> dan artikel kedua cara   <a href=\"https://deddme.id/artikel/menghosting-ghost/\">menghosting ghost</a>, dan artikel ketiga ini menjelaskan cara memperbaiki serpihan url ghost yang masih terdapat localhost, namun mesipun begitu artikel ini juga dapat anda terapkan selain cms ghost.</p></blockquote>\n<p><strong>apa efeknya jika ini tidak diperbaiki?</strong> <em>jika yang anda perlukan hanya situs web ini sudah cukup.</em></p><p>namun jika anda ingin situs <strong>terbaca di google search</strong> maka anda harus merubahnya.  kenapa? <em>karena  kita harus mengirimkan <code>sitemap.xml</code> ke google search console.</em></p><p>jadi agar sitemap terbaca maka harus diperbaiki :</p><ol>\n<li>mengganti <code>http://ghost.static:2368/</code> </li>\n<li>menjadi <code>https://situsanda.com/</code></li>\n</ol>\n<h2 id=\"panduan-cara-memperbaiki-sitemap-localhost-pada-ghost\">panduan cara memperbaiki sitemap localhost pada ghost</h2>\n<p>ada 2 cara untuk memperbaiki ini :</p><ol>\n<li>Edit manual dengan aplikasi teks editor seperti <a href=\"https://notepad-plus-plus.org/downloads/\"  class=\"extlink extlink-icon-10\"  rel=\"nofollow noopener noreferrer\">notepad++</a> cara ini mirip di ms word <code>ctrl+h</code> cari teks yang ingin diganti misalnya kita ingin ganti <code>http</code> menjadi <code>https</code></li>\n<li>Cara otomatis, caranya simpan kode ini di notepad, kemudian simpan dan berinama .<code>replacer.bat</code> kemudian tekan <code>enter</code></li>\n</ol>\n<pre><code>    @echo off\n    setlocal\n\n    :: 🚩 pilih folder situs anda :\n    set &quot;FOLDER=D:\\ghost\\output&quot;\n\n\n    for %%X in (html xsl xml) do (\n    for /r &quot;%FOLDER%&quot; %%F in (*.%%X) do (\n        if exist &quot;%%F&quot; (\n            echo ✨ Memperbarui: %%F\n            attrib -R &quot;%%F&quot;\n            powershell -Command ^\n              &quot;(Get-Content -Raw &#39;%%F&#39;) -replace &#39;http://&#39;, &#39;https://&#39; -replace &#39;ghost.local:2368&#39;, &#39;ghost.deddme.id&#39; | Set-Content &#39;%%F&#39;&quot;\n        )\n    )\n)\n\n    echo.\n    echo ✅ Meta generator berhasil diganti jadi: https://ghost.deddme.id\n    pause\n    endlocal\n</code></pre>\n<p>yang perlu disesuaikan pada baris ini :</p><ul>\n<li><code>set &quot;FOLDER=D:\\ghost\\output&quot;</code> sesuaikan foldernya dengan situs milik anda </li>\n<li><code>-replace &#39;ghost.local:2368&#39;</code>, sesuaikan dengan <code>url</code>  situs asal</li>\n<li><code>&#39;ghost.deddme.id&#39;</code>,  sesuaikan dengan alamat <code>url</code> situs baru</li>\n</ul>\n<p>Penjelasan : </p><blockquote>\n<p>kode itu akan melacak folder, kemudian mengganti semua teks yang mengandung <code>http</code> menjadi <code>https</code> dan <code>ghost.local:2368</code> menjadi <code>ghost.deddme.id</code>, sehingga akan menjadi url utuh seperti ini : cari <code>http://ghost.local:2368/</code> ganti menjadi :<code>https://ghost.deddme.id/</code></p></blockquote>\n<h2 id=\"kesimpulan\">Kesimpulan</h2>\n<p>Dari sini anda sudah siap meluncurkan situs anda ke google pencarian, karena serpihan url yang rusak sudah diperbaiki. </p><p>Cara ini juga bisa diterapkan ke cms lain atau kasus studi lain.</p>",
+            "image": "https://deddme.id/media/posts/15/ghost.png",
+            "author": {
+                "name": "Deddy Hidayat"
+            },
+            "tags": [
+                   "Web",
+                   "Ghost"
+            ],
+            "date_published": "2025-07-03T21:43:16+08:00",
+            "date_modified": "2025-07-03T21:48:33+08:00"
+        },
+        {
             "id": "https://deddme.id/artikel/menghosting-ghost/index.html",
             "url": "https://deddme.id/artikel/menghosting-ghost/index.html",
             "title": "Menghosting ghost",
@@ -155,22 +172,6 @@
             ],
             "date_published": "2025-06-27T14:58:26+08:00",
             "date_modified": "2025-06-27T19:37:44+08:00"
-        },
-        {
-            "id": "https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
-            "url": "https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
-            "title": "Selamat Tahun Baru Islam 1 Muharram 1447 Hijriah!",
-            "summary": "Hari ini, Jumat, 27 Juni 2025, menandai dimulainya Tahun Baru Islam 1 Muharram 1447 Hijriah. Kalender ini bermula dari peristiwa Hijrah Nabi Muhammad SAW pada 1 H (622 M), menjadikannya kini telah berusia 1446 tahun. Tahun Baru Islam atau 1 Muharram dimulai berdasarkan peristiwa Hijrahnya Nabi Muhammad SAW dan para&hellip;",
-            "content_html": "<p>Hari ini, Jumat, 27 Juni 2025, menandai dimulainya Tahun Baru Islam 1 Muharram 1447 Hijriah. Kalender ini bermula dari peristiwa Hijrah Nabi Muhammad SAW pada 1 H (622 M), menjadikannya kini telah berusia 1446 tahun.</p><h2 id=\"informasi-tahun-baru-islam-1447-h\">Informasi Tahun Baru Islam 1447 H</h2>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Keterangan</th>\n<th align=\"left\">Detail</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\">Tahun Hijriah Sekarang</td>\n<td align=\"left\">1447 H</td>\n</tr>\n<tr>\n<td align=\"left\">Tahun Masehi Sekarang</td>\n<td align=\"left\">2025 M</td>\n</tr>\n<tr>\n<td align=\"left\">Tahun Awal Kalender Hijriah</td>\n<td align=\"left\">1 H (622 M)</td>\n</tr>\n<tr>\n<td align=\"left\">Selisih Waktu</td>\n<td align=\"left\">1446 tahun</td>\n</tr>\n<tr>\n<td align=\"left\">Hari Perayaan Sekarang</td>\n<td align=\"left\">Jumat, 27 Juni 2025</td>\n</tr>\n</tbody></table>\n<hr>\n<h2 id=\"sejarah-tahun-baru-islam\">Sejarah Tahun Baru Islam</h2>\n<p>Tahun Baru Islam atau 1 Muharram dimulai berdasarkan peristiwa <strong>Hijrahnya Nabi Muhammad SAW</strong> dan para sahabat dari Mekah ke Madinah. Peristiwa penting ini terjadi pada tahun <strong>622 Masehi</strong>.</p><p>Penetapan Hijrah sebagai patokan awal kalender Islam dilakukan pada masa pemerintahan <strong>Khalifah Umar bin Khattab RA</strong>, sekitar tahun <strong>638 Masehi atau 17 Hijriah</strong>. Beliau memilih Muharram sebagai bulan pertama karena kaum Muslimin bertekad hijrah setelah melakukan Baiat Aqabah II di bulan tersebut.</p><hr>\n<h2 id=\"fadilat-bulan-muharram\">Fadilat Bulan Muharram</h2>\n<p>Bulan Muharram adalah salah satu dari <strong>empat bulan haram (suci)</strong> di mana amal kebaikan dilipatgandakan pahalanya dan perbuatan dosa lebih besar hukumnya (QS. At-Taubah: 36).</p><p>Salah satu amalan utama di bulan Muharram adalah berpuasa, terutama pada hari <strong>Asyura (10 Muharram)</strong> dan <strong>Tasu’a (9 Muharram)</strong>.</p><ul>\n<li><strong>Hadis Riwayat Muslim tentang Puasa Muharram:</strong>\n  Dari Abu Hurairah RA, Rasulullah SAW bersabda, “Puasa yang paling utama setelah (puasa) Ramadan adalah puasa di bulan Allah, Muharram. Dan salat yang paling utama setelah salat wajib adalah salat malam.”</li>\n<li><strong>Hadis Riwayat Muslim tentang Keutamaan Puasa Asyura (10 Muharram):</strong>\n  Rasulullah SAW bersabda, “Puasa hari Asyura, aku berharap kepada Allah akan menghapuskan dosa setahun yang telah lalu.”</li>\n<li><strong>Hadis Riwayat Muslim tentang Anjuran Puasa Tasu’a (9 Muharram):</strong>\n  Nabi Muhammad SAW bersabda, “Apabila (umurku) sampai tahun depan, sungguh aku akan berpuasa pada hari kesembilan (Muharram).” Dianjurkan berpuasa pada tanggal <strong>9 dan 10 Muharram</strong> untuk mendapatkan keutamaan lebih besar.</li>\n</ul>\n<hr>\n<p>Semoga informasi ini bermanfaat.</p>",
-            "image": "https://deddme.id/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png",
-            "author": {
-                "name": "Deddy Hidayat"
-            },
-            "tags": [
-                   "Even"
-            ],
-            "date_published": "2025-06-27T12:39:09+08:00",
-            "date_modified": "2025-06-27T14:26:42+08:00"
         }
     ]
 }

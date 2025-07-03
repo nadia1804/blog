@@ -3,12 +3,79 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-03T17:42:39+08:00</updated>
+    <updated>2025-07-03T21:48:33+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Mengganti url localhost pada ghost</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/mengganti-url-localhost-pada-ghost/index.html"/>
+        <id>https://deddme.id/artikel/mengganti-url-localhost-pada-ghost/index.html</id>
+        <media:content url="https://deddme.id/media/posts/15/ghost.png" medium="image" />
+            <category term="Web"/>
+            <category term="Ghost"/>
+
+        <updated>2025-07-03T21:43:16+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/15/ghost.png" alt="" />
+                    setelah kita konversi ghost menjadi situs statis html, biasanya muncul suatu masalah, yaitu didalam situs anda akan terdapat serpihan teks seperti ini http://ghost.static:2368/ artikel ini adalah lanjutan dari panduan ghost sebelumnya, dimana saya pernah menulis artikel cara menginstall ghost di windows 11 dan artikel kedua cara menghosting ghost, dan artikel&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/15/ghost.png" class="type:primaryImage" alt="" /></p>
+                <p>setelah kita konversi ghost menjadi situs <code>statis html</code>,  biasanya muncul suatu <strong>masalah</strong>, yaitu didalam situs anda akan  terdapat <strong>serpihan teks</strong> seperti ini <code>http://ghost.static:2368/</code> </p><blockquote>
+<p>artikel ini adalah lanjutan dari panduan ghost sebelumnya, dimana saya pernah menulis artikel <a href="https://deddme.id/artikel/install-ghost-local-di-windows-11/">cara menginstall ghost di windows 11</a> dan artikel kedua cara   <a href="https://deddme.id/artikel/menghosting-ghost/">menghosting ghost</a>, dan artikel ketiga ini menjelaskan cara memperbaiki serpihan url ghost yang masih terdapat localhost, namun mesipun begitu artikel ini juga dapat anda terapkan selain cms ghost.</p></blockquote>
+<p><strong>apa efeknya jika ini tidak diperbaiki?</strong> <em>jika yang anda perlukan hanya situs web ini sudah cukup.</em></p><p>namun jika anda ingin situs <strong>terbaca di google search</strong> maka anda harus merubahnya.  kenapa? <em>karena  kita harus mengirimkan <code>sitemap.xml</code> ke google search console.</em></p><p>jadi agar sitemap terbaca maka harus diperbaiki :</p><ol>
+<li>mengganti <code>http://ghost.static:2368/</code> </li>
+<li>menjadi <code>https://situsanda.com/</code></li>
+</ol>
+<h2 id="panduan-cara-memperbaiki-sitemap-localhost-pada-ghost">panduan cara memperbaiki sitemap localhost pada ghost</h2>
+<p>ada 2 cara untuk memperbaiki ini :</p><ol>
+<li>Edit manual dengan aplikasi teks editor seperti <a href="https://notepad-plus-plus.org/downloads/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">notepad++</a> cara ini mirip di ms word <code>ctrl+h</code> cari teks yang ingin diganti misalnya kita ingin ganti <code>http</code> menjadi <code>https</code></li>
+<li>Cara otomatis, caranya simpan kode ini di notepad, kemudian simpan dan berinama .<code>replacer.bat</code> kemudian tekan <code>enter</code></li>
+</ol>
+<pre><code>    @echo off
+    setlocal
+
+    :: 🚩 pilih folder situs anda :
+    set &quot;FOLDER=D:\ghost\output&quot;
+
+
+    for %%X in (html xsl xml) do (
+    for /r &quot;%FOLDER%&quot; %%F in (*.%%X) do (
+        if exist &quot;%%F&quot; (
+            echo ✨ Memperbarui: %%F
+            attrib -R &quot;%%F&quot;
+            powershell -Command ^
+              &quot;(Get-Content -Raw &#39;%%F&#39;) -replace &#39;http://&#39;, &#39;https://&#39; -replace &#39;ghost.local:2368&#39;, &#39;ghost.deddme.id&#39; | Set-Content &#39;%%F&#39;&quot;
+        )
+    )
+)
+
+    echo.
+    echo ✅ Meta generator berhasil diganti jadi: https://ghost.deddme.id
+    pause
+    endlocal
+</code></pre>
+<p>yang perlu disesuaikan pada baris ini :</p><ul>
+<li><code>set &quot;FOLDER=D:\ghost\output&quot;</code> sesuaikan foldernya dengan situs milik anda </li>
+<li><code>-replace &#39;ghost.local:2368&#39;</code>, sesuaikan dengan <code>url</code>  situs asal</li>
+<li><code>&#39;ghost.deddme.id&#39;</code>,  sesuaikan dengan alamat <code>url</code> situs baru</li>
+</ul>
+<p>Penjelasan : </p><blockquote>
+<p>kode itu akan melacak folder, kemudian mengganti semua teks yang mengandung <code>http</code> menjadi <code>https</code> dan <code>ghost.local:2368</code> menjadi <code>ghost.deddme.id</code>, sehingga akan menjadi url utuh seperti ini : cari <code>http://ghost.local:2368/</code> ganti menjadi :<code>https://ghost.deddme.id/</code></p></blockquote>
+<h2 id="kesimpulan">Kesimpulan</h2>
+<p>Dari sini anda sudah siap meluncurkan situs anda ke google pencarian, karena serpihan url yang rusak sudah diperbaiki. </p><p>Cara ini juga bisa diterapkan ke cms lain atau kasus studi lain.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Menghosting ghost</title>
         <author>
@@ -671,72 +738,6 @@ pause
             <![CDATA[
                     <p><img src="https://deddme.id/media/posts/2/soal-ppg-2025.png" class="type:primaryImage" alt="soal ppg 2025" /></p>
                 <p><strong>1. Fase-fase yang perlu dilakukan untuk merancang perencanaan pembelajaran berbasis prinsip (UbD) adalah….</strong><br>a. <mark>Merumuskan tujuan, asesmen, dan kegiatan pembelajaran</mark><br>b. Merencanakan tujuan, kegiatan, dan asesmen pembelajaran<br>c. Merancang asesmen, kegiatan, dan tujuan pembelajaran<br>d. Merancang kegiatan, tujuan dan asesmen pembelajaran<br>e. Merancang asesmen, tujuan, dan kegiatan pembelajaran  </p><p><strong>2. “Apa yang seharusnya dilakukan, diketahui, dan dipahami oleh peserta didik di akhir pengajaran?” Pertanyaan tersebut perlu dirumuskan oleh guru apabila akan melakukan tahap…</strong><br>a. Perencanaan kegiatan pembelajaran<br>b. Perencanaan strategi pembelajaran<br>c. <mark>Merumuskan tujuan pembelajaran</mark><br>d. Merancang asesmen<br>e. Perencanaan model pembelajaran  </p><p><strong>3. “Bagaimana saya dapat mengetahui bahwa pembelajaran telah mencapai hasil belajar yang diinginkan?” Pertanyaan tersebut perlu dirumuskan oleh guru ketika akan melakukan tahap…</strong><br>a. <mark>Merancang asesmen</mark><br>b. Merencanakan pendekatan pembelajaran<br>c. Merencanakan model pembelajaran<br>d. Merancang kegiatan pembelajaran<br>e. Merumuskan tujuan pembelajaran  </p><p><strong>4. “Bagaimana saya mendesain kegiatan pembelajaran agar peserta didik yang beragam dapat mencapai tujuan pembelajaran?” merupakan pertanyaan penting yang perlu dipertimbangkan pada tahap…</strong><br>a. Merumuskan tujuan pembelajaran<br>b. <mark>Merancang kegiatan pembelajaran</mark><br>c. Merencanakan model pembelajaran<br>d. Merencanakan pendekatan pembelajaran<br>e. Merancang asesmen  </p><p><strong>5. Dalam merumuskan Tujuan Pembelajaran (TP), guru dapat memilih beberapa alternatif teknik berikut, <mark>kecuali</mark>…</strong><br>a. Merumuskan TP dengan memperhatikan karakteristik peserta didik<br>b. <mark>Merumuskan TP berdasarkan intuisi pribadi tanpa mempertimbangkan kebutuhan peserta didik</mark><br>c. Merumuskan TP secara lintas elemen<br>d. Merumuskan TP dengan cara menganalisis ‘kompetensi’ dan ‘lingkup materi’ pada CP<br>e. Merumuskan TP secara langsung berdasarkan CP  </p><p><strong>6. Terkait dengan makna “memahami” dalam kurikulum Merdeka, pernyataan yang benar adalah…</strong><br>a. Memberi kebebasan kepada guru mengikuti taksonomi pengetahuan menurut teori yang disukai<br>b. Taksonomi pengetahuan tidak menggunakan kata kerja operasional yang spesifik<br>c. Hierarki pengetahuan tidak digunakan dalam merumuskan CP dan tujuan pembelajaran turunan dari CP<br>d. Memberi kebebasan kepada guru mengikuti taksonomi pengetahuan menurut teori yang disukai<br>e. <mark>Pemahaman dimaknai sebagai suatu proses kognitif yang kompleks tidak sederhana sebagai proses berpikir tingkat rendah</mark>  </p><p><strong>7. Kaitan antara pembelajaran dan asesmen digambarkan melalui ilustrasi berikut, <mark>kecuali</mark>…</strong><br>a. <mark>Proses pembelajaran sebaiknya dilakukan tanpa memperhatikan hasil asesmen, karena hal itu dapat menghambat kreativitas peserta didik.</mark><br>b. Guru dapat mengukur capaian hasil belajar peserta didik pada akhir pembelajaran jika diperlukan.<br>c. Guru harus memastikan bahwa tujuan pembelajaran sudah sesuai dengan tahapan dan kebutuhan peserta didik berdasarkan hasil asesmen awal.<br>d. Sepanjang proses pembelajaran, guru dapat mengadakan asesmen formatif untuk mengetahui sejauh mana tujuan pembelajaran sudah dicapai oleh peserta didik.<br>e. Guru perlu merancang asesmen yang dilaksanakan pada awal pembelajaran, pada saat pembelajaran, dan pada akhir pembelajaran  </p><p><strong>8. Pemanfaatan fase-fase CP dalam perencanaan pembelajaran dapat dikemukakan sebagai berikut, <mark>kecuali</mark>…</strong><br>a. Memberi kesempatan pada guru untuk melaksanakan pembelajaran sesuai dengan kesiapan peserta didik<br>b. Memungkinkan kolaborasi guru pada fase yang sama untuk merancang pembelajaran yang efektif bagi peserta didik<br>c. Memungkinkan guru merancang dan melaksanakan pembelajaran secara fleksibel<br>d. Memastikan peserta didik mencapai kompetensi pembelajaran<br>e. <mark>Mendorong guru fokus pada ketercapaian CP di akhir fase tanpa perlu memperhatikan perkembangan peserta didik dan kesinambungan proses pembelajaran antar kelas.</mark>  </p><p><strong>9. Pernyataan terkait kriteria ketercapaian tujuan pembelajaran (KKTP) berikut ini yang benar adalah…</strong><br>a. KKTP dapat disusun melalui pendekatan rubrik<br>b. Semua benar<br>c. <mark>KKTP merupakan standar yang ditetapkan untuk menentukan ketercapaian tujuan pembelajaran (TP)</mark><br>d. KKTP dapat disusun melalui deskripsi kriteria dan interval nilai<br>e. Hasil KKTP dapat digunakan untuk merefleksi proses pembelajaran dan menganalisis tingkat penguasaan kompetensi peserta didik  </p><p><strong>10. Pernyataan terkait asesmen awal berikut ini yang <mark>kurang tepat</mark> adalah…</strong><br>a. Hasil asesmen awal dapat digunakan sebagai dasar untuk melakukan tindak lanjut perbaikan berupa intervensi yang tepat.<br>b. Hasil asesmen awal digunakan untuk memetakan minat, kemampuan dan kesiapan belajar peserta didik.<br>c. <mark>Asesmen awal dapat diterapkan untuk mengetahui kebutuhan belajar peserta didik yang beragam</mark><br>d. Hasil asesmen awal berfungsi untuk mengetahui tingkat kompetensi, kekuatan dan kelemahan peserta didik dalam mencapai tujuan pembelajaran<br>e. Asesmen awal berfungsi untuk mendapatkan nilai capaian hasil belajar untuk dibandingkan dengan kriteria capaian pembelajaran yang ditetapkan  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Selamat Tahun Baru Islam 1 Muharram 1447 Hijriah!</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html"/>
-        <id>https://deddme.id/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html</id>
-        <media:content url="https://deddme.id/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png" medium="image" />
-            <category term="Even"/>
-
-        <updated>2025-06-27T12:39:09+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png" alt="Selamat Tahun Baru Islam 1 Muharram 1447 Hijriah!" />
-                    Hari ini, Jumat, 27 Juni 2025, menandai dimulainya Tahun Baru Islam 1 Muharram 1447 Hijriah. Kalender ini bermula dari peristiwa Hijrah Nabi Muhammad SAW pada 1 H (622 M), menjadikannya kini telah berusia 1446 tahun. Tahun Baru Islam atau 1 Muharram dimulai berdasarkan peristiwa Hijrahnya Nabi Muhammad SAW dan para&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/1/Selamat-Tahun-baru-islam-1447H-featured.png" class="type:primaryImage" alt="Selamat Tahun Baru Islam 1 Muharram 1447 Hijriah!" /></p>
-                <p>Hari ini, Jumat, 27 Juni 2025, menandai dimulainya Tahun Baru Islam 1 Muharram 1447 Hijriah. Kalender ini bermula dari peristiwa Hijrah Nabi Muhammad SAW pada 1 H (622 M), menjadikannya kini telah berusia 1446 tahun.</p><h2 id="informasi-tahun-baru-islam-1447-h">Informasi Tahun Baru Islam 1447 H</h2>
-<table>
-<thead>
-<tr>
-<th align="left">Keterangan</th>
-<th align="left">Detail</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">Tahun Hijriah Sekarang</td>
-<td align="left">1447 H</td>
-</tr>
-<tr>
-<td align="left">Tahun Masehi Sekarang</td>
-<td align="left">2025 M</td>
-</tr>
-<tr>
-<td align="left">Tahun Awal Kalender Hijriah</td>
-<td align="left">1 H (622 M)</td>
-</tr>
-<tr>
-<td align="left">Selisih Waktu</td>
-<td align="left">1446 tahun</td>
-</tr>
-<tr>
-<td align="left">Hari Perayaan Sekarang</td>
-<td align="left">Jumat, 27 Juni 2025</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="sejarah-tahun-baru-islam">Sejarah Tahun Baru Islam</h2>
-<p>Tahun Baru Islam atau 1 Muharram dimulai berdasarkan peristiwa <strong>Hijrahnya Nabi Muhammad SAW</strong> dan para sahabat dari Mekah ke Madinah. Peristiwa penting ini terjadi pada tahun <strong>622 Masehi</strong>.</p><p>Penetapan Hijrah sebagai patokan awal kalender Islam dilakukan pada masa pemerintahan <strong>Khalifah Umar bin Khattab RA</strong>, sekitar tahun <strong>638 Masehi atau 17 Hijriah</strong>. Beliau memilih Muharram sebagai bulan pertama karena kaum Muslimin bertekad hijrah setelah melakukan Baiat Aqabah II di bulan tersebut.</p><hr>
-<h2 id="fadilat-bulan-muharram">Fadilat Bulan Muharram</h2>
-<p>Bulan Muharram adalah salah satu dari <strong>empat bulan haram (suci)</strong> di mana amal kebaikan dilipatgandakan pahalanya dan perbuatan dosa lebih besar hukumnya (QS. At-Taubah: 36).</p><p>Salah satu amalan utama di bulan Muharram adalah berpuasa, terutama pada hari <strong>Asyura (10 Muharram)</strong> dan <strong>Tasu’a (9 Muharram)</strong>.</p><ul>
-<li><strong>Hadis Riwayat Muslim tentang Puasa Muharram:</strong>
-  Dari Abu Hurairah RA, Rasulullah SAW bersabda, “Puasa yang paling utama setelah (puasa) Ramadan adalah puasa di bulan Allah, Muharram. Dan salat yang paling utama setelah salat wajib adalah salat malam.”</li>
-<li><strong>Hadis Riwayat Muslim tentang Keutamaan Puasa Asyura (10 Muharram):</strong>
-  Rasulullah SAW bersabda, “Puasa hari Asyura, aku berharap kepada Allah akan menghapuskan dosa setahun yang telah lalu.”</li>
-<li><strong>Hadis Riwayat Muslim tentang Anjuran Puasa Tasu’a (9 Muharram):</strong>
-  Nabi Muhammad SAW bersabda, “Apabila (umurku) sampai tahun depan, sungguh aku akan berpuasa pada hari kesembilan (Muharram).” Dianjurkan berpuasa pada tanggal <strong>9 dan 10 Muharram</strong> untuk mendapatkan keutamaan lebih besar.</li>
-</ul>
-<hr>
-<p>Semoga informasi ini bermanfaat.</p>
             ]]>
         </content>
     </entry>
