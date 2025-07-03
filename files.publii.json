@@ -10,9 +10,24 @@
         "md5": false
     },
     {
+        "path": "artikel/halaman",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "artikel/halaman/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/halaman/2/index.html",
+        "type": "file",
+        "md5": "0bf316dfe655a96911ac47ab3066231e"
+    },
+    {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "f10fe9c2db1fc0af350b18dedac57ac0"
+        "md5": "26315cc403c9b87d915251556192da5e"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -22,7 +37,7 @@
     {
         "path": "/artikel/install-ghost-local-di-windows-11/index.html",
         "type": "file",
-        "md5": "9b97f3054ae78776e917bd34f4ab59b2"
+        "md5": "e649d89af68ec7f50b08d58b3ebd7f2e"
     },
     {
         "path": "artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca",
@@ -33,6 +48,16 @@
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
         "md5": "a9b7c49b0f86fb5f668e20e790e6a170"
+    },
+    {
+        "path": "artikel/menghosting-ghost",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/menghosting-ghost/index.html",
+        "type": "file",
+        "md5": "5e4a54e11838f115b170948a471af682"
     },
     {
         "path": "artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah",
@@ -172,17 +197,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "9893548df1450ef2167fd254957b50e2"
+        "md5": "bdf16852c2ffba302638ee9a282a9e0f"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "b4798132f876d024c2a07b7cf2987534"
+        "md5": "530523b78b613f37825ee8c8be2020b5"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "660d1817dd2fc2972f2417409225cda3"
+        "md5": "fdced51f526a97735639bd788a156d65"
     },
     {
         "path": "kategori",
@@ -207,12 +232,12 @@
     {
         "path": "/kategori/ghost/index.html",
         "type": "file",
-        "md5": "4056f5308c033f2483f4387bcb0ca5fa"
+        "md5": "eb7c24eb80a85980d391eb696024ec73"
     },
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "23627843145d823d917c82231db7bed4"
+        "md5": "6663926920a44b2022c53c5c243c3212"
     },
     {
         "path": "kategori/pendidikan",
@@ -262,7 +287,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "d790af250880ef63ab893204b84cc6a7"
+        "md5": "815dfe8d303b8db7be68eac9a8efc7c4"
     },
     {
         "path": "media",
@@ -438,6 +463,41 @@
         "path": "/media/posts/13/telaah-deddme.png",
         "type": "file",
         "md5": "f11eec2e7126eb1587f6fa20db6e0a4e"
+    },
+    {
+        "path": "media/posts/14",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/14/ghost.png",
+        "type": "file",
+        "md5": "6eccbf80a60d49ef6b27437c326c323a"
+    },
+    {
+        "path": "media/posts/14/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/14/responsive/ghost-md.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/14/responsive/ghost-sm.webp",
+        "type": "file",
+        "md5": "38341f7883efa0ea396f044ac445c984"
+    },
+    {
+        "path": "/media/posts/14/responsive/ghost-xl.webp",
+        "type": "file",
+        "md5": "a1355ad253faaad0b0d56ae4189776e3"
+    },
+    {
+        "path": "/media/posts/14/responsive/ghost-xs.webp",
+        "type": "file",
+        "md5": "0e8990f81cbd45da351c59d0c6fdbaad"
     },
     {
         "path": "media/posts/2",
@@ -677,7 +737,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "b823197cf162acf3d358a0d1d2b55841"
+        "md5": "a6590f80302a01c583e3c418b5e58c30"
     },
     {
         "path": "robots.txt",
@@ -692,7 +752,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "98857aa148a0d6ace4a8d3ec2858f351"
+        "md5": "090ec23832e4e2125a39544caf1c9339"
     },
     {
         "path": "sitemap.xsl",
