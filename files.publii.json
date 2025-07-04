@@ -67,7 +67,7 @@
     {
         "path": "/artikel/mengganti-url-localhost-pada-ghost/index.html",
         "type": "file",
-        "md5": "c97e6e4f1b9b70093eb72940fbebb936"
+        "md5": "9534baa1924b46797c9de52833455911"
     },
     {
         "path": "artikel/menghosting-ghost",
@@ -217,12 +217,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "090da7b0a7dfc1150f37843d20ac5e4a"
+        "md5": "cc7a26bc2dae8510f6f6cf550238ba6c"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "bf0ff9ef34decec0e9a3ed9b0a941409"
+        "md5": "229b2b0cc04372c77579122c63fba9a7"
     },
     {
         "path": "index.html",

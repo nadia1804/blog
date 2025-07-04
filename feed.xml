@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-04T14:21:53+08:00</updated>
+    <updated>2025-07-04T15:25:09+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -41,11 +41,11 @@
 <li>Edit manual dengan aplikasi teks editor seperti <a href="https://notepad-plus-plus.org/downloads/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">notepad++</a> cara ini mirip di ms word <code>ctrl+h</code> cari teks yang ingin diganti misalnya kita ingin ganti <code>http</code> menjadi <code>https</code></li>
 <li>Cara otomatis, caranya simpan kode ini di notepad, kemudian simpan dan berinama .<code>replacer.bat</code> kemudian tekan <code>enter</code></li>
 </ol>
-<pre><code>    @echo off
+<pre><code>@echo off
     setlocal
 
     :: 🚩 pilih folder situs anda :
-    set &quot;FOLDER=D:\ghost\output&quot;
+    set &quot;FOLDER=D:\ghost_2\upload&quot;
 
 
     for %%X in (html xsl xml) do (
@@ -54,15 +54,16 @@
             echo ✨ Memperbarui: %%F
             attrib -R &quot;%%F&quot;
             powershell -Command ^
-              &quot;(Get-Content -Raw &#39;%%F&#39;) -replace &#39;http://&#39;, &#39;https://&#39; -replace &#39;ghost.local:2368&#39;, &#39;ghost.deddme.id&#39; | Set-Content &#39;%%F&#39;&quot;
+              &quot;(Get-Content -Raw &#39;%%F&#39;) -replace &#39;http://ghost.local:2368/&#39;, &#39;https://ghost.deddme.id/&#39;  -replace &#39;//ghost.local:2368/&#39;, &#39;//ghost.deddme.id/&#39; | Set-Content &#39;%%F&#39;&quot;
         )
     )
 )
 
     echo.
-    echo ✅ Meta generator berhasil diganti jadi: https://ghost.deddme.id
+    echo ✅ Meta generator berhasil diganti jadi: ghost2.netlify.app
     pause
     endlocal
+
 </code></pre>
 <p>yang perlu disesuaikan pada baris ini :</p><ul>
 <li><code>set &quot;FOLDER=D:\ghost\output&quot;</code> sesuaikan foldernya dengan situs milik anda </li>
@@ -70,7 +71,7 @@
 <li><code>&#39;ghost.deddme.id&#39;</code>,  sesuaikan dengan alamat <code>url</code> situs baru</li>
 </ul>
 <p>Penjelasan : </p><blockquote>
-<p>kode itu akan melacak folder, kemudian mengganti semua teks yang mengandung <code>http</code> menjadi <code>https</code> dan <code>ghost.local:2368</code> menjadi <code>ghost.deddme.id</code>, sehingga akan menjadi url utuh seperti ini : cari <code>http://ghost.local:2368/</code> ganti menjadi :<code>https://ghost.deddme.id/</code></p></blockquote>
+<p>kode itu akan melacak folder, kemudian mengganti semua teks yang mengandung  <code>http://ghost.local:2368</code> menjadi <code>https://ghost.deddme.id</code></p></blockquote>
 <h2 id="kesimpulan">Kesimpulan</h2>
 <p>Dari sini anda sudah siap meluncurkan situs anda ke google pencarian, karena serpihan url yang rusak sudah diperbaiki. </p><p>Cara ini juga bisa diterapkan ke cms lain atau kasus studi lain.</p>
             ]]>
