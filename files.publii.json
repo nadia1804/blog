@@ -32,12 +32,12 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "34445ebd3c2ecdd54345d5a80c00f051"
+        "md5": "afe2325bbd55e99a19be1a6f21bcde62"
     },
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "36eb66bf616f515525f0576f817a8452"
+        "md5": "f44d77ba926254200bfec4da4cbd2bc8"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -57,7 +57,7 @@
     {
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
-        "md5": "76ac4df4372a7f5277700140968afb92"
+        "md5": "df79cb7d9f00f8b1a89fa1f1c3c0df6c"
     },
     {
         "path": "artikel/mengganti-url-localhost-pada-ghost",
@@ -97,7 +97,7 @@
     {
         "path": "/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html",
         "type": "file",
-        "md5": "148f93304cae5098521ab7e7004cc3c6"
+        "md5": "608ed8981d8be3bd151a2551a1b028b7"
     },
     {
         "path": "artikel/soal-ppg-2025-pembelajaran-berdifferensiasi",
@@ -107,7 +107,7 @@
     {
         "path": "/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html",
         "type": "file",
-        "md5": "8cf4f4dd6189c42d1e4d5a5e460eb72a"
+        "md5": "4ffa0b8f193d338db20c957eb9da9340"
     },
     {
         "path": "artikel/soal-ppg-2025-teaching-at-the-right-level-tarl",
@@ -117,7 +117,7 @@
     {
         "path": "/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html",
         "type": "file",
-        "md5": "e345a9af6853c76f350d02b94afb55f4"
+        "md5": "20479de3592bd7edd832663c05868850"
     },
     {
         "path": "artikel/soal-ppg-2025-understanding-by-design-ubd",
@@ -127,7 +127,7 @@
     {
         "path": "/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html",
         "type": "file",
-        "md5": "906c284f85666e500d072cd7b9b67618"
+        "md5": "f7ef6bb8ad133511ff2cd6e2bd946f86"
     },
     {
         "path": "artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru",
@@ -137,7 +137,7 @@
     {
         "path": "/artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru/index.html",
         "type": "file",
-        "md5": "b41452aaee3d5830adad4167cc5ed322"
+        "md5": "89770efdbdad49679ffb8d24a39e4617"
     },
     {
         "path": "artikel/text-fixer",
@@ -227,17 +227,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "cc7a26bc2dae8510f6f6cf550238ba6c"
+        "md5": "c31bbef3cd1bdc5b9d457cf991be4709"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "229b2b0cc04372c77579122c63fba9a7"
+        "md5": "d36905b56d85430faa056f525584520f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "a54c73af70e5c5d9e12591473cbafeed"
+        "md5": "eba9eae2179b8fdaac712af41afbc644"
     },
     {
         "path": "kategori",
@@ -297,7 +297,7 @@
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "a256a2d5f124e63899529b3d58009486"
+        "md5": "9fc91b3f66d3bb68176a90e6e8c6b812"
     },
     {
         "path": "kategori/tools",
@@ -837,7 +837,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "b3593c5aa900dc94248b10a6e38a4307"
+        "md5": "a3c213e7c6e484300ca59ad0bbd2a07b"
     },
     {
         "path": "robots.txt",
