@@ -3,12 +3,450 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-07T18:57:30+08:00</updated>
+    <updated>2025-07-07T20:53:50+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Soal PPG 2025 Peran guru sebagai teladan</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-peran-gurupsebagai-teladan/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-peran-gurupsebagai-teladan/index.html</id>
+        <media:content url="https://deddme.id/media/posts/19/soal-ppg-2025.png" medium="image" />
+            <category term="Soal PPG"/>
+
+        <updated>2025-07-07T20:51:26+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/19/soal-ppg-2025.png" alt="" />
+                    ini adalah soal interaktif, klik pada plilihan jawaban Ulangi Soal
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/19/soal-ppg-2025.png" class="type:primaryImage" alt="" /></p>
+                <div id="menuju_keatas"><br>
+
+<blockquote>
+<p>ini adalah soal interaktif, klik pada plilihan jawaban</p></blockquote>
+<div class="soal">
+  1. Dasar pembelajaran dalam berhubungan dengan siswa dan individu lain di lingkungan/luar lingkungan sekolah, disebut ...<br>
+  a Kepedulian ( caring )<br>
+  b Kebersamaan<br>
+  c Kolaborasi<br>
+  d Pemahaman<br>
+  e Semua jawaban benar
+</div>
+
+<div class="soal">
+  2. Yang tidak termasuk dari EMC ² ...<br>
+  a Compassion<br>
+  b Mindfulness<br>
+  c Critical inquiry<br>
+  d Empathy<br>
+  e Sympathy
+</div>
+
+<div class="soal">
+  3. Tiga kategori empati meliputi ...<br>
+  a Cognitive, emotional, actionable<br>
+  b Cognitive, action, sympathy<br>
+  c Emotional, action, sympathy<br>
+  d Emotional, cognitive, affective<br>
+  e Sympathy, empathy, mindfulness
+</div>
+
+<div class="soal">
+  4. Empati secara kognitif diperoleh melalui ...<br>
+  a Attentive learning<br>
+  b Receptive learning<br>
+  c Role play<br>
+  d Compassion<br>
+  e Pembelajaran
+</div>
+
+<div class="soal">
+  5. Kemampuan individu dalam memberikan respons atau tindakan sesuai dengan perasaan/perilaku orang lain dipahami sebagai konsep ...<br>
+  a Actionable empathy<br>
+  b Emotional empathy<br>
+  c Cognitive empathy<br>
+  d Sympathy<br>
+  e Stimulus-respon
+</div>
+
+<div class="soal">
+  6. Kemampuan merasakan apa yang orang lain rasakan disebut ...<br>
+  a Actionable empathy<br>
+  b Emotional empathy<br>
+  c Cognitive empathy<br>
+  d Sympathy<br>
+  e Stimulus-respon
+</div>
+
+<div class="soal">
+  7. Melalui compassion (bela rasa), individu dapat mengurangi ...<br>
+  a Rasa bersalah<br>
+  b Stres pribadi<br>
+  c Emosi berlebih<br>
+  d Simpati pada orang lain<br>
+  e Semua jawaban benar
+</div>
+
+<div class="soal">
+  8. Adellia merasa kesal di kelas karena siswa sangat berisik saat ia menerangkan. Ia lalu berusaha menenangkan diri dengan menarik nafas dan diam sesaat. Teknik yang digunakan Adellia dalam mengahadapi emosi tersebut adalah ...<br>
+  a Set intentions<br>
+  b I’m aware<br>
+  c Two feet one breath<br>
+  d Empathy terhadap muridnya<br>
+  e Meditasi
+</div>
+
+<div class="soal">
+  9. Saat menghadapi siswa berkebutuhan khusus, seorang guru menerima kondisi anak tersebut tanpa menunjukkan frustrasi, hal tersebut menunjukkan perilaku ...<br>
+  a Distress tolerance<br>
+  b Simpati<br>
+  c Sensitivitas<br>
+  d Caring<br>
+  e Non judgement (tidak menghakimi)
+</div>
+
+<div class="soal">
+  10. Ibu Aida mampu menghadapi stres kerja sebagai guru, ia juga responsif terhadap kebutuhan siswa. Dalam hal ini Ibu Aida menunjukkan atribut compassion ...<br>
+  a Sensitivity dan distress tolerance<br>
+  b Sympathy dan empathy<br>
+  c Non judgement dan distress Motivasi<br>
+  d Caring /peduli dan empathy<br>
+  e Semua jawaban benar
+</div>
+
+<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
+<br></p><div id="hasil"></div>
+
+<script>
+    const jawabanBenar = {
+        1: "a",
+        2: "e",
+        3: "a",
+        4: "b",
+        5: "a",
+        6: "b",
+        7: "b",
+        8: "c",
+        9: "e",
+        10: "a"
+    };
+
+    window.onload = function () {
+        document.querySelectorAll(".soal").forEach(div => {
+            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
+        });
+        renderSoalUlang();
+    };
+
+    function renderSoalUlang() {
+        const hasilElement = document.getElementById("hasil");
+        if (hasilElement) {
+            hasilElement.innerHTML = "";
+        }
+
+        document.querySelectorAll(".soal").forEach((div, index) => {
+            const originalContent = div.getAttribute("data-asli").trim();
+
+            const isi = originalContent.split("<br>");
+            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim(); 
+            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
+
+            const pilihan = pilihanTeks.map(item => ({
+                kode: item[0],
+                teks: item.slice(2).trim()
+            }));
+
+            const acak = pilihan.sort(() => Math.random() - 0.5);
+
+            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
+                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
+                <div class="soal_feedback"></div>`;
+
+            const ul = div.querySelector("ul");
+
+            acak.forEach(obj => {
+                const li = document.createElement("li");
+                li.textContent = obj.teks;
+                li.setAttribute("data-kode", obj.kode);
+                li.onclick = () => {
+                    if (ul.getAttribute("data-dijawab") === "true") return;
+                    ul.querySelectorAll("li").forEach(x => {
+                        x.style.backgroundColor = "";
+                        x.removeAttribute("data-user");
+                        x.removeAttribute("data-feedback");
+                        x.style.color = ""; 
+                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
+                    });
+                    li.setAttribute("data-user", "true");
+
+                    const nomor = ul.getAttribute("data-index");
+                    const benar = jawabanBenar[nomor];
+                    const userKode = li.getAttribute("data-kode");
+                    const feedbackElement = ul.nextElementSibling;
+                    let feedbackText = "";
+
+                    if (userKode === benar) {
+                        li.setAttribute("data-feedback", "correct");
+                        li.textContent += " ✓";
+                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
+                    } else {
+                        li.setAttribute("data-feedback", "incorrect");
+                        li.textContent += " ✗";
+                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
+                        ul.querySelectorAll("li").forEach(otherLi => {
+                            if (otherLi.getAttribute("data-kode") === benar) {
+                                otherLi.setAttribute("data-feedback", "correct-shown");
+                                otherLi.textContent += " ✓";
+                            }
+                        });
+                    }
+                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
+                    ul.setAttribute("data-dijawab", "true");
+                };
+                ul.appendChild(li);
+            });
+        });
+    }
+
+    function ulangSoal() {
+        renderSoalUlang();
+        const scrollTarget = document.querySelector("#menuju_keatas");
+        if (scrollTarget) {
+            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }
+</script>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Soal PPG 2025 CASEL</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/soal-ppg-2025-casel/index.html"/>
+        <id>https://deddme.id/artikel/soal-ppg-2025-casel/index.html</id>
+        <media:content url="https://deddme.id/media/posts/18/soal-ppg-2025.png" medium="image" />
+            <category term="Soal PPG"/>
+
+        <updated>2025-07-07T20:48:37+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/18/soal-ppg-2025.png" alt="" />
+                    ini adalah soal interaktif, klik pada plilihan jawaban Ulangi Soal
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/18/soal-ppg-2025.png" class="type:primaryImage" alt="" /></p>
+                <div id="menuju_keatas"><br>
+
+<blockquote>
+<p>ini adalah soal interaktif, klik pada plilihan jawaban</p></blockquote>
+<div class="soal">
+  1. Tujuan pembelajaran sosial emosional adalah untuk program...<br>
+  a Preventif<br>
+  b Promotif<br>
+  c Kolaboratif<br>
+  d A dan B benar<br>
+  e A, B, C benar
+</div>
+
+<div class="soal">
+  2. Pembelajaran sosial emosional merupakan pengembangan dari teori …<br>
+  a Kecerdasan emosional<br>
+  b Kogntif<br>
+  c Perilaku<br>
+  d Emosi<br>
+  e Semua jawaban benar
+</div>
+
+<div class="soal">
+  3. Kemampuan memahami emosi, pemikiran, dan nilai termasuk komponen CASEL …<br>
+  a Manajemen diri<br>
+  b Kesadaran diri<br>
+  c Kesadaran sosial<br>
+  d Keterampilan sosial<br>
+  e Pengambilan keputusan
+</div>
+
+<div class="soal">
+  4. Seorang guru berusaha membuat keputusan yang tepat supaya tidak merugikan siswa dan sekolah. Dalam hal ini komponen CASEL yang diterapkan adalah ...<br>
+  a Kesadaran diri<br>
+  b Manajemen diri<br>
+  c Pengambilan keputusan bertanggung jawab<br>
+  d Social awareness<br>
+  e Keterampilan sosial
+</div>
+
+<div class="soal">
+  5. Butet adalah guru BK baru, ia berusaha membuat situasi di kelas menjadi menyenangkan. Ia berusaha menjalin komunikasi dengan siswa di kelas. Perilaku Butet adalah penerapan dimensi CASEL …<br>
+  a Kesadaran diri<br>
+  b Manajemen diri<br>
+  c Pengambilan keputusan bertanggung jawab<br>
+  d Social awareness<br>
+  e Keterampilan sosial
+</div>
+
+<div class="soal">
+  6. Sebagai seorang guru, Adi berusaha mengatur emosi di kelas, walaupun ia merasa kesal dengan kelakuan siswanya. Ia berusaha berbicara dengan tenang. Dalam hal ini dimensi CASEL yang diterapkan adalah …<br>
+  a Kesadaran diri<br>
+  b Manajemen diri<br>
+  c Pengambilan keputusan bertanggung jawab<br>
+  d Social awareness<br>
+  e Keterampilan sosial
+</div>
+
+<div class="soal">
+  7. Sebagai guru yang mengajar generasi yang berbeda, Dina berusaha memahami perspektif atau cara pandang dari generasi tersebut. Dalam hal ini Dina menerapkan dimensi CASEL …<br>
+  a Kesadaran diri<br>
+  b Manajemen diri<br>
+  c Pengambilan keputusan bertanggung jawab<br>
+  d Social awareness<br>
+  e Keterampilan sosial
+</div>
+
+<div class="soal">
+  8. Guru hendaknya memahami emosi siswa, bisa menilai situasi yang dapat mempengaruhi perilaku siswa. Dalam hal ini guru harus memiliki …<br>
+  a Kesadaran diri<br>
+  b Manajemen diri<br>
+  c Pengambilan keputusan bertanggung jawab<br>
+  d Social awareness<br>
+  e Keterampilan sosial
+</div>
+
+<div class="soal">
+  9. Pernyataan yang tidak sesuai dengan kriteria pembelajaran sosial emosional adalah...<br>
+  a Pembelajaran sosial emosional dilakukan dengan jadwal tertentu<br>
+  b Pembelajaran sosial emosional terintegrasi dengan Mata Pelajaran<br>
+  c Pembelajaran sosial emosional dapat dilakukan dengan  role-play<br>
+  d Pembelajaran sosial emosional menjadi budaya di sekolah<br>
+  e Pembelajaran sosial emosional adalah untuk semua yang terlibat dalam
+</div>
+
+<div class="soal">
+  10. Seorang guru memaksakan kehendaknya dan cenderung sulit diajak berkomunikasi dengan siswa. Dalam hal ini kaidah CASEL yang tidak sesuai adalah ...<br>
+  a Kesadaran diri<br>
+  b Manajamen diri dan pengambilan keputusan<br>
+  c Kesadaran sosial dan keterampilan sosial<br>
+  d Keterampilan sosial dan manajemen diri<br>
+  e Kesadaran diri dan kesadaran sosial
+</div>
+
+<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
+<br></p><div id="hasil"></div>
+
+<script>
+    const jawabanBenar = {
+        1: "d",
+        2: "a",
+        3: "b",
+        4: "c",
+        5: "e",
+        6: "b",
+        7: "d",
+        8: "a",
+        9: "a",
+        10: "c"
+    };
+
+    window.onload = function () {
+        document.querySelectorAll(".soal").forEach(div => {
+            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
+        });
+        renderSoalUlang();
+    };
+
+    function renderSoalUlang() {
+        const hasilElement = document.getElementById("hasil");
+        if (hasilElement) {
+            hasilElement.innerHTML = "";
+        }
+
+        document.querySelectorAll(".soal").forEach((div, index) => {
+            const originalContent = div.getAttribute("data-asli").trim();
+
+            const isi = originalContent.split("<br>");
+            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim(); 
+            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
+
+            const pilihan = pilihanTeks.map(item => ({
+                kode: item[0],
+                teks: item.slice(2).trim()
+            }));
+
+            const acak = pilihan.sort(() => Math.random() - 0.5);
+
+            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
+                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
+                <div class="soal_feedback"></div>`;
+
+            const ul = div.querySelector("ul");
+
+            acak.forEach(obj => {
+                const li = document.createElement("li");
+                li.textContent = obj.teks;
+                li.setAttribute("data-kode", obj.kode);
+                li.onclick = () => {
+                    if (ul.getAttribute("data-dijawab") === "true") return;
+                    ul.querySelectorAll("li").forEach(x => {
+                        x.style.backgroundColor = "";
+                        x.removeAttribute("data-user");
+                        x.removeAttribute("data-feedback");
+                        x.style.color = ""; 
+                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
+                    });
+                    li.setAttribute("data-user", "true");
+
+                    const nomor = ul.getAttribute("data-index");
+                    const benar = jawabanBenar[nomor];
+                    const userKode = li.getAttribute("data-kode");
+                    const feedbackElement = ul.nextElementSibling;
+                    let feedbackText = "";
+
+                    if (userKode === benar) {
+                        li.setAttribute("data-feedback", "correct");
+                        li.textContent += " ✓";
+                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
+                    } else {
+                        li.setAttribute("data-feedback", "incorrect");
+                        li.textContent += " ✗";
+                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
+                        ul.querySelectorAll("li").forEach(otherLi => {
+                            if (otherLi.getAttribute("data-kode") === benar) {
+                                otherLi.setAttribute("data-feedback", "correct-shown");
+                                otherLi.textContent += " ✓";
+                            }
+                        });
+                    }
+                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
+                    ul.setAttribute("data-dijawab", "true");
+                };
+                ul.appendChild(li);
+            });
+        });
+    }
+
+    function ulangSoal() {
+        renderSoalUlang();
+        const scrollTarget = document.querySelector("#menuju_keatas");
+        if (scrollTarget) {
+            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+    }
+</script>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Mengganti url localhost pada ghost</title>
         <author>
@@ -643,7 +1081,7 @@ pause
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/5/soal-ppg-2025.png" alt="" />
-                    ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah Ulangi Soal
+                    ini adalah soal interaktif, klik pada plilihan jawaban Ulangi Soal
                 ]]>
             </summary>
         <content type="html">
@@ -652,7 +1090,7 @@ pause
                 <div id="menuju_keatas"><br>
 
 <blockquote>
-<p>ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah</p></blockquote>
+<p>ini adalah soal interaktif, klik pada plilihan jawaban</p></blockquote>
 <div class="soal">
   1. Pembelajaran dengan pendekatan CRT dirancang dengan mengacu pada….<br>
   a latar belakang pendidikan peserta didik<br>
@@ -743,7 +1181,8 @@ pause
   e Menayangkan video yang menceritakan jenis-jenis makanan tradisional sebagai referensi peserta didik dalam membuat cerita
 </div>
 
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button></p><div id="hasil"></div>
+<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
+    <br></p><div id="hasil"></div>
 
 <script>
     const jawabanBenar = {
@@ -861,7 +1300,7 @@ pause
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/4/soal-ppg-2025.png" alt="" />
-                    ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah Ulangi Soal
+                    ini adalah soal interaktif, klik pada plilihan jawaban Ulangi Soal
                 ]]>
             </summary>
         <content type="html">
@@ -870,9 +1309,7 @@ pause
                 <div id="menuju_keatas"><br></div>
 
 <blockquote>
-<p>ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah</p></blockquote>
-<div id="menuju_keatas"><br></div>
-
+<p>ini adalah soal interaktif, klik pada plilihan jawaban</p></blockquote>
 <div class="soal">
   1. Makna yang paling menggambarkan pembelajaran berbasis pendekatan TaRL adalah….<br>
   a Pembelajaran sesuai dengan tingkatan kelas peserta didik<br>
@@ -968,7 +1405,8 @@ pause
   e Merumuskan diferensiasi produk/proyek
 </div>
 
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button></p><div id="hasil"></div>
+<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
+<br></p><div id="hasil"></div>
 
 <script>
     const jawabanBenar = {
@@ -981,454 +1419,6 @@ pause
         7: "b",
         8: "b",
         9: "a",
-        10: "c"
-    };
-
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim(); 
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; 
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 Pembelajaran berdifferensiasi</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html</id>
-        <media:content url="https://deddme.id/media/posts/3/soal-ppg-2025-2.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-06-27T15:25:32+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/3/soal-ppg-2025-2.png" alt="soal ppg 2025" />
-                    ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/3/soal-ppg-2025-2.png" class="type:primaryImage" alt="soal ppg 2025" /></p>
-                <div id="menuju_keatas"><br></div>
-
-<blockquote>
-<p>ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah</p></blockquote>
-<div class="soal">
-  1. Salah satu prinsip pembelajaran pada Kurikulum Merdeka adalah pembelajaran dirancang dan dilaksanakan untuk membangun karakter peserta didik untuk menjadi pembelajar sepanjang hayat. Berdasarkan prinsip tersebut, beberapa pernyataan berikut merupakan kegiatan yang dapat dilakukan guru, <mark>kecuali</mark>...<br>
-  a Guru memastikan setiap aktivitas pembelajaran selalu diiringi dengan pemberian tugas untuk mengukur pemahaman peserta didik terhadap materi yang dipelajari<br>
-  b Guru mendorong peserta didik melakukan refleksi untuk memahami kekuatan diri dan potensi yang perlu dikembangkan<br>
-  c Guru senantiasa memberikan umpan balik langsung yang mendorong kemampuan peserta didik untuk terus belajar dan mengeksplorasi ilmu pengetahuan<br>
-  d Guru memberikan proyek yang ditujukan untuk mendorong pembelajaran yang mandiri dan untuk mengeksplorasi ilmu pengetahuan<br>
-  e Guru memvariasikan kompleksitas atau tingkat kesulitan tugas untuk mengakomodasi peserta didik dengan berbagai tingkat kesiapan belajar
-</div>
-
-<div class="soal">
-  2. Sebelum melaksanakan pembelajaran, Pak Hafiz mengadakan asesmen awal untuk mengetahui profil belajar peserta didiknya. Dari hasil asesmen awal tersebut diketahui bahwa 45% peserta didik memiliki kecenderungan gaya belajar visual, 15% kinestetik, dan 40% auditori. Pak Hafiz juga memperoleh informasi bahwa secara umum peserta didiknya memiliki kecenderungan minat yang relevan dengan gaya belajar masing-masing. Berdasarkan data tersebut, Pak Hafiz merencanakan pembelajaran berdiferensiasi pada elemen proses sebagai berikut, <mark>kecuali</mark>….<br>
-  a Guru memberikan kesempatan kepada peserta didik untuk mempelajari sumber belajar dalam bentuk modul digital interaktif<br>
-  b Peserta didik diberi kebebasan untuk mengkreasikan pembuatan laporan hasil observasi, seperti laporan tertulis, power point, video, poster, maupun bentuk lain sesuai dengan bakat dan minat<br>
-  c Peserta didik diminta mengamati dan mendiskusikan isi video untuk memperoleh pengetahuan baru<br>
-  d Guru memberikan kesempatan kepada peserta didik untuk melakukan praktik bermain peran agar mereka lebih memahami penjelasan guru<br>
-  e Guru membuat beberapa sudut belajar atau display yang ditempel di tempat-tempat berbeda untuk memberikan kesempatan peserta didik bergerak saat mengakses informasi
-</div>
-
-<div class="soal">
-  3. Implementasi Kurikulum Merdeka mengedepankan paradigma baru dalam pembelajaran, bukan dalam arti menghadirkan konsep dan prinsip pembelajaran yang sepenuhnya baru, namun lebih pada upaya untuk memastikan terciptanya praktik pembelajaran yang berpusat pada peserta didik. Penerapan paradigma baru dalam pembelajaran dimaksud tergambar pada beberapa kegiatan berikut, <mark>kecuali</mark>….<br>
-  a Pada awal tahun ajaran, guru berusaha mencari tahu kesiapan belajar peserta didik dan pencapaian sebelumnya.<br>
-  b Guru senantiasa memberikan umpan balik langsung yang mendorong kemampuan peserta didik untuk terus belajar dan mengeksplorasi ilmu pengetahuan<br>
-  c Guru menggunakan otoritas sebagai pembimbing utama pembelajaran dalam mengatasi permasalahan yang timbul tanpa melibatkan orang tua atau guru lain.<br>
-  d Guru menggunakan berbagai metode pembelajaran yang bervariasi untuk membantu peserta didik mengembangkan kompetensinya.<br>
-  e Guru perlu mengevaluasi hasil penilaian formatif, memperhatikan perilaku peserta didik, dan mendengarkan keluhan mereka untuk mengetahui kebutuhan belajarnya
-</div>
-
-<div class="soal">
-  4. Peran guru dalam melaksanakan pembelajaran yang relevan dengan prinsip-prinsip pembelajaran berdiferensiasi adalah….<br>
-  a Guru adalah sumber belajar utama dan peserta didik mengikuti apa yang telah ditetapkan.<br>
-  b Guru bukan sebagai sumber belajar utama, peserta didik dapat belajar dari berbagai sumber.<br>
-  c Guru menjadi mediator antar peserta didik agar terjadi transfer pengetahuan dalam proses belajar.<br>
-  d Guru menjadi motivator yang mengamati peserta didik dari jauh selama proses belajar.<br>
-  e Guru menjadi motor penggerak utama proses pembelajaran
-</div>
-
-<div class="soal">
-  5. Bu Farida menerapkan pembelajaran berdiferensiasi untuk memenuhi kebutuhan belajar peserta didik. Dengan demikian, ia membagi peserta didik dalam beberapa kelompok belajar. Ternyata Bu Farida masih mengalami kesulitan karena semua peserta didik masih bertanya kepadanya. Sehingga proses belajar masih berpusat pada guru. Hal yang dapat Ibu Farida lakukan adalah….<br>
-  a Bu Farida dapat melakukan praktik pelepasan tanggung jawab bertahap. Ia mengajak peserta didik dalam grup untuk bekerja sendiri-sendiri tanpa adanya pengawasan dari guru.<br>
-  b Porsi tanggung jawab guru lebih besar dari peserta didik.<br>
-  c Bu Farida dapat melakukan praktik pelepasan tanggung jawab bertahap. Ia mengajak peserta didik dalam grup untuk bekerja sendiri-sendiri dengan hasil karya yang sudah ditentukan dan tidak boleh diubah.<br>
-  d Peserta didik tidak perlu bekerja sama untuk dapat memahami konsep.<br>
-  e Bu Farida dapat melakukan praktik pelepasan tanggung jawab bertahap. Ia mengajak peserta didik dalam grup untuk menghasilkan sebuah karya yang berkaitan dengan konsep yang sedang dipelajari. Peserta didik bekerja sama untuk memperkuat pemahaman konsep karena mereka mempunyai porsi tanggung jawab yang lebih besar dibanding guru. Sehingga peserta didik dapat mengaplikasikan sebuah ilmu secara mandiri. Guru dan peserta didik memiliki tanggung jawab bersama selama proses pembelajaran.
-</div>
-
-<div class="soal">
-  6. Seorang guru mengadopsi elemen-elemen diferensiasi dalam pelaksanaan pembelajaran, seperti menggunakan bahan bacaan yang berbeda untuk peserta didik dengan kemampuan membaca yang beragam. Namun, beberapa peserta didik masih kesulitan mencapai tujuan pembelajaran. Tindakan yang paling tepat untuk mengatasi permasalahan tersebut adalah….<br>
-  a Meminta peserta didik yang kesulitan untuk belajar lebih keras<br>
-  b Mengurangi tingkat kompleksitas tugas<br>
-  c Meminta peserta didik untuk bekerja sendiri<br>
-  d Melanjutkan dengan kurikulum yang telah direncanakan<br>
-  e Merevisi pendekatan dan strategi pembelajaran
-</div>
-
-<div class="soal">
-  7. Diberikan langkah-langkah sebagai berikut: 
-    1. Peserta didik menentukan tujuan yang akan dicapai dan hal apa yang ingin diketahui. 
-  2. Peserta didik melakukan refleksi terhadap kemampuannya. 
-  3. Guru memberikan gambaran rubrik sebagai harapan kompetensi dari capaian peserta didik. 
-  4. Guru menginformasikan tujuan belajar yang akan dicapai bersama. 
-  Alur/tahapan yang perlu dilakukan oleh guru dan peserta didik untuk merumuskan tujuan belajar adalah….<br>
-  a 1-2-3-4<br>
-  b 1-3-2-4<br>
-  c 4-3-2-1<br>
-  d 4-2-3-1<br>
-  e 3-2-1-4
-</div>
-
-<div class="soal">
-  8. Seorang guru melaksanakan pembelajaran pada topik tertentu. Ia mendapati bahwa peserta didik belum pernah mempelajari topik tersebut. Hal yang perlu dilakukan guru pada kegiatan awal pembelajaran adalah….<br>
-  a Menyampaikan bahwa materi ini susah maka perlu belajar yang konsisten<br>
-  b Menjelaskan bahwa materi ini membutuhkan praktik yang banyak, sehingga peserta didik perlu untuk menguasai semua perangkat dalam laboratorium sebelum kelas dimulai<br>
-  c Menguraikan secara umum materi yang ingin diajarkan, memantik pengetahuan peserta didik terkait materi tersebut, mengaitkan materi dengan pengalaman peserta didik dalam kehidupan sehari-hari.<br>
-  d Langsung menjelaskan materi tersebut sehingga peserta didik terbiasa<br>
-  e Memberi soal pretest terkait materi tersebut sehingga dapat memicu motivasi peserta didik
-</div>
-
-<div class="soal">
-  9. Ibu Tina menemukan beberapa peserta didik yang belum mencapai tujuan pembelajaran, sehingga mereka memerlukan kegiatan remedial. Langkah yang paling tepat untuk menyelesaikan masalah tersebut adalah….<br>
-  a Merencanakan kegiatan pembelajaran berdiferensiasi proses dan konten untuk peserta didik yang memerlukan remedial<br>
-  b Memberikan PR yang banyak agar peserta didik belajar sendiri di rumah<br>
-  c Menghubungi orang tua anak dan melaporkan bahwa anaknya tidak mengikuti proses belajar dengan baik<br>
-  d Meminta setiap peserta didik untuk mengumpulkan tugas setiap akhir pembelajaran<br>
-  e Meminta setiap peserta didik untuk membuat review materi pembelajaran
-</div>
-
-<div class="soal">
-  10. Beberapa elemen yang perlu dipertimbangkan dalam menerapkan pembelajaran berdiferensiasi adalah sebagai berikut: 
-  1. Kebutuhan peserta didik yang beragam. 
-  2. Kondisi kelas. 
-  3. Kebutuhan guru dan kepala sekolah. 
-  4. Lingkungan sekolah. 
-  Elemen yang perlu dipertimbangkan oleh guru ketika melakukan modifikasi pembelajaran adalah….<br>
-  a 1 dan 2<br>
-  b 2 dan 3<br>
-  c 3 dan 4<br>
-  d 1 dan 3<br>
-  e 1 dan 4
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "b",
-        3: "c",
-        4: "b",
-        5: "e",
-        6: "e",
-        7: "c",
-        8: "c",
-        9: "a",
-        10: "a"
-    };
-
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim(); 
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; 
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 Understanding By Design (UbD)</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html</id>
-        <media:content url="https://deddme.id/media/posts/2/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-06-27T14:58:26+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/2/soal-ppg-2025.png" alt="soal ppg 2025" />
-                    ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/2/soal-ppg-2025.png" class="type:primaryImage" alt="soal ppg 2025" /></p>
-                <div id="menuju_keatas"><br></div>
-
-<blockquote>
-<p>ini adalah soal interaktif, anda bisa berlatih disini, tombol jawaban tersedia bagian dibawah</p></blockquote>
-<div id="menuju_keatas"><br></div>
-
-<div class="soal">
-  1. Fase-fase yang perlu dilakukan untuk merancang perencanaan pembelajaran berbasis prinsip (UbD) adalah….<br>
-  a Merumuskan tujuan, asesmen, dan kegiatan pembelajaran<br>
-  b Merencanakan tujuan, kegiatan, dan asesmen pembelajaran<br>
-  c Merancang asesmen, kegiatan, dan tujuan pembelajaran<br>
-  d Merancang kegiatan, tujuan dan asesmen pembelajaran<br>
-  e Merancang asesmen, tujuan, dan kegiatan pembelajaran
-</div>
-
-<div class="soal">
-  2. "Apa yang seharusnya dilakukan, diketahui, dan dipahami oleh peserta didik di akhir pengajaran?". Pertanyaan tersebut perlu dirumuskan oleh guru apabila akan melakukan tahap …<br>
-  a Perencanaan kegiatan pembelajaran<br>
-  b Perencanaan strategi pembelajaran<br>
-  c Merumuskan tujuan pembelajaran<br>
-  d Merancang asesmen<br>
-  e Perencanaan model pembelajaran
-</div>
-
-<div class="soal">
-  3. "Bagaimana saya dapat mengetahui bahwa pembelajaran telah mencapai hasil belajar yang diinginkan?" Pertanyaan tersebut perlu dirumuskan oleh guru ketika akan melakukan tahap...<br>
-  a Merancang asesmen<br>
-  b Merencanakan pendekatan pembelajaran<br>
-  c Merencanakan model pembelajaran<br>
-  d Merancang kegiatan pembelajaran<br>
-  e Merumuskan tujuan pembelajaran
-</div>
-
-<div class="soal">
-  4. "Bagaimana saya mendesain kegiatan pembelajaran agar peserta didik yang beragam dapat mencapai tujuan pembelajaran?" merupakan pertanyaan penting yang perlu dipertimbangkan pada tahap...<br>
-  a Merumuskan tujuan pembelajaran<br>
-  b Merancang kegiatan pembelajaran<br>
-  c Merencanakan model pembelajaran<br>
-  d Merencanakan pendekatan pembelajaran<br>
-  e Merancang asesmen
-</div>
-
-<div class="soal">
-  5. Setelah memahami substansi CP, guru diharapkan mulai mendapatkan ide-ide tentang apa yang harus dipelajari oleh peserta didik dalam suatu fase untuk dirumuskan menjadi beberapa Tujuan Pembelajaran (TP) yang lebih operasional dan konkret. Dalam merumuskan Tujuan Pembelajaran (TP), guru dapat memilih beberapa alternatif teknik berikut, <mark>kecuali</mark>....<br>
-  a Merumuskan TP dengan memperhatikan karakteristik peserta didik<br>
-  b Merumuskan TP berdasarkan intuisi pribadi tanpa mempertimbangkan kebutuhan peserta didik<br>
-  c Merumuskan TP secara lintas elemen.<br>
-  d Merumuskan TP dengan cara menganalisis 'kompetensi' dan 'lingkup materi' pada CP.<br>
-  e Merumuskan TP secara langsung berdasarkan CP.
-</div>
-
-<div class="soal">
-  6. Capaian Pembelajaran (CP) dapat dirumuskan merujuk pada teori belajar konstruktivisme dan kurikulum dengan pendekatan Understanding by Design (UbD) yang dikembangkan oleh Wiggins & Tighe (2005). Dalam kerangka teori ini, "memahami" merupakan kemampuan yang dibangun melalui proses dan pengalaman belajar yang memberikan kesempatan kepada peserta didik untuk dapat menjelaskan, menginterpretasi dan mengaplikasikan informasi, menggunakan berbagai perspektif, dan berempati atas suatu fenomena. Terkait hal tersebut, pernyataan yang benar dalam kurikulum Merdeka adalah…<br>
-  a Memberi kebebasan kepada guru mengikuti taksonomi pengetahuan menurut teori yang disukai<br>
-  b Menganggap bahwa "memahami" dapat dicapai tanpa melibatkan proses dan pengalaman belajar yang mendalam serta tanpa memberikan kesempatan untuk menjelaskan, menginterpretasi, dan mengaplikasikan informasi dengan berbagai perspektif.<br>
-  c Taksonomi pengetahuan tidak menggunakan kata kerja operasional yang spesifik<br>
-  d Hierarki pengetahuan tidak digunakan dalam merumuskan CP dan tujuan pembelajaran turunan dari CP<br>
-  e Pemahaman dimaknai sebagai suatu proses kognitif yang kompleks tidak sederhana sebagai proses berpikir tingkat rendah
-</div>
-
-<div class="soal">
-  7. Pembelajaran dan asesmen merupakan satu kesatuan yang sebaiknya tidak dipisahkan. Terkait hal tersebut, guru dan peserta didik perlu memahami kompetensi yang hendak dicapai agar keseluruhan proses pembelajaran diupayakan untuk mencapai kompetensi yang dimaksud. Kaitan antara pembelajaran dan asesmen, digambarkan dan diilustrasikan melalui ilustrasi berikut, <mark>kecuali</mark>…<br>
-  a Proses pembelajaran sebaiknya dilakukan tanpa memperhatikan hasil asesmen, karena hal itu dapat menghambat kreativitas peserta didik.<br>
-  b Guru dapat mengukur capaian hasil belajar peserta didik pada akhir pembelajaran jika diperlukan.<br>
-  c Guru harus memastikan bahwa tujuan pembelajaran sudah sesuai dengan tahapan dan kebutuhan peserta didik berdasarkan hasil asesmen awal.<br>
-  d Sepanjang proses pembelajaran, guru dapat mengadakan asesmen formatif untuk mengetahui sejauh mana tujuan pembelajaran sudah dicapai Oleh peserta didik.<br>
-  e Guru perlu merancang asesmen yang dilaksanakan pada awal pembelajaran, pada
-</div>
-
-<div class="soal">
-  8. Pada setiap mata pelajaran, terdapat sejumlah Capaian Pembelajaran (CP) sebagai kompetensi pembelajaran yang harus dicapai oleh peserta didik pada setiap fase. Rumusan CP tersebut memberikan gambaran tentang tujuan umum dan ketersediaan waktu untuk mencapai tujuan tersebut dalam enam etape yang disebut fase. Pemanfaatan fase-fase CP dalam perencanaan pembelajaran dapat dikemukakan sebagai berikut, <mark>kecuali</mark>...<br>
-  a Memberi kesempatan pada guru untuk melaksanakan pembelajaran sesuai dengan kesiapan peserta didik<br>
-  b Memungkinkan kolaborasi guru pada fase yang sama untuk merancan embela•aran an efektif ba i eserta didik<br>
-  c Memungkinkan guru merancang dan melaksanakan pembelajaran secara fleksibel.<br>
-  d Memastikan peserta didik mencapai kompetensi pembelajaran.<br>
-  e Mendorong guru fokus pada ketercapaian CP di akhir fase tanpa perlu memperhatikan perkembangan peserta didik dan kesinambungan proses pembelajaran antar kelas.
-</div>
-
-<div class="soal">
-  9. Pernyataan terkait kriteria ketercapaian tujuan pembelajaran (KKTP) berikut ini yang benar adalah….<br>
-  a KKTP dapat disusun melalui pendekatan rubrik<br>
-  b Semua benar<br>
-  c KKTP merupakan standar yang ditetapkan untuk menentukan ketercapaian tujuan pembelajaran (TP)<br>
-  d KKTP dapat disusun melalui dekripsi kriteria dan interval nilai<br>
-  e Hasil KKTP dapat digunakan untuk merefleksi proses pembelajaran dan menganalisis tingkat penguasaan kompetensi peserta didik
-</div>
-
-<div class="soal">
-  10. Pernyataan terkait asesmen awal berikut ini yang kurang tepat adalah….<br>
-  a Hasil asesmen awal dapat digunakan sebagai dasar untuk melakukan tindak lanjut perbaikan berupa intervensi yang tepat.<br>
-  b Hasil asesmen awal digunakan untuk memetakan minat, kemampuan dan kesiapan belajar peserta didik.<br>
-  c Asesmen awal dapat diterapkan untuk mengetahui kebutuhan belajar peserta didik yang beragam<br>
-  d Hasil asesmen awal berfungsi untuk mengetahui tingkat kompetensi, kekuatan dan kelemahan peserta didik dalam mencapai tujuan pembelajaran<br>
-  e Asesmen awal berfungsi untuk mendapatkan nilai capaian hasil belajar untuk dibandingkan dengan kriteria capaian pembelajaran yang ditetapkan
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "c",
-        3: "a",
-        4: "b",
-        5: "b",
-        6: "e",
-        7: "b",
-        8: "e",
-        9: "c",
         10: "c"
     };
 

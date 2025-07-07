@@ -32,12 +32,12 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "431bb89d7faa896e037c6d8ed9fe3333"
+        "md5": "3a7c68d344379c168140f48267c31da5"
     },
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "3c15a27931738701356c5513f8e98d6a"
+        "md5": "8883ed24de761f4569a8b3424669c792"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -57,7 +57,7 @@
     {
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
-        "md5": "4ecbbb3dc16a4931efe995022d2d3a6f"
+        "md5": "f598500cbe7055e8555f84fb7142d4f8"
     },
     {
         "path": "artikel/mengganti-url-localhost-pada-ghost",
@@ -90,6 +90,16 @@
         "md5": "75fd2edaf5f1e51c8be5bfc0942885ca"
     },
     {
+        "path": "artikel/soal-ppg-2025-casel",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-casel/index.html",
+        "type": "file",
+        "md5": "a3b62f622cb89b5959ef05ee795291dc"
+    },
+    {
         "path": "artikel/soal-ppg-2025-cultury-responsive-teaching-crt",
         "type": "directory",
         "md5": false
@@ -97,7 +107,7 @@
     {
         "path": "/artikel/soal-ppg-2025-cultury-responsive-teaching-crt/index.html",
         "type": "file",
-        "md5": "335a561c8db262be68692390ae4e91d1"
+        "md5": "abce85d345f1f743b6b05975548317bb"
     },
     {
         "path": "artikel/soal-ppg-2025-pembelajaran-berdifferensiasi",
@@ -107,7 +117,17 @@
     {
         "path": "/artikel/soal-ppg-2025-pembelajaran-berdifferensiasi/index.html",
         "type": "file",
-        "md5": "d86a92db00f536341e0cfcf331178da4"
+        "md5": "4fb5404ac308d986cd9873512b6b1c37"
+    },
+    {
+        "path": "artikel/soal-ppg-2025-peran-gurupsebagai-teladan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-ppg-2025-peran-gurupsebagai-teladan/index.html",
+        "type": "file",
+        "md5": "60e21a47114c899a49273f57853d4b60"
     },
     {
         "path": "artikel/soal-ppg-2025-teaching-at-the-right-level-tarl",
@@ -117,7 +137,7 @@
     {
         "path": "/artikel/soal-ppg-2025-teaching-at-the-right-level-tarl/index.html",
         "type": "file",
-        "md5": "e092635072dda2febe16f21e2c80fab7"
+        "md5": "28e1ddb753684a46d63aae46b10be48e"
     },
     {
         "path": "artikel/soal-ppg-2025-understanding-by-design-ubd",
@@ -127,7 +147,7 @@
     {
         "path": "/artikel/soal-ppg-2025-understanding-by-design-ubd/index.html",
         "type": "file",
-        "md5": "013bbcdf401fb08fc88397e9c13cebe6"
+        "md5": "de7aa7f338f6e2662c90c6759078d62c"
     },
     {
         "path": "artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru",
@@ -137,7 +157,7 @@
     {
         "path": "/artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru/index.html",
         "type": "file",
-        "md5": "3d863bb2332d2436c07c3d9c41e84cb6"
+        "md5": "7549b714fa8ad47275ab12f81485a060"
     },
     {
         "path": "artikel/text-fixer",
@@ -227,17 +247,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "883b840d37767305454a5d5f93114bc3"
+        "md5": "cd9e88d86e52bbb6a8d0cc84c09bf3dd"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "d0df78cf2b411f932e7e2a51674f9048"
+        "md5": "1351df526613aa56a8788245d35866b6"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "0fe5d9ec91130d4043bc11075af47024"
+        "md5": "23acd82d8c1c5263d9d283dcf753d779"
     },
     {
         "path": "kategori",
@@ -267,7 +287,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "5fef82b16057cae12c7de44c4356a9df"
+        "md5": "6126638a3e4e3eeb53fa9e6ca17123e6"
     },
     {
         "path": "kategori/pendidikan",
@@ -297,7 +317,7 @@
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "7f19496f77de11a3e2914ea67ee60156"
+        "md5": "9df578cc173686834ae1e44b94e88f41"
     },
     {
         "path": "kategori/tools",
@@ -563,6 +583,76 @@
         "path": "/media/posts/15/responsive/ghost-xs.webp",
         "type": "file",
         "md5": "0e8990f81cbd45da351c59d0c6fdbaad"
+    },
+    {
+        "path": "media/posts/18",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/18/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/18/responsive/soal-ppg-2025-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/18/responsive/soal-ppg-2025-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/18/responsive/soal-ppg-2025-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/18/responsive/soal-ppg-2025-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/18/soal-ppg-2025.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
+    },
+    {
+        "path": "media/posts/19",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/19/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/19/responsive/soal-ppg-2025-md.webp",
+        "type": "file",
+        "md5": "a7c43c7047966ce39d31f0ba0c07902d"
+    },
+    {
+        "path": "/media/posts/19/responsive/soal-ppg-2025-sm.webp",
+        "type": "file",
+        "md5": "2a79842a0a7dd3a54d229835a322e404"
+    },
+    {
+        "path": "/media/posts/19/responsive/soal-ppg-2025-xl.webp",
+        "type": "file",
+        "md5": "b7467b6f4e0da755b62cb14dc254a96d"
+    },
+    {
+        "path": "/media/posts/19/responsive/soal-ppg-2025-xs.webp",
+        "type": "file",
+        "md5": "38fda6ba9ce044a049536b77c7f4e91f"
+    },
+    {
+        "path": "/media/posts/19/soal-ppg-2025.png",
+        "type": "file",
+        "md5": "5076c455d5491de56299fa6f4b2e236a"
     },
     {
         "path": "media/posts/2",
@@ -835,9 +925,24 @@
         "md5": false
     },
     {
+        "path": "penulis/deddy-hidayat/halaman",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "penulis/deddy-hidayat/halaman/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/penulis/deddy-hidayat/halaman/2/index.html",
+        "type": "file",
+        "md5": "8ed41895aced15fa6eb656dfc51ba384"
+    },
+    {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "f2e288ecc873d5cd61ddeffe528b06c0"
+        "md5": "c5a417e302e4de0f8b4d4bb7c5b32153"
     },
     {
         "path": "robots.txt",
@@ -852,7 +957,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "9bc7c0bdfdf0bbbc9a0689834aa89b62"
+        "md5": "7a0710578317df2b5d298e806488a7b3"
     },
     {
         "path": "sitemap.xsl",
