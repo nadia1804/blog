@@ -27,7 +27,7 @@
     {
         "path": "/artikel/apa-itu-mpls-ramah/index.html",
         "type": "file",
-        "md5": "34baefd9758ef2065db2bb08725e31a2"
+        "md5": "f94c76b76ca5ebd12d9a6e30db117a70"
     },
     {
         "path": "artikel/halaman",
@@ -387,12 +387,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "cd1593e18dca3a3086921d7e106435a3"
+        "md5": "4b923d6e1dba602e053147fad94e6ff4"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "20950a4136d9a4a3c99ba18383675cdc"
+        "md5": "472c45f92f9a27f73642589d1f4ee8d1"
     },
     {
         "path": "index.html",
