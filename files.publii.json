@@ -47,7 +47,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "802e27f25cfd6a4478865792198dc28b"
+        "md5": "337d0455bcfa591d514dbf0176fbb3c0"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -77,7 +77,7 @@
     {
         "path": "/artikel/kumpulan-soal-ppg-dan-tryout-ukppg-2025/index.html",
         "type": "file",
-        "md5": "7af361105e444b80dcc66089ae745db3"
+        "md5": "2168fbea5b8bef3d7cf3c97212a59a0d"
     },
     {
         "path": "artikel/mengganti-url-localhost-pada-ghost",
@@ -357,17 +357,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "c3628c4a80cb08410123de64bac10a29"
+        "md5": "0d5e0dc0fdfa1c33ee6e0c7bf8f5d3e5"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "0a99cbd3fe00dce7305d296ebcd01ff2"
+        "md5": "ebe531a7728392b0d68267f302a2db23"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "0a8d421ef9e00813bbf7b6939e574743"
+        "md5": "6cbff43344367435c9a480b0703083a6"
     },
     {
         "path": "kategori",
@@ -397,7 +397,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "d9074c80de1cc46fa6489a76fb61467f"
+        "md5": "e8dd3d6159f67c6c8f5a9f096899f043"
     },
     {
         "path": "kategori/pendidikan",
@@ -417,7 +417,7 @@
     {
         "path": "/kategori/ppg/index.html",
         "type": "file",
-        "md5": "4a17202bedb410e0cb4176c43969f48e"
+        "md5": "2f37d5963b88feb230ceb4b42e46af7d"
     },
     {
         "path": "kategori/soal",
@@ -437,12 +437,12 @@
     {
         "path": "/kategori/soal/halaman/2/index.html",
         "type": "file",
-        "md5": "8764e1f9cfa33abe7d1adce4432d6ba6"
+        "md5": "a09aa99e72a27ae2a7cfbfa7805d9012"
     },
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "8b815c4d9138f2523128da46d4412c0e"
+        "md5": "b16e56fb44637f96509a39244d7fc78e"
     },
     {
         "path": "kategori/tools",
@@ -1432,7 +1432,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "ef1304332b2f2464709fea5bad94552b"
+        "md5": "73edb4b7a3385a2dca8985dfabb990fd"
     },
     {
         "path": "robots.txt",
