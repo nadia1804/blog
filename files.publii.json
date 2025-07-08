@@ -15,6 +15,11 @@
         "md5": "fcc3b7022afd0797062b73c263597dc0"
     },
     {
+        "path": "ads.txt",
+        "type": "file",
+        "md5": "b2d95128ee6d8cde40f44fc7193e7cf1"
+    },
+    {
         "path": "artikel",
         "type": "directory",
         "md5": false
