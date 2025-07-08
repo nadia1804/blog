@@ -185,22 +185,37 @@
                }, false);
          }
       }</script><script defer="defer">document.addEventListener("DOMContentLoaded", function () {
-  const style = document.createElement("style");
-  style.textContent = `
-    body {
-      user-select: none;
-      -webkit-user-select: none;
-      -ms-user-select: none;
-    }
-  `;
-  document.head.appendChild(style);
-  document.body.onselectstart = () => false;
-  document.body.ondragstart = () => false;
-  document.addEventListener("keydown", function (e) {
-    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "a") {
-      e.preventDefault();
-    }
-  });
+  //  WHITELIST
+  const whitelistedPaths = [
+    '/artikel/install-ghost-local-di-windows-11/',
+    '/artikel/menghosting-ghost/',
+    '/artikel/mengganti-url-localhost-pada-ghost/'
+  ]; 
+
+  const currentPathname = window.location.pathname; 
+
+  const isPathWhitelisted = whitelistedPaths.includes(currentPathname);
+
+  if (!isPathWhitelisted) {
+    const style = document.createElement("style");
+    style.textContent = `
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+      }
+    `;
+    document.head.appendChild(style);
+
+    document.body.onselectstart = () => false;
+    document.body.ondragstart = () => false;
+
+    document.addEventListener("keydown", function (e) {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "a") {
+        e.preventDefault();
+      }
+    });
+  }
 });</script><script src="https://deddme.id/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
 					quicklink.listen({
 						prerender: true,
