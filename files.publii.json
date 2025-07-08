@@ -32,7 +32,7 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "01e0b63fab2b5f68ab5b75ec7ff814cd"
+        "md5": "fdc54e23e6ad2f790ac7fbaaae8b4899"
     },
     {
         "path": "artikel/halaman/3",
@@ -42,12 +42,12 @@
     {
         "path": "/artikel/halaman/3/index.html",
         "type": "file",
-        "md5": "069d34903e239145c2b273a21c1e8d4c"
+        "md5": "9a4afdc63a98e3bfb4139f6a079f324f"
     },
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "337d0455bcfa591d514dbf0176fbb3c0"
+        "md5": "48e2216c436fefe7e2ff706d653e2ab7"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -107,7 +107,7 @@
     {
         "path": "/artikel/selamat-tahun-baru-islam-1-muharram-1447-hijriah/index.html",
         "type": "file",
-        "md5": "78cf3da52e85c52ca988e2f4d1bb14d9"
+        "md5": "48f4570dcadcfe50d8fff0cdab072bfe"
     },
     {
         "path": "artikel/soal-ppg-2025-casel",
@@ -260,6 +260,16 @@
         "md5": "60209f0fae0e6b3da4b04970d90c9ca9"
     },
     {
+        "path": "artikel/telaah-panduan-mpls-ramah-sd-sederajat",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html",
+        "type": "file",
+        "md5": "d7a2872655ef81eca0e0d3712aca9817"
+    },
+    {
         "path": "artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru",
         "type": "directory",
         "md5": false
@@ -267,7 +277,17 @@
     {
         "path": "/artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru/index.html",
         "type": "file",
-        "md5": "941aa5d058598d94c654dc2996739992"
+        "md5": "26e9bdc53785ffe9302577109e17d47f"
+    },
+    {
+        "path": "artikel/telaah-surat-edaran-mendikdasmen-no-10-tahun-2025-tentang-mpls-paud-sd-dan-smp",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/telaah-surat-edaran-mendikdasmen-no-10-tahun-2025-tentang-mpls-paud-sd-dan-smp/index.html",
+        "type": "file",
+        "md5": "d57359d62a65d27279eb7d2eb41a4b37"
     },
     {
         "path": "artikel/text-fixer",
@@ -357,17 +377,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "0d5e0dc0fdfa1c33ee6e0c7bf8f5d3e5"
+        "md5": "37cf1079eb7c9a59e84b22ca1a852349"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "ebe531a7728392b0d68267f302a2db23"
+        "md5": "d9f3a5b1fd96fc6c6dc530b9ccd53243"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "6cbff43344367435c9a480b0703083a6"
+        "md5": "e2e183086f4b08e0613ffde4dee8d183"
     },
     {
         "path": "kategori",
@@ -397,7 +417,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "e8dd3d6159f67c6c8f5a9f096899f043"
+        "md5": "f9ff8fdc3ff12a479e6c925d9c596251"
     },
     {
         "path": "kategori/pendidikan",
@@ -407,7 +427,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "fec8434092bf80aa0c33e02f82200f4d"
+        "md5": "e0eb376e8454234194914104c3a3a2bd"
     },
     {
         "path": "kategori/ppg",
@@ -1215,6 +1235,76 @@
         "md5": "5076c455d5491de56299fa6f4b2e236a"
     },
     {
+        "path": "media/posts/30",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/30/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/30/responsive/telaah-deddme-md.webp",
+        "type": "file",
+        "md5": "c82e4af62c3acdd36320659b4ef4ba83"
+    },
+    {
+        "path": "/media/posts/30/responsive/telaah-deddme-sm.webp",
+        "type": "file",
+        "md5": "b33b031c6d26bf53884a1c4323e4ae6a"
+    },
+    {
+        "path": "/media/posts/30/responsive/telaah-deddme-xl.webp",
+        "type": "file",
+        "md5": "227706cc458f5d468b6bb400992e7ee0"
+    },
+    {
+        "path": "/media/posts/30/responsive/telaah-deddme-xs.webp",
+        "type": "file",
+        "md5": "36b3a8672fbf8816fee5bf620fba2203"
+    },
+    {
+        "path": "/media/posts/30/telaah-deddme.png",
+        "type": "file",
+        "md5": "f11eec2e7126eb1587f6fa20db6e0a4e"
+    },
+    {
+        "path": "media/posts/31",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/31/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-md.webp",
+        "type": "file",
+        "md5": "713a245ba9253fe29845a02b2cb9483d"
+    },
+    {
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-sm.webp",
+        "type": "file",
+        "md5": "a0c542fcddbbf1fce62210769b36b79d"
+    },
+    {
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-xl.webp",
+        "type": "file",
+        "md5": "cd643817f5f1584560a347c1a6f8cce9"
+    },
+    {
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-xs.webp",
+        "type": "file",
+        "md5": "4c20c72c29caf434ff1f721950098475"
+    },
+    {
+        "path": "/media/posts/31/Rujukan-MPLS-Ramah-2025.png",
+        "type": "file",
+        "md5": "b8222475b18743628426778d602a366e"
+    },
+    {
         "path": "media/posts/4",
         "type": "directory",
         "md5": false
@@ -1427,12 +1517,22 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "0c0e784ab18b1d4fab6b14ebc6131b76"
+        "md5": "ea2b95539504653af00d11206b7100e0"
+    },
+    {
+        "path": "penulis/deddy-hidayat/halaman/3",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/penulis/deddy-hidayat/halaman/3/index.html",
+        "type": "file",
+        "md5": "67302c7c4c7270ae74cff686c4eeff1b"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "73edb4b7a3385a2dca8985dfabb990fd"
+        "md5": "ab87b334b65d7970b13edd6d5c4c9a39"
     },
     {
         "path": "robots.txt",
@@ -1447,7 +1547,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a2ab973ea33f30167297ae350914af55"
+        "md5": "566070fce0b2340574f3e613fc5d993c"
     },
     {
         "path": "sitemap.xsl",
