@@ -47,7 +47,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "61670ef48f67222b229733ab9f311db5"
+        "md5": "802e27f25cfd6a4478865792198dc28b"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -68,6 +68,16 @@
         "path": "/artikel/jurnal-pembelajaran-gagal-divalidasi-pdf-tidak-terbaca/index.html",
         "type": "file",
         "md5": "919340446133f21e2fb87e3b411877e3"
+    },
+    {
+        "path": "artikel/kumpulan-soal-ppg-dan-tryout-ukppg-2025",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/kumpulan-soal-ppg-dan-tryout-ukppg-2025/index.html",
+        "type": "file",
+        "md5": "7af361105e444b80dcc66089ae745db3"
     },
     {
         "path": "artikel/mengganti-url-localhost-pada-ghost",
@@ -347,17 +357,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "d23786a44a742f55fedc71a8716894b6"
+        "md5": "c3628c4a80cb08410123de64bac10a29"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "94fcbdeb16bfd5d9e033a4174efc451f"
+        "md5": "0a99cbd3fe00dce7305d296ebcd01ff2"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "04243f430f1c2e6239fd14adfd0f17ec"
+        "md5": "0a8d421ef9e00813bbf7b6939e574743"
     },
     {
         "path": "kategori",
@@ -1135,6 +1145,41 @@
         "md5": "5076c455d5491de56299fa6f4b2e236a"
     },
     {
+        "path": "media/posts/29",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/29/Kumpulan-soal-PPG-dan-Tryout-UKPPG-2025-2.png",
+        "type": "file",
+        "md5": "65a064d9c060b7f4cda1841989bf5be4"
+    },
+    {
+        "path": "media/posts/29/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/29/responsive/Kumpulan-soal-PPG-dan-Tryout-UKPPG-2025-2-md.webp",
+        "type": "file",
+        "md5": "412619fee922dea75f07e4161e1f0595"
+    },
+    {
+        "path": "/media/posts/29/responsive/Kumpulan-soal-PPG-dan-Tryout-UKPPG-2025-2-sm.webp",
+        "type": "file",
+        "md5": "8271a0cb110044cce25aeafd3a31424d"
+    },
+    {
+        "path": "/media/posts/29/responsive/Kumpulan-soal-PPG-dan-Tryout-UKPPG-2025-2-xl.webp",
+        "type": "file",
+        "md5": "2819e8831f11659ced56bed838f28aaa"
+    },
+    {
+        "path": "/media/posts/29/responsive/Kumpulan-soal-PPG-dan-Tryout-UKPPG-2025-2-xs.webp",
+        "type": "file",
+        "md5": "ddbf89c8b797471d006d6cd23fde4831"
+    },
+    {
         "path": "media/posts/3",
         "type": "directory",
         "md5": false
@@ -1382,12 +1427,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "0c42cdacd92db18d64ef40ac79319077"
+        "md5": "0c0e784ab18b1d4fab6b14ebc6131b76"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "7d2f193e7c74ec10c3ac33901366aa30"
+        "md5": "ef1304332b2f2464709fea5bad94552b"
     },
     {
         "path": "robots.txt",
@@ -1402,7 +1447,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a906b04e0f3e6a6fc34eaaf6a2a33f90"
+        "md5": "a2ab973ea33f30167297ae350914af55"
     },
     {
         "path": "sitemap.xsl",
