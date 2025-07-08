@@ -47,7 +47,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "a9a45df15a13c57393a8d59d2928e965"
+        "md5": "7781a19e36aaf6d4a693b10421cc0131"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -267,7 +267,7 @@
     {
         "path": "/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html",
         "type": "file",
-        "md5": "ae4490fb819f0ed45b96240394dc29f4"
+        "md5": "dc1a3477f674a77755fae446fdb62eae"
     },
     {
         "path": "artikel/telaah-permendikdasmen-nomor-11-tahun-2025-tentang-pemenuhan-beban-kerja-guru",
@@ -287,7 +287,7 @@
     {
         "path": "/artikel/telaah-surat-edaran-mendikdasmen-no-10-tahun-2025-tentang-mpls-paud-sd-dan-smp/index.html",
         "type": "file",
-        "md5": "0c915caade1146b2e6a5bbf033258d24"
+        "md5": "c7b156433c453a4304ed82456f0590b1"
     },
     {
         "path": "artikel/text-fixer",
@@ -377,17 +377,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "33b3f89fb5d925341a9609f4b4f8ddc7"
+        "md5": "3499c1b407f15626a03f8871aed761b3"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "9ddb65f34fa13c58bfa3f2ef46699055"
+        "md5": "959562d0bcd62c112a3b2742cc700c20"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "448ef77a5130305641fe27c3f3938ec2"
+        "md5": "ab9edaf6feea2aae4f46c497f75b56a0"
     },
     {
         "path": "kategori",
@@ -427,7 +427,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "60db4cd116b666b30d04748105d2b201"
+        "md5": "c533b64a529facd6c18acf7a6ce748a2"
     },
     {
         "path": "kategori/ppg",
@@ -1280,29 +1280,29 @@
         "md5": false
     },
     {
-        "path": "/media/posts/31/responsive/telaah-deddme-md.webp",
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-md.webp",
         "type": "file",
-        "md5": "c82e4af62c3acdd36320659b4ef4ba83"
+        "md5": "73cd6ab4bca3fa76453b3de102d283e4"
     },
     {
-        "path": "/media/posts/31/responsive/telaah-deddme-sm.webp",
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-sm.webp",
         "type": "file",
-        "md5": "b33b031c6d26bf53884a1c4323e4ae6a"
+        "md5": "63144ac2ffbe52636f699d88fa3a457b"
     },
     {
-        "path": "/media/posts/31/responsive/telaah-deddme-xl.webp",
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-xl.webp",
         "type": "file",
-        "md5": "227706cc458f5d468b6bb400992e7ee0"
+        "md5": "538d027881976816e005c79cf76ace18"
     },
     {
-        "path": "/media/posts/31/responsive/telaah-deddme-xs.webp",
+        "path": "/media/posts/31/responsive/Rujukan-MPLS-Ramah-2025-xs.webp",
         "type": "file",
-        "md5": "36b3a8672fbf8816fee5bf620fba2203"
+        "md5": "1ceca81f42fcab10a72f9c8349246e95"
     },
     {
-        "path": "/media/posts/31/telaah-deddme.png",
+        "path": "/media/posts/31/Rujukan-MPLS-Ramah-2025.png",
         "type": "file",
-        "md5": "f11eec2e7126eb1587f6fa20db6e0a4e"
+        "md5": "0b67ad525417a1505c7eac74c61f4044"
     },
     {
         "path": "media/posts/4",
@@ -1532,7 +1532,7 @@
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "05011fa8852112c6aad54889684b85a2"
+        "md5": "31618e1513bac5ae36f08e67fc832797"
     },
     {
         "path": "robots.txt",
