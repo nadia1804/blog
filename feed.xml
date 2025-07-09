@@ -3,12 +3,255 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-08T22:53:49+08:00</updated>
+    <updated>2025-07-09T11:28:14+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Kode anti copy paste untuk website</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/kode-anti-copy-paste-untuk-website/index.html"/>
+        <id>https://deddme.id/artikel/kode-anti-copy-paste-untuk-website/index.html</id>
+        <media:content url="https://deddme.id/media/posts/34/JavaScript-deddme.png" medium="image" />
+            <category term="Web"/>
+            <category term="JavaScript"/>
+
+        <updated>2025-07-09T11:15:23+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/34/JavaScript-deddme.png" alt="Kode anti copy paste untuk website" />
+                    Script ini berfungsi mencegah user melakukan seleksi teks, melakukan CTRL + A, CTRL +C, namun masih diizinkan melakukan klik kanan dan menyalin link URL : Letakkan kode ini bagian paling bawah &lt;body&gt; disini &lt;/body&gt; : &lt;script defer=&quot;defer&quot;&gt; document.addEventListener(&quot;DOMContentLoaded&quot;, function () { // WHITELIST const whitelistedPaths = [ &#39;/artikel/install-ghost-local-di-windows-11/&#39;, &#39;/artikel/menghosting-ghost/&#39;, &#39;/artikel/mengganti-url-localhost-pada-ghost/&#39;&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/34/JavaScript-deddme.png" class="type:primaryImage" alt="Kode anti copy paste untuk website" /></p>
+                <p>Script ini berfungsi mencegah user melakukan <code>seleksi teks</code>, melakukan <code>CTRL + A</code>, <code>CTRL +C</code>, namun masih diizinkan melakukan klik kanan dan menyalin link <code>URL</code> :</p><h2 id="scrip-anti-copy-paste-javascript">Scrip anti copy paste JavaScript</h2>
+<p>Letakkan kode ini bagian paling bawah <code>&lt;body&gt;</code> disini <code>&lt;/body&gt;</code> :</p><pre><code>&lt;script defer=&quot;defer&quot;&gt;
+document.addEventListener(&quot;DOMContentLoaded&quot;, function () {
+  //  WHITELIST
+  const whitelistedPaths = [
+    &#39;/artikel/install-ghost-local-di-windows-11/&#39;,
+    &#39;/artikel/menghosting-ghost/&#39;,
+    &#39;/artikel/mengganti-url-localhost-pada-ghost/&#39;
+  ]; 
+
+  const currentPathname = window.location.pathname; 
+
+  const isPathWhitelisted = whitelistedPaths.includes(currentPathname);
+
+  if (!isPathWhitelisted) {
+    const style = document.createElement(&quot;style&quot;);
+    style.textContent = `
+      body {
+        user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+      }
+    `;
+    document.head.appendChild(style);
+
+    document.body.onselectstart = () =&gt; false;
+    document.body.ondragstart = () =&gt; false;
+
+    document.addEventListener(&quot;keydown&quot;, function (e) {
+      if ((e.ctrlKey || e.metaKey) &amp;&amp; e.key.toLowerCase() === &quot;a&quot;) {
+        e.preventDefault();
+      }
+    });
+  }
+});
+&lt;/script&gt;
+</code></pre>
+<p>untuk <strong>mengizinkan</strong> beberapa halaman anda dapat dicopy paste, anda dapat mengedit  bagian <strong>WHITELIST</strong> pada kode diatas ganti url anda, perhatikan penggalan kode ini :</p><pre><code>//  WHITELIST
+  const whitelistedPaths = [
+    &#39;/artikel/install-ghost-local-di-windows-11/&#39;,
+    &#39;/artikel/menghosting-ghost/&#39;,
+    &#39;/artikel/mengganti-url-localhost-pada-ghost/&#39;
+  ]; 
+</code></pre>
+<h2 id="anti-disable-javascript">Anti disable JavaScript</h2>
+<p>Namun, ada beberapa pengguna yang pintar, nonaktifkan Javascript di browser sehingga script diatas tidak berfungsi !, bagaimana solusinya?</p><p>kita gunakan keamanan tambahan, 
+tempelkan kode ini ke <code>&lt;head&gt;</code> :</p><pre><code>&lt;noscript&gt;
+    &lt;div class=&quot;noscript-overlay&quot;&gt;
+        &lt;div class=&quot;noscript-content-wrapper&quot;&gt;
+            &lt;p&gt;⚠️ Halaman ini membutuhkan JavaScript untuk tampil dengan benar. Mohon aktifkan JavaScript di pengaturan browser Anda.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/noscript&gt;
+
+&lt;script&gt;
+    document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+        var noscriptOverlay = document.querySelector(&#39;.noscript-overlay&#39;);
+        
+        if (noscriptOverlay) {
+            // Animasi fade-out overlay
+            noscriptOverlay.style.opacity = &#39;0&#39;;
+            noscriptOverlay.style.visibility = &#39;hidden&#39;;           noscriptOverlay.addEventListener(&#39;transitionend&#39;, function() {
+                if (noscriptOverlay.style.opacity === &#39;0&#39;) {
+                    noscriptOverlay.style.display = &#39;none&#39;; 
+                }
+            }, { once: true });
+        }
+    });
+&lt;/script&gt;
+</code></pre>
+<p>dan tempelkan css ini ke tema anda :</p><pre><code>/* ANTI DISABLE JS */
+.noscript-overlay {
+    position: fixed !important; 
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    
+    /* Warna latar belakang netral dan transparan */
+    background-color: rgba(255, 255, 255, 0.7) !important; /* Putih transparan yang lebih umum */
+    
+    /* Efek blur transparan ala macOS */
+    -webkit-backdrop-filter: blur(10px) !important; /* Untuk browser berbasis WebKit (Safari, Chrome) */
+    backdrop-filter: blur(10px) !important; /* Standar CSS */
+
+    z-index: 9999999 !important; /* Pastikan di atas semua elemen lain */
+    visibility: visible !important; /* Pastikan terlihat (default) */
+    opacity: 1 !important; /* Pastikan tidak transparan (default) */
+
+    /* Menggunakan Flexbox untuk memusatkan &#39;noscript-content-wrapper&#39; */
+    display: flex !important;
+    justify-content: center !important; 
+    align-items: center !important; 
+
+    /* Transisi untuk efek fade-in/out yang lebih halus */
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out !important;
+}
+
+/* Gaya untuk kotak pesan di tengah overlay */
+.noscript-content-wrapper {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Putih hampir buram untuk konten wrapper */
+    border: 1px solid rgba(0, 0, 0, 0.1) !important; /* Border abu-abu sangat tipis */
+    border-radius: 12px !important; /* Radius sudut yang sedikit lebih besar untuk tampilan modern */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15) !important; /* Bayangan yang lebih menonjol namun lembut */
+    max-width: 80% !important; /* Batasi lebar kotak pesan */
+    padding: 2rem !important; 
+    box-sizing: border-box !important;
+    
+    /* Properti teks */
+    color: #333333 !important; /* Warna teks abu-abu gelap netral */
+    font-family: &#39;Helvetica Neue&#39;, Helvetica, Arial, sans-serif !important; /* Font yang lebih umum dan mirip sistem */
+    text-align: center !important; 
+    line-height: 1.5 !important; /* Spasi baris sedikit lebih longgar untuk keterbacaan */
+    overflow: auto !important; /* Tambahkan scroll jika konten pesan melebihi batas */
+    max-height: 90vh !important; /* Batasi tinggi kotak pesan agar tidak melebihi viewport */
+}
+
+/* Styling untuk teks di dalam wrapper */
+.noscript-content-wrapper p {
+    margin: 0 !important; 
+    padding: 0 !important; 
+    font-size: 1.1rem !important; /* Sedikit lebih kecil agar lebih rapi */
+    font-weight: 500 !important; /* Sedikit lebih tebal untuk keterbacaan */
+}
+
+/* MEDIA QUERIES (UX: Penyesuaian Responsif) */
+
+/* Untuk layar yang lebih kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+    .noscript-content-wrapper {
+        max-width: 90% !important; /* Lebih lebar di ponsel */
+        padding: 1.5rem !important; /* Padding sedikit lebih kecil */
+        border-radius: 10px !important; /* Sesuaikan radius sudut */
+    }
+    .noscript-content-wrapper p {
+        font-size: 0.95rem !important; /* Ukuran font lebih kecil */
+    }
+}
+
+/* Untuk layar yang sangat kecil (misalnya, iPhone SE lama) */
+@media (max-width: 480px) {
+    .noscript-content-wrapper {
+        max-width: 95% !important; /* Lebih lebar */
+        padding: 1rem !important; /* Padding paling kecil */
+        border-radius: 8px !important; /* Sesuaikan radius sudut */
+    }
+    .noscript-content-wrapper p {
+        font-size: 0.85rem !important; /* Ukuran font terkecil */
+    }
+}
+/* ANTI DISABLE JS END */
+</code></pre>
+<p><strong>cara kerjanya</strong> :
+scrip ini akan aktif jika user menonaktifkan “JavaScript”. akan muncul lapisan putih  dengan pemberitahuan “⚠️ Halaman ini membutuhkan JavaScript untuk tampil dengan benar. Mohon aktifkan JavaScript di pengaturan browser Anda.”</p><p>Kenapa bisa seperti itu? karena script ini menggunakan <strong>“pendekatan terbalik”</strong></p><p>Maksudnya?, Jadi, dengan menempelkan kode diatas maka <strong>sebenarnya situs anda sudah ditutupi lapisan (layer) putih dari awal.</strong> untuk mengakses situs mau tidak mau user harus mengaktifkan Javascript untuk menghilangkan layer tersebut.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>10 Cara mempercepat blogspot</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/10-cara-mempercepat-blogspot/index.html"/>
+        <id>https://deddme.id/artikel/10-cara-mempercepat-blogspot/index.html</id>
+        <media:content url="https://deddme.id/media/posts/33/blogspot-deddme-3.png" medium="image" />
+            <category term="Web"/>
+            <category term="Blogspot"/>
+
+        <updated>2025-07-09T09:50:29+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/33/blogspot-deddme-3.png" alt="10 cara mempercepat blogspot" />
+                    Pernahkah Anda merasa blog Anda memuat terlalu lambat? Blog yang cepat tidak hanya membuat pengunjung betah, tetapi juga lebih disukai oleh mesin pencari seperti Google. Bagi pengguna Blogspot, terdapat beberapa langkah efektif yang dapat Anda terapkan untuk mengoptimalkan performa blog Anda. Aset visual seperti gambar dan video sering menjadi penyebab&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/33/blogspot-deddme-3.png" class="type:primaryImage" alt="10 cara mempercepat blogspot" /></p>
+                <p>Pernahkah Anda merasa blog Anda memuat terlalu lambat?  Blog yang cepat tidak hanya membuat pengunjung betah, tetapi juga lebih disukai oleh mesin pencari seperti Google. Bagi pengguna Blogspot, terdapat beberapa langkah efektif yang dapat Anda terapkan untuk mengoptimalkan performa blog Anda.</p><hr>
+<h2 id="1-🖼️-optimalisasi-gambar-format-webp-dan-ukuran-yang-tepat">1. 🖼️ Optimalisasi Gambar: Format WEBP dan Ukuran yang Tepat</h2>
+<p>Aset visual seperti gambar dan video sering menjadi <strong>penyebab utama lambatnya waktu muat blog</strong>. Untuk mengatasinya, Google merekomendasikan penggunaan <strong>format WEBP</strong> karena mampu menghasilkan <strong>ukuran <em>file</em> yang lebih kecil</strong> dibandingkan JPEG atau PNG tanpa mengorbankan kualitas visual secara signifikan. Selain itu, <strong>selalu optimalkan ukuran gambar</strong> sebelum mengunggahnya. Anda dapat memanfaatkan berbagai <em>tools</em> kompresi gambar <em>online</em> atau perangkat lunak desain grafis untuk mengurangi ukuran <em>file</em> secara efisien.</p><p><strong>Contoh Penerapan:</strong>
+Sebelum mengunggah foto artikel berukuran 5MB dari kamera, gunakan situs seperti TinyPNG atau Squoosh.app untuk mengkompresnya menjadi format WEBP dengan ukuran sekitar 50KB-100KB. Pastikan dimensinya (lebar x tinggi) juga sesuai dengan tampilan di blog Anda.</p><hr>
+<h2 id="2-🚀-manfaatkan-fitur-unggah-gambar-langsung-dari-blogspot">2. 🚀 Manfaatkan Fitur Unggah Gambar Langsung dari Blogspot</h2>
+<p>Meskipun layanan <em>hosting</em> gambar pihak ketiga atau CDN mungkin terlihat menarik, sebaiknya <strong>unggah gambar Anda langsung melalui fitur Blogspot</strong>.  Kenapa? karena Blogspot akan <strong>“mengambil alih”</strong> dan menyajikan gambar melalui servernya sendiri meskipun anda sudah menggunakan CDN gambar.</p><p><strong>Contoh Penerapan:</strong>
+ Alih-alih mengunggah gambar ke Imgur atau Cloudynary atau Google Drive lalu menyematkannya, gunakan tombol “Sisipkan Gambar” langsung di editor postingan Blogspot. Ini akan otomatis menyimpannya di server Blogspot dan mengoptimalkannya.</p><hr>
+<h2 id="3-⏳-implementasi-lazy-load-untuk-gambar-dan-video">3. ⏳ Implementasi Lazy Load untuk Gambar dan Video</h2>
+<p><strong>Lazy Load</strong> adalah teknik yang <strong>menunda pemuatan gambar atau video</strong> yang berada di luar area pandang (<em>viewport</em>) pengguna hingga pengguna menggulir ke bagian tersebut. Ini berarti, pada pemuatan halaman awal, <em>browser</em> hanya akan memuat aset visual yang langsung terlihat. Hal ini secara signifikan <strong>mengurangi beban awal halaman</strong>.</p><p><strong>Contoh Penerapan:</strong>
+Saat menyisipkan gambar atau video (terutama dari YouTube melalui tag <code>&lt;iframe&gt;</code>), tambahkan atribut <code>loading=&quot;lazy&quot;</code> pada kodenya.</p><ul>
+<li><strong>Untuk Gambar:</strong> <code>&lt;img src=&quot;https://blogger.googleusercontent.com/img/a/AVxxxxxxxx/s1600/gambar-artikel-saya.webp&quot; alt=&quot;Deskripsi Gambar&quot; loading=&quot;lazy&quot;&gt;</code></li>
+<li><strong>Untuk Video YouTube (iframe):</strong> <code>&lt;iframe src=&quot;https://www.youtube.com/embed/xxxxxxxx&quot; width=&quot;560&quot; height=&quot;315&quot; frameborder=&quot;0&quot; allowfullscreen loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</code></li>
+</ul>
+<hr>
+<h2 id="4-✍️-hindari-penggunaan-script-cdn-dan-framework-css-berlebihan">4. ✍️ Hindari Penggunaan Script CDN dan Framework CSS Berlebihan</h2>
+<p><strong>Gunakan Vanilla JavaScript (JS)</strong> dan <strong>Vanilla CSS</strong>. Artinya, Anda menulis kode <strong>sesuai kebutuhan</strong> tanpa perlu mengandalkan <em>framework</em> CSS (seperti Bootstrap) atau <em>script</em> dari CDN pihak ketiga yang memuat <strong>banyak kode tidak terpakai</strong>, sehingga blog Anda menjadi <strong>lebih ringan dan efisien</strong>.</p><p><strong>Contoh Penerapan:</strong>
+Alih-alih menyisipkan <code>&lt;link href=&quot;https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;</code>, tulis kode CSS Anda sendiri di bagian <code>&lt;style&gt;</code> template Blogspot Anda. Untuk JavaScript, hindari menyalin kode <em>plugin</em> dari CDN (misal: jQuery), dan coba tulis fungsi yang Anda butuhkan dengan Vanilla JS.</p><hr>
+<h2 id="5-⚡-strategi-pemuatan-script-atribut-defer-dan-penundaan-script-non-esensial">5. ⚡ Strategi Pemuatan Script: Atribut <code>defer</code> dan Penundaan Script Non-Esensial</h2>
+<p> <strong>Gunakan Atribut <code>defer</code>:</strong> pada tag <code>&lt;script&gt;</code>  berfungsi untuk menginstruksikan <em>browser</em>  <strong>menunda eksekusi <em>script</em> hingga seluruh dokumen HTML selesai di-<em>parsing</em></strong>. </p><p><strong>Contoh Penerapan:</strong>
+Ubah <code>&lt;script src=&quot;https://example.com/custom-widget.js&quot;&gt;&lt;/script&gt;</code> menjadi <code>&lt;script src=&quot;https://example.com/custom-widget.js&quot; defer&gt;&lt;/script&gt;</code>.</p><hr>
+<h2 id="6-⬇️-tempatkan-script-di-bagian-body-halaman">6. ⬇️ Tempatkan Script di Bagian /Body&gt; Halaman</h2>
+<p>Strategi ini memastikan <strong>konten utama blog Anda dimuat terlebih dahulu</strong>, sehingga memberikan pengalaman yang lebih cepat bagi pengunjung.</p><p><strong>Contoh Penerapan:</strong>
+Jika Anda memiliki <em>script</em> untuk efek <em>hover</em> pada gambar atau <em>popup</em> formulir yang tidak diperlukan, maka sebaiknya, pindahkan kode <code>&lt;script&gt;</code>-nya dari <code>&lt;body&gt;</code> ke sebelum tag <code>&lt;/body&gt;</code> penutup di template Blogspot Anda.</p><hr>
+<h2 id="7-🔡-optimasi-penggunaan-font-web">7. 🔡 Optimasi Penggunaan Font Web</h2>
+<p>Font web, terutama yang dimuat dari sumber eksternal seperti Google Fonts, dapat menjadi <strong>beban signifikan</strong> jika tidak dioptimalkan.</p><ul>
+<li><strong>Pilih Sedikit Font:</strong> Idealnya, gunakan <strong>1-2 jenis font</strong> saja. Makin sedikit variasi, semakin sedikit <em>data</em> yang perlu diunduh.</li>
+<li><strong>Pilih Subset Karakter yang Diperlukan:</strong> Saat menggunakan Google Fonts, pilih hanya subset karakter yang benar-benar Anda butuhkan (misalnya, hanya Latin) untuk menghindari pengunduhan karakter yang tidak terpakai.</li>
+<li><strong>Penting! Gunakan <code>font-display: swap;</code>:</strong> Properti ini memungkinkan <em>browser</em> untuk menampilkan teks menggunakan <em>font</em> cadangan (<em>fallback font</em>) terlebih dahulu jika <em>font</em> kustom belum dimuat, kemudian “menukar”nya setelah <em>font</em> kustom selesai diunduh. Ini sangat penting untuk <strong>Largest Contentful Paint (LCP)</strong> karena teks akan terlihat lebih cepat oleh pengguna.</li>
+</ul>
+<p><strong>Contoh Penerapan:</strong>
+Pada kode Google Fonts yang Anda sisipkan di template, tambahkan <code>&amp;display=swap</code>. Contoh:
+<code>&lt;link href=&quot;https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap&quot; rel=&quot;stylesheet&quot;&gt;</code>
+Pastikan juga Anda hanya memilih <em>weight</em> (ketebalan) font yang benar-benar digunakan, misalnya hanya 400 dan 700, bukan semua <em>weight</em>.</p><hr>
+<h2 id="8-❌-minimalkan-penggunaan-widget-pihak-ketiga-yang-berlebihan">8. ❌ Minimalkan Penggunaan Widget Pihak Ketiga yang Berlebihan</h2>
+<p>Banyak <em>blogger</em> cenderung menambahkan berbagai <em>widget</em> pihak ketiga seperti penghitung pengunjung, <em>widget</em> media sosial eksternal, atau <em>related posts</em> dari layanan lain. Setiap <em>widget</em> ini seringkali memuat JavaScript dan CSS-nya sendiri dari server eksternal, <strong>menambah permintaan HTTP dan waktu pemrosesan</strong>. <strong>Evaluasi kembali apakah setiap <em>widget</em> tersebut benar-benar esensial</strong> untuk pengalaman pengguna, dan jika Blogspot menyediakan fitur serupa secara <em>native</em>, lebih baik gunakan fitur bawaan tersebut.</p><p><strong>Contoh Penerapan:</strong>
+Alih-alih menggunakan <em>widget</em> <em>share button</em> pihak ketiga yang memuat banyak <em>script</em>, pertimbangkan untuk membuat tombol <em>share</em> sederhana menggunakan kode HTML dan CSS standar yang hanya memanggil URL berbagi media sosial. Hapus <em>widget</em> penghitung pengunjung yang jarang memberikan nilai tambah signifikan.</p><hr>
+<h2 id="9-🌐-gunakan-animasi-loading">9. 🌐 Gunakan Animasi loading</h2>
+<p>Penting untuk diketahui bahwa menambahkan animasi <em>loading</em> sebenarnya <strong>tidak membuat blog Anda memuat lebih cepat</strong> secara teknis. </p><p>Animasi <em>loading</em>  bisa <strong>meningkatkan pengalaman pengguna (UX)</strong> secara signifikan. Dengan adanya animasi, pengunjung merasa tidak menunggu di halaman kosong, sehingga waktu tunggu terasa lebih singkat.</p><hr>
+<h2 id="10-🏠-gunakan-tema-yang-modern-dan-ringan">10. 🏠 Gunakan Tema yang Modern dan Ringan</h2>
+<p>Template Blogspot terbaru atau yang <strong>didesain minimalis</strong> cenderung dibangun dengan praktik <em>coding</em> yang lebih efisien dan <em>responsive</em>. </p><p>Hindari template dengan banyak <em>widget</em>, <em>script</em> kustom, atau efek visual yang tidak esensial jika Anda mengutamakan kecepatan. Memilih fondasi template yang baik akan mengurangi banyak pekerjaan optimasi lainnya.</p><hr>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Apa itu MPLS Ramah?</title>
         <author>
@@ -179,19 +422,19 @@ Tentang MPLS (Paud, SD, Dan SMP)</a></li>
         </author>
         <link href="https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html"/>
         <id>https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html</id>
-        <media:content url="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025.png" medium="image" />
+        <media:content url="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" medium="image" />
             <category term="Pendidikan"/>
 
         <updated>2025-07-08T12:59:33+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025.png" alt="Telaah Panduan MPLS Ramah SD Sederajat" />
+                        <img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" alt="Panduan MPLS Ramah SD Sederajat" />
                     artikel ini merupakan panduan kegiatan untuk MPLS Ramah yang kami sarikan dari buku Rujukan Kegiatan Masa Pengenalan Lingkungan Satuan Pendidikan Ramah (MPLS Ramah) untuk Sekolah Dasar Sederajat Geser tabel kekiri –&gt; kanan Pada hari pertama, murid baru diperkenalkan secara menyeluruh kepada lingkungan dan budaya sekolah untuk membuat mereka merasa diterima&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025.png" class="type:primaryImage" alt="Telaah Panduan MPLS Ramah SD Sederajat" /></p>
+                    <p><img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" class="type:primaryImage" alt="Panduan MPLS Ramah SD Sederajat" /></p>
                 <blockquote>
 <p>artikel ini merupakan panduan kegiatan untuk MPLS Ramah yang kami sarikan dari buku Rujukan Kegiatan Masa Pengenalan Lingkungan Satuan Pendidikan Ramah (MPLS Ramah) untuk Sekolah Dasar Sederajat</p></blockquote>
 <h2 id="tabel-ringkasan-harian">Tabel Ringkasan Harian</h2>
@@ -1203,342 +1446,6 @@ Tentang MPLS (Paud, SD, Dan SMP)</a></li>
 
             const isi = originalContent.split("<br>");
             const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim();
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; // Hapus warna teks yang diatur oleh JS
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 PSE 2</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-pse-2/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-pse-2/index.html</id>
-        <media:content url="https://deddme.id/media/posts/24/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-07-08T09:20:02+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/24/soal-ppg-2025.png" alt="Soal dan tryout PPG UKPPG 2025" />
-                    Soal PPG 2025 PSE 2 (Pembelajaran Sosial Emosional), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia cara penggunaan : klik pada pilihan untuk menjawab Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/24/soal-ppg-2025.png" class="type:primaryImage" alt="Soal dan tryout PPG UKPPG 2025" /></p>
-                <div id="menuju_keatas"><br>
-
-<blockquote>
-<p>Soal PPG 2025 PSE 2 (Pembelajaran Sosial Emosional), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia</p></blockquote>
-<p><mark>cara penggunaan : klik pada pilihan untuk menjawab</mark></p><div class="soal">
-  1. Dalam sebuah kegiatan kelompok, Siti merupakan siswa yang rajin, tetapi la selalu merasa dirinya tidak cukup pintar dan sering kali merasa takut untuk berpendapat di depan teman-temannya. Sebagai guru, Anda mendorong dan memberikan kesempatan bagi Siti untuk berpendapat di dalam kelompok dan mengajak siswa lain untuk memberikan dukungan positif. Namun, saat Siti mencoba memberikan pendapat, anggota kelompok lain langsung mengoreksi pendapatnya yang tidak sesuai dengan instruksi tugas. Hal ini membuat Siti merasa malu dan semakin enggan untuk berbicara. Sebagai guru, apa tindakan yang paling tepat untuk diambil dalam situasi ini?<br>
-  a Membimbing kelompok agar memberikan masukan secara empatik dan konstruktif dan mendorong Siti untuk terus melatih kepercayaan diri.<br>
-  b Mengadakan sesi bagi seluruh siswa mengenai pentingnya membangun rasa percaya diri dan kemampuan mendengar aktif ketika berdiskusi.<br>
-  c Mengajak Siti melakukan refleksi diri guna mengidentifikasi hambatannya dalam berkomunikasi di depan publik.<br>
-  d Memberikan nasehat kepada anggota kelompok Siti agar dapat memberikan umpan balik yang positif saat temannya memberikan pendapat.<br>
-  e Memberikan waktu kepada Siti untuk meningkatkan kepercayaan diri dan meningkatkan kemampuan komunikasinya.
-</div>
-
-<div class="soal">
-  2. Pak Budi adalah seorang guru SMP yang sedang melihat para siswanya berkumpul di area belakang gedung sekolah. Saat Pak Budi mendekat, la mencium bau asap rokok dan mendapati bahwa mereka sedang merokok secara sembunyi-sembunyi. Pak Budi segera menegur dan melakukan intervensi atas tindakan mereka. Namun salah satu siswa mengatakan bahwa sering melihat Pak Budi merokok di area sekolah dan membuat mereka mencontoh tindakan buruk tersebut. Situasi ini akhirnya membuat Pak Budi berpikir tentang perannya sebagai panutan dalam pendidikan karakter di sekolah. Jika Anda adalah Pak Budi, sikap apa yang mungkin Anda lakukan?<br>
-  a Mengakui kesalahan Anda dan mengajak mereka untuk bersama-sama berkomitmen berhenti merokok.<br>
-  b Membuat kampanye sekolah bebas rokok bersama siswa dan bersama-sama mencoba berhenti merokok.<br>
-  c Memberikan pemahaman tentang dampak-dampak buruk rokok untuk kesehatan anak di bawah umur.<br>
-  d Melaporkan siswa ke pihak kesiswaan dan BK serta meminta mereka menindak sesuai aturan yang berlaku.<br>
-  e Menjelaskan kepada siswa jika mereka harus mengikuti aturan sekolah tanpa menjadikan guru sebagai alasan.
-</div>
-
-<div class="soal">
-  3. Anda adalah guru kelas 3 SD. Minggu ini Anda ingin menerapkan pendekatan experiential learning dengan tema "Mengerjakan Pekerjaan Rumah." Tujuan pembelajaran adalah agar siswa memahami pentingnya tanggung jawab terhadap tugas rumah dan meningkatkan keterampilan hidup mereka. Akan tetapi, salah satu siswa, Andi, memberikan pendapat bahwa la enggan untuk melakukan pekerjaan rumah karena merasa pekerjaan tersebut bukan tanggung jawabnya. Andi juga menceritakan bahwa la pernah ingin membantu memasak, namun la ditegur oleh orang tuanya karena akan membuat dapur berantakan dan juga orang tuanya mengatakan jika Andi terlalu dini untuk memasak dan mengerjakan pekerjaan rumah. Mendengar pendapat Andi, tindakan apa yang Anda lakukan?<br>
-  a Memberikan pemahaman kepada Andi terkait manfaat tugas tersebut dan mengarahkannya untuk mengerjakan pekerjaan yang tidak berat, seperti merapikan tempat tidur atau barang pribadi.<br>
-  b Menceritakan pengalaman pribadi atau cerita inspiratif tentang seseorang yang memperoleh manfaat dari belajar disiplin dengan melakukan pekerjaan rumah atau tugas yang ada.<br>
-  c Menghubungi orang tua Andi untuk mengizinkan Andi mengerjakan pekerjaan rumah agar Andi dapat merasakan experiential learning dan dapat relevan saat berdiskusi bersama-sama di kelas.<br>
-  d Memberikan alternatif tugas yang dapat diperbolehkan orang tua Andi sehingga Andi tetap melakukan experiential learning di rumah dan dapat melakukan refleksi diri seperti teman-teman yang lain.<br>
-  e Mengubah tugas menjadi format diskusi secara kelompok untuk mendiskusikan tentang pentingnya membantu pekerjaan rumah dan bagaimana cara agar tugas tersebut bisa menjadi menyenangkan.
-</div>
-
-<div class="soal">
-  4. Anda adalah guru IPS di SMP yang ingin mengajarkan konsep kewirausahaan kepada siswa kelas VIII. Anda merancang kegiatan experiential learning berupa proyek "Market Day", di mana siswa akan merancang produk sederhana, membuat strategi promosi, dan menjual produk mereka secara terbuka dalam satu hari. Untuk mendukung kelancaran program ini, Anda berencana melibatkan guru Bahasa Indonesia untuk membimbing pembuatan proposal usaha, guru Seni untuk membantu desain kemasan, dan guru BK untuk memantau dinamika kelompok serta mengembangkan keterampilan sosial siswa. Anda juga mengundang orang tua untuk hadir sebagai pengunjung dan memberi umpan balik pada hari pameran. Namun, sebagian guru mata pelajaran lain merasa khawatir kegiatan ini akan menyita waktu pembelajaran mereka dan orang tua juga mempertanyakan urgensi mengapa harus hadir dalam kegiatan ini. Bagaimana Anda mengatasi situasi ini?<br>
-  a Mengadakan pertemuan koordinasi dengan guru-guru dan perwakilan orang tua untuk menjelaskan tujuan pembelajaran dari proyek ini, membagi peran secara proporsional.<br>
-  b Menyusun ulang kegiatan menjadi lebih sederhana dengan cakupan waktu yang lebih pendek, lalu menawarkan keterlibatan kepada guru dan orang tua secara sukarela dan fleksibel.<br>
-  c Mengurangi lingkup kolaborasi dengan hanya melibatkan beberapa guru yang tampak memberi dukungan dan menyesuaikan skala proyek agar tetap berjalan meskipun tidak semua pihak terlibat.<br>
-  d Menjalankan proyek sesuai rencana meskipun tidak mendapatkan dukungan dari guru lain, dengan tetap memberikan pemberitahuan agar orang tua memberikan dukungan kepada siswa.<br>
-  e Menganalisis kelebihan dan kekurangan pelaksanaan proyek ini, apabila lebih banyak kekurangannya, mempertimbangkan untuk menunda proyek di semester depan agar lebih matang.
-</div>
-
-<div class="soal">
-  5. Ketika Anda bergabung ke Sekolah Bina Bangsa, Anda melihat beban mengajar yang tinggi dan banyaknya modul serta teknologi yang perlu dipelajari. Untuk itu, Anda mengusulkan Forum Belajar Bersama. Forum ini dirancang sebagai wadah bagi para guru di sekolah Anda untuk saling berbagi pengalaman seputar kesejahteraan di kelas dan tempat untuk mendukung satu sama lain. Sebagian guru menyambut positif inisiatif tersebut. Namun, beberapa guru lainnya menyampaikan keberatan karena meragukan efektifitas forum. Selain itu saat ini telah terdapat beberapa forum guru di tingkat kabupaten, provinsi, hingga nasional. Dalam situasi ini, tindakan apa yang Anda lakukan untuk menyakinkan para guru?<br>
-  a Menjelaskan manfaat forum tersebut dalam meningkatkan well-being guru secara persuasif.<br>
-  b Meminta dukungan kepala sekolah untuk mendorong guru mengikuti Forum Belajar Bersama.<br>
-  c Menyarankan para guru melakukan percobaan terlebih dahulu sebelum menolaknya.<br>
-  d Menghargai perbedaan pendapat para guru dan tidak memaksakan pelaksanaan forum.<br>
-  e Meminta pimpinan sekolah untuk mewajibkan guru mengikuti forum ini karena penting dan bermanfaat.
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
-        <br></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "a",
-        3: "a",
-        4: "a",
-        5: "a"
-    };
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim();
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; // Hapus warna teks yang diatur oleh JS
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 PSE 1</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-pse-1/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-pse-1/index.html</id>
-        <media:content url="https://deddme.id/media/posts/23/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-07-08T09:17:56+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/23/soal-ppg-2025.png" alt="Soal dan tryout PPG UKPPG 2025" />
-                    Soal PPG 2025 PSE 1 (Pembelajaran Sosial Emosional), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/23/soal-ppg-2025.png" class="type:primaryImage" alt="Soal dan tryout PPG UKPPG 2025" /></p>
-                <div id="menuju_keatas"><br>
-
-<blockquote>
-<p>Soal PPG 2025 PSE 1 (Pembelajaran Sosial Emosional), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia</p></blockquote>
-<div class="soal">
-  1. Anda adalah guru yang ingin mengajarkan konsep pertolongan pertama pada kecelakan kepada siswa kelas 4 SD. Anda meminta para siswa untuk berkelompok dan melaksanakan Praktik Bermain Peran (Roleplay) dengan cara; salah satu siswa pura-pura terluka ringan dan yang lain menjadi penolong. Saat kegiatan berlangsung, para siswa terlihat sangat antusias. Namun, banyak yang tidak memperhatikan arahan dari Anda. Terlihat banyak siswa bermain-main saat roleplay hingga berlarian. Anda berusaha menghentikan kegaduhan dan mengarahkan siswa kembali ke aktivitas yang lebih terarah, tetapi sebagian siswa justru menjadi semakin gaduh, bahkan ada yang menolak mengikuti instruksi Anda. Dalam situasi ini, apa tindakan yang Anda lakukan?<br>
-  a Menghentikan kegiatan roleplay serentak dan meminta siswa bergantian melakukan roleplay di depan kelas sehingga berjalan kondusif.<br>
-  b Mencoba memberikan contoh hasil roleplay yang menarik agar mereka memerhatikan Anda dan kembali fokus menyelesaikan aktivitas roleplay.<br>
-  c Menerapkan sistem reward langsung, misalnya stiker atau pujian untuk siswa yang mengikuti instruksi dengan baik saat kegiatan berlangsung.<br>
-  d Menjadikan kegiatan roleplay sebagai pekerjaan rumah dan mengimbau orang tua untuk mengawasi sehingga pembelajaran berjalan kondusif.<br>
-  e Menghentikan kegiatan roleplay dan mengubahnya dengan memberikan meteri secara lisan yang dapat membuat para siswa tenang.
-</div>
-
-<div class="soal">
-  2. Pak Andi adalah wali kelas yang sering mengingatkan siswa untuk datang tepat waktu ke sekolah dan masuk kelas sesuai jadwal. Namun, belakangan ini banyak siswa yang mulai memprotes karena Pak Andi sendiri sering datang terlambat. Apabila ditelusuri, keterlambatan Pak Andi bukan tanpa alasan, akan tetapi Pak Andi sedang merawat orang tuanya yang sakit dan terkadang membutuhkan waktu yang lebih lama ketika pagi hari sehingga la datang terlambat. Meskipun demikian, siswa tidak mengetahui alasan keterlambatan tersebut sehingga mereka merasa ada ketidaksesuaian antara ucapan dan tindakan Pak Andi. Jika Anda menjadi Pak Andi, bagaimana cara menyikapi para siswa?<br>
-  a Melakukan evaluasi diri dan mencari solusi alternatif sehingga dapat berkomitmen untuk datang tepat waktu ke sekolah.<br>
-  b Menjadikan masukan dari siswa sebagai bahan dalam melakukan refleksi diri dan menjadi evaluasi dalam menjadi suri tauladan siswa.<br>
-  c Mengapresiasi siswa yang telah konsistensi datang tepat waktu, untuk membangun budaya positif yang tidak tergantung sepenuhnya pada figur guru.<br>
-  d Meminta bantuan dari guru Bimbingan dan Konseling (BK) untuk memberikan pemahaman kedisiplinan waktu kepada siswa.<br>
-  e Tetap konsisten mengingatkan siswa untuk datang tepat waktu ke sekolah dan mengimbau mereka untuk tidak mengikuti tindakan Anda.
-</div>
-
-<div class="soal">
-  3. Dalam rangka membangun school well-being, Anda mengusulkan pembentukan Satuan Tugas (satgas) Anti-Perundungan. Pada awalnya, program ini disambut baik oleh para guru dan siswa hingga banyak di antara mereka mendaftarkan diri sebagai anggota satgas. Namun, tim dari perwakilan guru khawatir jika nantinya tidak dapat meluangkan waktu untuk membina dan menjalankan tugasnya di satgas karena beban mengajar yang tinggi. Kondisi ini juga dikhawatirkan akan berdampak pada efektifitas program-program yang akan dilaksanakan nantinya sehingga dampak nyata dari keberadaan satgas tidak sepenuhnya terasa. Melihat situasi ini, tindakan apa yang Anda lakukan?<br>
-  a Bersama-sama mengkaji program dengan menyesuaikan kondisi para anggota sehingga program tetap memiliki dampak dan berjalan efektif.<br>
-  b Membuat sistem kerja berbasis jadwal rotasi atau pembagian shift ringan bagi guru anggota satgas sehingga tidak membebani pekerjaan inti mengajar.<br>
-  c Mengintegrasikan pekerjaan satgas ke dalam pembelajaran Bimbingan dan Konseling sehingga dapat meringankan beban tim dari perwakilan guru.<br>
-  d Meminta pimpinan mengimbau para guru untuk memprioritaskan tanggung jawab mereka di satgas agar satgas berjalan efektif.<br>
-  e Mengusulkan agar pimpinan sekolah memberi insentif tambahan bagi guru yang aktif dalam satgas untuk meningkatkan motivasi mereka.
-</div>
-
-<div class="soal">
-  4. Anda adalah guru matematika di sebuah SMA. Untuk mengajarkan konsep statistika, Anda merancang sebuah proyek experiential learning yang dikemas dengan proyek "Menganalisis Data dalam kehidupan senari-hari. Para siswa akan mengumpulkan data, menganalisisnya, dan mempresentasikan temuan mereka dalam bentuk laporan dan presentasi. Anda berencana melibatkan guru Bahasa Indonesia untuk membantu mereka dalam menulis laporan yang baik dan guru BK untuk memfasilitasi keterampilan komunikasi dan kerja sama tim. Beberapa guru di sekolah merasa proyek ini akan terlalu banyak melibatkan waktu di luar kelas dan khawatir mengganggu jadwal pembelajaran mereka. Bagaimana Anda mengatasi situasi ini?<br>
-  a Mengadakan diskusi kolaboratif dengan guru terkait untuk menjelaskan manfaat lintas mata pelajaran dalam proyek ini, dan mengatur pembagian waktu agar tidak mengganggu agenda utama pembelajaran.<br>
-  b Menyusun ulang rencana proyek agar tetap bisa berjalan dengan skala lebih kecil dan waktu lebih fleksibel, sambil tetap mengajak guru yang bersedia untuk terlibat sesuai dengan kemampuan.<br>
-  c Menjelaskan tujuan proyek kepada guru-guru yang akan terlibat dan meminta kesediaan mereka untuk memberikan dukungan dengan waktu yang fleksibel atau secara tambahan di luar jam kelas.<br>
-  d Memutuskan untuk menjalankan proyek ini hanya dalam lingkup mata pelajaran Anda tanpa melibatkan guru lain agar tidak menimbulkan konflik waktu dan prioritas dalam kegiatan pembelajaran.<br>
-  e Menganalisis kelebihan dan kekurangan pelaksanaan proyek ini, apabila lebih banyak kekurangannya, mempertimbangkan untuk menunda proyek di semester depan agar lebih siap.
-</div>
-
-<div class="soal">
-  5. Bu Indah adalah guru kelas 6 SD. Dalam tugas kelompok, Bu Indah memperhatikan bahwa siswanya, yaitu Danu dan Ninda bertengkar akibat adanya perbedaan pendapat. Anda mencoba melerai dan membimbing mereka agar saling menghargai pendapat satu sama lain. Namun, Danu berpendapat bahwa Ninda selalu ingin mengambil alih semua keputusan dan menolak ide dari anggota kelompok lainnya. Sementara Ninda merasa bahwa pendapat dari anggota lain tidak sesuai dengan intruksi tugas, la juga menginginkan pekerjaan kelompok ini cepat selesai dengan mengikuti cara-cara darinya. Alhasil, antara Danu dengan Ninda tidak ada yang ingin mengalah dan meminta maaf satu sama lain. Dalam situasi ini, tindakan apa yang sebaiknya dilakukan oleh Bu Indah agar Danu dan Ninda dapat menunjukan keterampilan sosial dalam bekerja sama?<br>
-  a Menginisiasi sesi refleksi diri untuk para siswa dalam bekerja kelompok dan pentingnya mendengarkan dan menghargai satu sama lain.<br>
-  b Memberikan aturan dalam berkelompok dengan menetapkan waktu khusus brainstorming ide untuk seluruh anggota kelompok secara adil.<br>
-  c Memberikan Danu dan Ninda tugas dengan bagian yang berbeda sehingga mereka bisa tetap berkontribusi tanpa saling berkonflik satu sama lain.<br>
-  d Memberikan teguran yang konstruktif untuk Danu dan Ninda agar dapat menghargai pendapat satu sama lain dan mengambil keputusan bersama.<br>
-  e Menghargai pendapat mereka dan mempercayai bahwa seiring waktu Danu dan Ninda dapat berubah dan bisa saling menghargai pendapat satu sama lain.
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
-        <br></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "a",
-        3: "a",
-        4: "a",
-        5: "a"
-    };
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim(); 
             const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
 
             const pilihan = pilihanTeks.map(item => ({
