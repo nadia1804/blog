@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-09T11:28:14+08:00</updated>
+    <updated>2025-07-09T20:51:59+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -183,7 +183,7 @@ tempelkan kode ini ke <code>&lt;head&gt;</code> :</p><pre><code>&lt;noscript&gt;
 /* ANTI DISABLE JS END */
 </code></pre>
 <p><strong>cara kerjanya</strong> :
-scrip ini akan aktif jika user menonaktifkan “JavaScript”. akan muncul lapisan putih  dengan pemberitahuan “⚠️ Halaman ini membutuhkan JavaScript untuk tampil dengan benar. Mohon aktifkan JavaScript di pengaturan browser Anda.”</p><p>Kenapa bisa seperti itu? karena script ini menggunakan <strong>“pendekatan terbalik”</strong></p><p>Maksudnya?, Jadi, dengan menempelkan kode diatas maka <strong>sebenarnya situs anda sudah ditutupi lapisan (layer) putih dari awal.</strong> untuk mengakses situs mau tidak mau user harus mengaktifkan Javascript untuk menghilangkan layer tersebut.</p>
+ script ini menggunakan <strong>“pendekatan terbalik”</strong> Jadi, dengan menempelkan kode diatas maka <strong>sebenarnya situs dikunci dari awal dengan cara menutupinya dengan lapisan putih.</strong> untuk membuka situs diperlukan JavaScript, nah mau tidak mau user harus mengaktifkan JavaScript agar situs bisa aktif.</p>
             ]]>
         </content>
     </entry>
