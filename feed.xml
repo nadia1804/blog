@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-11T11:54:18+08:00</updated>
+    <updated>2025-07-11T14:17:30+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -24,13 +24,17 @@
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/38/pendidikan-2025-2026-deddme.id.png" alt="Kalender pendidikan 2025-2026" />
-                    /* Kelas umum kalender */ #kaldik2025-2026.kaldik2025-2026 { max-width: 1000px; margin: auto; } /* Pastikan teks event berwarna hitam */ .fc-event .fc-event-main { color: black !important; } /* Jika ingin border event juga dihilangkan */ .fc-event { border: none; } /* Responsif font */ @media (max-width: 768px) { .fc { font-size:&hellip;
+                    Lihat kalender pendidikan 2025-2026 dibawah ini, atau langsung download dokumennya disini (klik disini) /* Kelas umum kalender */ #kaldik2025-2026.kaldik2025-2026 { max-width: 1000px; margin: auto; } /* Pastikan teks event berwarna hitam */ .fc-event .fc-event-main { color: black !important; } /* Jika ingin border event juga dihilangkan */ .fc-event { border:&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://deddme.id/media/posts/38/pendidikan-2025-2026-deddme.id.png" class="type:primaryImage" alt="Kalender pendidikan 2025-2026" /></p>
-                <div>  <!-- FullCalendar -->
+                
+  <p>
+    Lihat kalender pendidikan 2025-2026 dibawah ini, atau langsung download dokumennya disini <a href="https://www.dropbox.com/scl/fo/c5hhtdvlqi3lj23sjkp49/AEdEq1EoDtEKjyCrOxVQNfI?rlkey=fip6o4d4132e49b287tnm0v3o&amp;st=8l9fmnwb&amp;dl=1" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">(klik disini)</a>
+  </p>
+<div>  <!-- FullCalendar -->
   <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
 
@@ -173,13 +177,17 @@
             <summary>
                 <![CDATA[
                         <img src="https://deddme.id/media/posts/37/pendidikan-2025-2026-deddme.id.png" alt="Hari libur dan cuti bersama 2025-2026" />
-                    .table-kaldik-lapiran1-2025-2026-kontainer { max-width: 100%; overflow-x: auto; padding: 1rem; box-sizing: border-box; margin: auto; font-family: "Segoe UI", sans-serif; } .table-kaldik-lapiran1-2025-2026-kontainer h2 { text-align: center; font-size: medium; } .table-kaldik-lapiran1-2025-2026-isi { width: 100%; border-collapse: collapse; background-color: #fefefe; border: 1px solid #ddd; font-size: 0.95rem; } .table-kaldik-lapiran1-2025-2026-isi th, .table-kaldik-lapiran1-2025-2026-isi td { padding: 10px 12px; border: 1px&hellip;
+                    Cek hari libur dan cuti bersama disini, anda bisa melakukan filter "bulan" untuk pencarian cepat .table-kaldik-lapiran1-2025-2026-kontainer { max-width: 100%; overflow-x: auto; padding: 1rem; box-sizing: border-box; margin: auto; font-family: "Segoe UI", sans-serif; } .table-kaldik-lapiran1-2025-2026-kontainer h2 { text-align: center; font-size: medium; } .table-kaldik-lapiran1-2025-2026-isi { width: 100%; border-collapse: collapse; background-color: #fefefe; border: 1px&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://deddme.id/media/posts/37/pendidikan-2025-2026-deddme.id.png" class="type:primaryImage" alt="Hari libur dan cuti bersama 2025-2026" /></p>
-                <div> <style>
+                
+  <p>
+    Cek hari libur dan cuti bersama disini, anda bisa melakukan filter "bulan" untuk pencarian cepat
+  </p>
+<div> <style>
        .table-kaldik-lapiran1-2025-2026-kontainer {
   max-width: 100%;
   overflow-x: auto;
@@ -296,10 +304,6 @@ function filterKaldikByMonth() {
 }
 
 </script></div>
-
-  <p>
-    
-  </p>
             ]]>
         </content>
     </entry>
