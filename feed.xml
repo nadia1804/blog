@@ -3,12 +3,502 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-11T09:38:19+08:00</updated>
+    <updated>2025-07-11T11:54:18+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title>Kalender pendidikan 2025-2026</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/kalender-pendidikan-2025-2026/index.html"/>
+        <id>https://deddme.id/artikel/kalender-pendidikan-2025-2026/index.html</id>
+        <media:content url="https://deddme.id/media/posts/38/pendidikan-2025-2026-deddme.id.png" medium="image" />
+            <category term="Pendidikan"/>
+            <category term="2025-2026"/>
+
+        <updated>2025-07-11T11:04:00+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/38/pendidikan-2025-2026-deddme.id.png" alt="Kalender pendidikan 2025-2026" />
+                    /* Kelas umum kalender */ #kaldik2025-2026.kaldik2025-2026 { max-width: 1000px; margin: auto; } /* Pastikan teks event berwarna hitam */ .fc-event .fc-event-main { color: black !important; } /* Jika ingin border event juga dihilangkan */ .fc-event { border: none; } /* Responsif font */ @media (max-width: 768px) { .fc { font-size:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/38/pendidikan-2025-2026-deddme.id.png" class="type:primaryImage" alt="Kalender pendidikan 2025-2026" /></p>
+                <div>  <!-- FullCalendar -->
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
+  <style>
+    /* Kelas umum kalender */
+    #kaldik2025-2026.kaldik2025-2026 {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* Pastikan teks event berwarna hitam */
+    .fc-event .fc-event-main {
+      color: black !important;
+    }
+
+    /* Jika ingin border event juga dihilangkan */
+    .fc-event {
+      border: none;
+    }
+
+    /* Responsif font */
+    @media (max-width: 768px) {
+      .fc { font-size: 0.8rem; }
+    }
+    @media (max-width: 480px) {
+      .fc { font-size: 0.7rem; }
+    }
+
+  
+  </style>
+
+  <div id="kaldik2025-2026" class="kaldik2025-2026"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var calendarEl = document.getElementById('kaldik2025-2026');
+
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        initialDate: '2025-07-01',
+        locale: 'id',
+        height: 'auto',
+       events: [
+         
+          // Juli 2025
+          { title: 'Libur Akhir Semester Genap', start: '2025-07-01', end: '2025-07-14', backgroundColor: '#FF6666' },
+          { title: 'Awal Sekolah', start: '2025-07-14', backgroundColor: '#CCFF99' },
+          { title: 'MPLS SD dan SMP', start: '2025-07-14', end: '2025-07-17', backgroundColor: '#FFB6C1' },
+          { title: 'MPLS PAUD', start: '2025-07-14', end: '2025-07-27', backgroundColor: '#FFFFCC' },
+          { title: 'Simulasi ANBK', start: '2025-07-21', end: '2025-07-28', backgroundColor: '#E6E6FA' },
+          { title: 'Gladi Bersih ANBK Paket C', start: '2025-07-28', end: '2025-08-01', backgroundColor: '#E6E6FA' },
+
+          // Agustus 2025
+          { title: 'Pelaksanaan ANBK Paket C', start: '2025-08-01', end: '2025-08-11', backgroundColor: '#E6E6FA' },
+          { title: 'HUT Kemerdekaan RI', start: '2025-08-17', backgroundColor: '#FFCCCC' },
+          { title: 'Gladi ANBK SMP', start: '2025-08-18', end: '2025-08-25', backgroundColor: '#E6E6FA' },
+          { title: 'Pelaksanaan ANBK SMP', start: '2025-08-25', end: '2025-09-01', backgroundColor: '#E6E6FA' },
+
+          // September 2025
+          { title: 'Maulid Nabi Muhammad SAW', start: '2025-09-05', backgroundColor: '#FF6666' },
+          { title: 'Gladi ANBK SD', start: '2025-09-08', end: '2025-09-22', backgroundColor: '#E6E6FA' },
+          { title: 'Sulingjar GTK', start: '2025-09-15', end: '2025-09-30', backgroundColor: '#CCFF99' },
+          { title: 'Pelaksanaan ANBK SD', start: '2025-09-22', end: '2025-09-30', backgroundColor: '#E6E6FA' },
+
+          // Oktober 2025
+          { title: 'Penilaian Tengah Semester', start: '2025-10-01', end: '2025-10-05', backgroundColor: '#E6E6FA' },
+          { title: 'Lanjutan ANBK SD', start: '2025-10-01', end: '2025-10-06', backgroundColor: '#E6E6FA' },
+          { title: 'Lanjutan Sulingjar GTK', start: '2025-10-01', end: '2025-10-13', backgroundColor: '#CCFF99' },
+          { title: 'Penjadwalan Ulang ANBK', start: '2025-10-20', end: '2025-10-27', backgroundColor: '#E6E6FA' },
+
+          // November 2025
+          { title: 'Tes Kompetensi Akademik', start: '2025-11-10', end: '2025-11-17', backgroundColor: '#E6E6FA' },
+
+          // Desember 2025
+          { title: 'Penilaian Akhir Semester Ganjil', start: '2025-12-08', end: '2025-12-14', backgroundColor: '#E6E6FA' },
+          { title: 'Pembagian Rapor Semester Ganjil', start: '2025-12-20', backgroundColor: '#E6E6FA' },
+          { title: 'Libur Akhir Semester Ganjil', start: '2025-12-22', end: '2026-01-04', backgroundColor: '#FF6666' },
+          { title: 'Hari Natal', start: '2025-12-25', backgroundColor: '#FF6666' },
+          { title: 'Cuti Bersama Natal', start: '2025-12-26', backgroundColor: '#FF6666' },
+
+          // Januari 2026
+          { title: 'Tahun Baru Masehi', start: '2026-01-01', backgroundColor: '#FF6666' },
+          { title: 'Awal Semester Genap', start: '2026-01-05', backgroundColor: '#CCFF99' },
+          { title: 'Isra Mikraj', start: '2026-01-16', backgroundColor: '#FFCCCC' },
+
+          // Februari 2026
+          { title: 'Tahun Baru Imlek', start: '2026-02-17', backgroundColor: '#FF6666' },
+
+          // Maret 2026
+          { title: 'Hari Raya Nyepi', start: '2026-03-19', backgroundColor: '#FF6666' },
+          { title: 'Libur Idulfitri', start: '2026-03-16', end: '2026-03-29', backgroundColor: '#FF6666' },
+          { title: 'Hari Raya Idulfitri', start: '2026-03-20', end: '2026-03-22', backgroundColor: '#FF6666' },
+          { title: 'Cuti Bersama Idulfitri', start: '2026-03-23', backgroundColor: '#FF6666' },
+
+          // April 2026
+          { title: 'Wafat Yesus Kristus', start: '2026-04-03', backgroundColor: '#FF6666' },
+
+          // Mei 2026
+          { title: 'Hari Buruh', start: '2026-05-01', backgroundColor: '#FF6666' },
+          { title: 'Kenaikan Isa Almasih', start: '2026-05-14', backgroundColor: '#FF6666' },
+          { title: 'Hari Raya Iduladha', start: '2026-05-27', backgroundColor: '#FF6666' },
+          { title: 'Hari Waisak', start: '2026-05-31', backgroundColor: '#FF6666' },
+
+          // Juni 2026
+          { title: 'Hari Lahir Pancasila', start: '2026-06-01', backgroundColor: '#FFCCCC' },
+          { title: 'Tahun Baru Islam', start: '2026-06-16', backgroundColor: '#FFCCCC' },
+          { title: 'Penilaian Sumatif Semester Genap', start: '2026-06-08', end: '2026-06-14', backgroundColor: '#E6E6FA' },
+          { title: 'Pembagian Rapor Semester Genap', start: '2026-06-20', backgroundColor: '#E6E6FA' },
+          { title: 'Libur Akhir Semester Genap', start: '2026-06-22', end: '2026-07-12', backgroundColor: '#FF6666' },
+
+          // Juli 2026
+          { title: 'Awal Tahun Ajaran 2026/2027', start: '2026-07-14', backgroundColor: '#CCFF99' },
+          { title: 'MPLS SD dan SMP', start: '2026-07-14', end: '2026-07-17', backgroundColor: '#FFB6C1' },
+          { title: 'MPLS PAUD', start: '2026-07-14', end: '2026-07-26', backgroundColor: '#FFFFCC' }
+        ]
+      });
+
+      calendar.render();
+    });
+
+  
+
+  </script>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hari libur dan cuti bersama 2025-2026</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/hari-libur-dan-cuti-bersama-2025-2026/index.html"/>
+        <id>https://deddme.id/artikel/hari-libur-dan-cuti-bersama-2025-2026/index.html</id>
+        <media:content url="https://deddme.id/media/posts/37/pendidikan-2025-2026-deddme.id.png" medium="image" />
+            <category term="Pendidikan"/>
+            <category term="2025-2026"/>
+
+        <updated>2025-07-11T10:59:37+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/37/pendidikan-2025-2026-deddme.id.png" alt="Hari libur dan cuti bersama 2025-2026" />
+                    .table-kaldik-lapiran1-2025-2026-kontainer { max-width: 100%; overflow-x: auto; padding: 1rem; box-sizing: border-box; margin: auto; font-family: "Segoe UI", sans-serif; } .table-kaldik-lapiran1-2025-2026-kontainer h2 { text-align: center; font-size: medium; } .table-kaldik-lapiran1-2025-2026-isi { width: 100%; border-collapse: collapse; background-color: #fefefe; border: 1px solid #ddd; font-size: 0.95rem; } .table-kaldik-lapiran1-2025-2026-isi th, .table-kaldik-lapiran1-2025-2026-isi td { padding: 10px 12px; border: 1px&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/37/pendidikan-2025-2026-deddme.id.png" class="type:primaryImage" alt="Hari libur dan cuti bersama 2025-2026" /></p>
+                <div> <style>
+       .table-kaldik-lapiran1-2025-2026-kontainer {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+  .table-kaldik-lapiran1-2025-2026-kontainer h2 {
+    text-align: center;
+    font-size: medium;
+}
+
+.table-kaldik-lapiran1-2025-2026-isi {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+}
+
+.table-kaldik-lapiran1-2025-2026-isi th,
+.table-kaldik-lapiran1-2025-2026-isi td {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-kaldik-lapiran1-2025-2026-isi th {
+  background-color: #e3f2fd;
+  font-weight: 600;
+}
+
+.table-kaldik-lapiran1-2025-2026-isi tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-kaldik-lapiran1-2025-2026-isi tr:hover {
+  background-color: #f1f1f1;
+}
+
+}
+    </style>
+  </head>
+
+  <body>
+  <div class="table-kaldik-lapiran1-2025-2026-kontainer">
+    <label for="dropdown-sort-kaldik">🔽 Tampilkan Berdasarkan Bulan:</label>
+  <select id="dropdown-sort-kaldik" onchange="filterKaldikByMonth()">
+    <option value="semua_bulan">Tampilkan semua bulan</option>
+    <option value="januari">Januari</option>
+    <option value="februari">Februari</option>
+    <option value="maret">Maret</option>
+    <option value="april">April</option>
+    <option value="mei">Mei</option>
+    <option value="juni">Juni</option>
+    <option value="juli">Juli</option>
+    <option value="agustus">Agustus</option>
+    <option value="september">September</option>
+    <option value="oktober">Oktober</option>
+    <option value="november">November</option>
+    <option value="desember">Desember</option>
+  </select>
+
+  <table class="table-kaldik-lapiran1-2025-2026-isi" id="table-kaldik-lapiran1-2025-2026">
+    <thead>
+      <tr>
+        <th>Kegiatan</th>
+        <th>Waktu</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Awal Tahun Ajaran Baru</td><td>14 Juli 2025</td></tr>
+      <tr><td>MPLS PAUD (TK/KB/TPA)</td><td>14 – 26 Juli 2025</td></tr>
+      <tr><td>MPLS SD dan SMP</td><td>14 – 16 Juli 2025</td></tr>
+      <tr><td>Simulasi ANBK 2025</td><td>21 – 27 Juli 2025</td></tr>
+      <tr><td>Gladi Bersih ANBK Paket C</td><td>28 – 31 Juli 2025</td></tr>
+      <tr><td>Pelaksanaan ANBK Paket C</td><td>1 – 10 Agustus 2025</td></tr>
+      <tr><td>HUT Kemerdekaan RI</td><td>17 Agustus 2025</td></tr>
+      <tr><td>Maulid Nabi Muhammad SAW</td><td>5 September 2025</td></tr>
+      <tr><td>Hari Natal</td><td>25 Desember 2025</td></tr>
+      <tr><td>Tahun Baru Masehi</td><td>1 Januari 2026</td></tr>
+      <tr><td>Tahun Baru Imlek</td><td>17 Februari 2026</td></tr>
+      <tr><td>Hari Raya Nyepi</td><td>19 Maret 2026</td></tr>
+      <tr><td>Hari Raya Idulfitri</td><td>20 – 21 Maret 2026</td></tr>
+      <tr><td>Wafat Yesus Kristus</td><td>3 April 2026</td></tr>
+      <tr><td>Hari Buruh</td><td>1 Mei 2026</td></tr>
+      <tr><td>Hari Raya Waisak</td><td>31 Mei 2026</td></tr>
+      <tr><td>Hari Lahir Pancasila</td><td>1 Juni 2026</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+  function getMonthIndexFromDropdown(monthName) {
+  const bulan = [
+    'januari', 'februari', 'maret', 'april', 'mei', 'juni',
+    'juli', 'agustus', 'september', 'oktober', 'november', 'desember'
+  ];
+  return bulan.indexOf(monthName.toLowerCase());
+}
+
+function filterKaldikByMonth() {
+  const selectedMonth = document.getElementById("dropdown-sort-kaldik").value;
+  const table = document.getElementById("table-kaldik-lapiran1-2025-2026");
+  const rows = table.querySelectorAll("tbody tr");
+
+  rows.forEach(row => {
+    const tanggal = row.cells[1].textContent.toLowerCase();
+    const match = selectedMonth === "semua_bulan" || tanggal.includes(selectedMonth.toLowerCase());
+    row.style.display = match ? "" : "none";
+  });
+}
+
+</script></div>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Pedoman penyusunan Kalender Pendidikan 2025/2026</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/telaah-kalender-pendidikan-2025-2026/index.html"/>
+        <id>https://deddme.id/artikel/telaah-kalender-pendidikan-2025-2026/index.html</id>
+        <media:content url="https://deddme.id/media/posts/36/pendidikan-2025-2026-deddme.id-2.png" medium="image" />
+            <category term="Pendidikan"/>
+            <category term="2025-2026"/>
+
+        <updated>2025-07-11T10:34:52+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/36/pendidikan-2025-2026-deddme.id-2.png" alt="Telaah Kalender Pendidikan 2025/2026" />
+                    Apa saja yang harus disiapkan guru pada tahun ajaran baru?, berikut adalah pedoman penyusunan Kalender Pendidikan 2025/2026 Berdasarkan Keputusan Kepala Dinas Pendidikan dan Kebudayaan Kabupaten Hulu Sungai Utara (Bab II – IX) Dilaksanakan 1 hari setelah pengumuman kelulusan jenjang sebelumnya. Deadline: Sabtu, 12 Juli 2025 Wajib menyusun: Contoh per jenjang:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/36/pendidikan-2025-2026-deddme.id-2.png" class="type:primaryImage" alt="Telaah Kalender Pendidikan 2025/2026" /></p>
+                <p>Apa saja yang harus disiapkan guru pada tahun ajaran baru?, berikut adalah pedoman penyusunan Kalender Pendidikan 2025/2026</p><p><strong>Berdasarkan Keputusan Kepala Dinas Pendidikan dan Kebudayaan Kabupaten Hulu Sungai Utara</strong><br><strong>(Bab II – IX)</strong></p><h2 id="daftar-isi">Daftar Isi</h2>
+<ul>
+<li><a href="#bab-ii--penerimaan-murid-baru--persiapan-tahun-ajaran">BAB II : Penerimaan Murid Baru &amp; Persiapan Tahun Ajaran</a></li>
+<li><a href="#bab-iii--tahun-ajaran">BAB III : Tahun Ajaran</a></li>
+<li><a href="#bab-iv--minggu-efektif">BAB IV : Minggu Efektif</a></li>
+<li><a href="#bab-v--mpls--awal-masuk-sekolah">BAB V : MPLS &amp; Awal Masuk Sekolah</a></li>
+<li><a href="#bab-vi--proses-pembelajaran">BAB VI : Proses Pembelajaran</a></li>
+<li><a href="#bab-vii--penilaian--asesmen-nasional">BAB VII : Penilaian &amp; Asesmen Nasional</a></li>
+<li><a href="#bab-viii--hari-libur-sekolah">BAB VIII : Hari Libur Sekolah</a></li>
+<li><a href="#bab-ix--penutup">BAB IX : Penutup</a></li>
+<li><a href="#lampiran--i-dan-2">Lampiran : I dan 2</a></li>
+</ul>
+<hr>
+<h2 id="bab-ii--penerimaan-murid-baru--persiapan-tahun-ajaran">BAB II : Penerimaan Murid Baru &amp; Persiapan Tahun Ajaran</h2>
+<h3 id="pendaftaran-murid-baru">Pendaftaran Murid Baru</h3>
+<p>Dilaksanakan 1 hari setelah pengumuman kelulusan jenjang sebelumnya.</p><h3 id="persiapan-administratif">Persiapan Administratif</h3>
+<p>Deadline: Sabtu, 12 Juli 2025<br>Wajib menyusun:</p><ul>
+<li>Program Tahunan</li>
+<li>RKAS berbasis Rapor Pendidikan</li>
+<li>Kalender Pendidikan</li>
+<li>Dokumen Kurikulum</li>
+<li>Pembagian Tugas Pendidik &amp; Tenaga Kependidikan</li>
+<li>Program Supervisi Kepala Sekolah</li>
+<li>Peraturan Akademik</li>
+</ul>
+<hr>
+<h2 id="bab-iii--tahun-ajaran">BAB III : Tahun Ajaran</h2>
+<h3 id="durasi">Durasi</h3>
+<ul>
+<li>Mulai: Senin, 14 Juli 2025  </li>
+<li>Berakhir: Sabtu, 20 Juni 2026  </li>
+<li>Total: 2 semester dalam 1 tahun ajaran</li>
+</ul>
+<hr>
+<h2 id="bab-iv--minggu-efektif">BAB IV : Minggu Efektif</h2>
+<h3 id="jumlah">Jumlah</h3>
+<ul>
+<li>32 – 36 minggu pembelajaran efektif</li>
+</ul>
+<h3 id="waktu-per-jam-pelajaran">Waktu per Jam Pelajaran</h3>
+<table>
+<thead>
+<tr>
+<th>Jenjang</th>
+<th>Durasi per JP</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>PAUD</td>
+<td>30 menit</td>
+</tr>
+<tr>
+<td>SD / Paket A</td>
+<td>35 menit</td>
+</tr>
+<tr>
+<td>SMP / Paket B</td>
+<td>40 menit</td>
+</tr>
+</tbody></table>
+<h3 id="total-waktu-pembelajaran">Total Waktu Pembelajaran</h3>
+<p>Contoh per jenjang:  </p><ul>
+<li>SD Kelas I: <code>32 jp × 35 mnt × 36 minggu = 40.320 menit</code>  </li>
+<li>SMP Kelas VII–VIII: <code>41 jp × 40 mnt × 36 minggu = 59.040 menit</code></li>
+</ul>
+<p>🚫 <strong>Tidak boleh ada kegiatan non-pembelajaran selama minggu efektif.</strong></p><hr>
+<h2 id="bab-v--mpls--awal-masuk-sekolah">BAB V : MPLS &amp; Awal Masuk Sekolah</h2>
+<h3 id="paud-tkkbtpa">PAUD (TK/KB/TPA)</h3>
+<ul>
+<li>MPLS: 2 minggu (14–26 Juli 2025)  </li>
+<li>Mulai belajar: 28 Juli 2025</li>
+</ul>
+<h3 id="sd--smp">SD &amp; SMP</h3>
+<ul>
+<li>MPLS: 3 hari (14–16 Juli 2025)  </li>
+<li>Mulai belajar: 17 Juli 2025</li>
+</ul>
+<p>Murid kelas atas tetap melaksanakan pembelajaran selama MPLS.</p><hr>
+<h2 id="bab-vi--proses-pembelajaran">BAB VI : Proses Pembelajaran</h2>
+<h3 id="dokumen-wajib-disusun-gurututor">Dokumen Wajib Disusun Guru/Tutor</h3>
+<ul>
+<li>Analisis Karakteristik Sekolah</li>
+<li>Visi, Misi, Tujuan</li>
+<li>Pengorganisasian Pembelajaran</li>
+<li>Perencanaan Pembelajaran</li>
+</ul>
+<h3 id="jadwal-mulai">Jadwal Mulai</h3>
+<ul>
+<li>Pagi: 08.00 WITA  </li>
+<li>Siang: 13.00 WITA</li>
+</ul>
+<h3 id="perencanaan-pembelajaran-wajib-memuat">Perencanaan Pembelajaran Wajib Memuat</h3>
+<ul>
+<li>Program Tahunan &amp; Semester  </li>
+<li>Tujuan &amp; Alur Pembelajaran  </li>
+<li>Modul Ajar / RPP  </li>
+<li>Projek Profil Pelajar Pancasila  </li>
+<li>Program Ekstrakurikuler</li>
+</ul>
+<p>Pembelajaran dilaksanakan secara interaktif, menyenangkan, dan memberdayakan murid.</p><p>Wajib ada kegiatan upacara bendera setiap hari Senin dan peringatan nasional.</p><hr>
+<h2 id="bab-vii--penilaian--asesmen-nasional">BAB VII : Penilaian &amp; Asesmen Nasional</h2>
+<h3 id="jenis-penilaian">Jenis Penilaian</h3>
+<ul>
+<li>Formatif → untuk evaluasi proses pembelajaran</li>
+<li>Sumatif → dasar kenaikan kelas dan kelulusan</li>
+</ul>
+<h3 id="jadwal-pembagian-rapor">Jadwal Pembagian Rapor</h3>
+<table>
+<thead>
+<tr>
+<th>Semester</th>
+<th>Tanggal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ganjil</td>
+<td>20 Desember 2025</td>
+</tr>
+<tr>
+<td>Genap</td>
+<td>20 Juni 2026</td>
+</tr>
+</tbody></table>
+<h3 id="asesmen-nasional-an-meliputi">Asesmen Nasional (AN) Meliputi</h3>
+<ul>
+<li>Literasi Membaca  </li>
+<li>Numerasi  </li>
+<li>Survei Karakter  </li>
+<li>Sulingjar (Survei Lingkungan Belajar)  </li>
+<li>ANBK (Berbasis Komputer)</li>
+</ul>
+<hr>
+<h2 id="bab-viii--hari-libur-sekolah">BAB VIII : Hari Libur Sekolah</h2>
+<h3 id="libur-semester">Libur Semester</h3>
+<table>
+<thead>
+<tr>
+<th>Jenis</th>
+<th>Tanggal</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Ganjil</td>
+<td>22 Desember – 3 Januari 2026</td>
+</tr>
+<tr>
+<td>Genap</td>
+<td>22 Juni – 11 Juli 2026</td>
+</tr>
+</tbody></table>
+<h3 id="libur-idulfitri-1447-h">Libur Idulfitri 1447 H</h3>
+<ul>
+<li>Murid: 16 – 28 Maret 2026</li>
+</ul>
+<h3 id="hari-pendidikan-nasional">Hari Pendidikan Nasional</h3>
+<ul>
+<li>Apel: Senin, 4 Mei 2026</li>
+</ul>
+<p>Murid diserahkan ke orang tua saat libur<br>Pendidik tetap menjalankan tugas dinas sesuai regulasi</p><hr>
+<h2 id="bab-ix--penutup">BAB IX : Penutup</h2>
+<ul>
+<li>Berlaku sejak: <strong>09 Juli 2025</strong></li>
+<li>Perbaikan akan dilakukan bila ditemukan kekeliruan</li>
+</ul>
+<hr>
+<h2 id="lampiran--i-dan-2">Lampiran : I dan 2</h2>
+<ol>
+<li><a href="https://deddme.id/artikel/hari-libur-dan-cuti-bersama-2025-2026/">Lihat hari libur dan cuti bersama (klik disini)</a></li>
+<li><a href="https://deddme.id/artikel/kalender-pendidikan-2025-2026/">Lihat kalender pendidikan disini (klik disini)</a></li>
+<li><a href="https://www.dropbox.com/scl/fi/z6v7fu88ezou87whxediu/202507101319442025-SK-KADISDIKBUD-PENETAPAN-KALENDER-PENDIDIKAN-2025-2026_FINAL.pdf?rlkey=rnfwxczfdndvlrv4aurvs8xss&st=srwb4e6k&dl=1"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Download file (klik disini)</a></li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>10 Script Ampuh agar website Kamu Ngebut! </title>
         <author>
@@ -574,6 +1064,7 @@ Tentang MPLS (Paud, SD, Dan SMP)</a></li>
         <id>https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html</id>
         <media:content url="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" medium="image" />
             <category term="Pendidikan"/>
+            <category term="2025-2026"/>
 
         <updated>2025-07-08T12:59:33+08:00</updated>
             <summary>
@@ -760,6 +1251,7 @@ Tentang MPLS (Paud, SD, Dan SMP)</a></li>
         <id>https://deddme.id/artikel/telaah-surat-edaran-mendikdasmen-no-10-tahun-2025-tentang-mpls-paud-sd-dan-smp/index.html</id>
         <media:content url="https://deddme.id/media/posts/30/telaah-deddme.png" medium="image" />
             <category term="Pendidikan"/>
+            <category term="2025-2026"/>
 
         <updated>2025-07-08T11:54:24+08:00</updated>
             <summary>
@@ -988,513 +1480,6 @@ Tentang MPLS (Paud, SD, Dan SMP)</a></li>
 </ol>
 </div>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 FPPN 3</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-fppn-3/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-fppn-3/index.html</id>
-        <media:content url="https://deddme.id/media/posts/28/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-07-08T09:34:55+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/28/soal-ppg-2025.png" alt="Soal dan tryout PPG UKPPG 2025" />
-                    Soal PPG 2025 FPPN 3 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia cara penggunaan : klik pada pilihan untuk menjawab Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/28/soal-ppg-2025.png" class="type:primaryImage" alt="Soal dan tryout PPG UKPPG 2025" /></p>
-                <div id="menuju_keatas"><br>
-
-<blockquote>
-<p>Soal PPG 2025 FPPN 3 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia</p></blockquote>
-<p><mark>cara penggunaan : klik pada pilihan untuk menjawab</mark></p><div class="soal">
-  1. Bu Rina adalah guru kelas 4 SD yang sedang mengoreksi ulangan Bahasa Indonesia para siswa. Saat memeriksa bagian esai, la menyadari ada dua lembar jawaban milik siswa yang sangat mirip, bahkan kata-katanya pun sangat identik. Setelah diselidiki, ternyata salah satu dari mereka menyontek saat ulangan berlangsung. Bu Rina ingin menanamkan nilai kejujuran sejak dini dengan cara yang tegas dan mendidik, tetapi la juga khawatir apabila kasus ini dijadikan pelajaran akan membuat siswa yang melakukannya merasa malu dan kehilangan kepercayaan diri. Di sisi lain, la tidak ingin membiarkan tindakan tersebut dianggap hal yang biasa. Mengatasi situasi tersebut, Apa upaya yang perlu dilakukan Bu Rina?<br>
-  a Memfasilitasi mereka untuk merefleksikan kesalahannya dan memberikan konsekuensi nilai yang adil agar mereka tidak mengulangi, lalu merancang program kelas sederhana untuk menanamkan nilai kejujuran secara rutin.<br>
-  b Memberikan kesempatan kepada siswa yang bersangkutan untuk mengulang ujian dengan soal yang berbeda dengan pendampingan, lalu melakukan diskusi kelas mengenai pentingnya nilai-nilai kejujuran dalam kehidupan sehari-hari.<br>
-  c Memberikan nilai apa adanya disertai catatan pribadi di kertas ujian kedua siswa, lalu merencanakan penguatan karakter kejujuran berkolaborasi dengan guru BK dan wali kelas lainnya untuk menindaklanjuti kasus serupa.<br>
-  d Menceritakan masalah ketidakjujuran siswa dalam ulangan di kelas tanpa menyebutkan nama, lalu memberikan nasihat mengenai pentingnya menanamkan nilai-nilai kejujuran sejak dini dan memastikan komitmen para siswa untuk tidak menyontek.<br>
-  e Memanggil kedua siswa secara pribadi untuk mengonfirmasi kembali kejadian tersebut dan meminta mereka menyesali perbuatannya. Sebagai sanksi, mereka diberikan tugas menulis refleksi dan komitmen untuk tidak menyontek lagi.
-</div>
-
-<div class="soal">
-  2. Dalam ujian Matematika, Pak Andi memperbolehkan siswanya menggunakan kalkulator untuk membantu menghitung. Akan tetapi Pak Andi menemukan bahwa sebagian siswanya tidak hanya menggunakan kalkulator, melainkan juga menggunakan Artificial Intelligence (AI). Pak Andi menyayangkan kejadian ini karena penggunaan Al membuat siswa langsung mendapatkan jawaban tanpa harus mengetahui caranya sehingga dapat menghilangkan esensi belajar siswa. Akan tetapi, Pak Andi juga menyadari bahwa la tidak menyebutkan pelarangan penggunaan Al sebagai peraturan ujian sehingga Pak Andi tidak dapat menyalahkan siswanya. Dalam kondisi ini, tindakan apa yang akan Anda lakukan?<br>
-  a Mengadakan sesi tentang etika penggunaan Al dalam konteks ujian dan tugas sehingga mereka memahami penggunaan Al secara bijak.<br>
-  b Memberikan kesempatan siswa yang menggunakan Al untuk mengerjakan ulang ujian untuk memastikan pemahaman terhadap konsep yang diuji.<br>
-  c Membuat kebijakan yang lebih jelas untuk ujian berikutnya dengan menyebutkan secara spesifik alat bantu yang diperbolehkan dan yang dilarang.<br>
-  d Menggali hambatan-hambatan siswa pada saat mengerjakan ujian yang membuat mereka memutuskan menggunakan Al saat ujian.<br>
-  e Mengimbau pelarangan siswa menggunakan Al di ujian berikutnya demi menjaga integritas akademik dan kemampuan berpikir kritis siswa.
-</div>
-
-<div class="soal">
-  3. Saat perayaan hari besar keagamaan, beberapa wali murid datang ke rumah Anda untuk melakukan silahturahmi. Selain itu, orang tua juga memberikan buah tangan kepada Anda. Anda merasa tersentuh atas niat baik mereka dan ingin menerima hadiah tersebut sebagai bentuk menghargai wali murid. Namun, Anda juga menyadari bahwa sebagai seorang pendidik, menerima hadiah dari siswa maupun wali murid dapat dikategorikan sebagai bentuk gratifikasi yang bertentangan peraturan yang berlaku di lingkungan pendidikan. Sementara, apabila Anda tidak menerima hadiah tersebut dapat memicu kekecewaan dari para wali murid. Dalam situasi ini, tindakan apa yang Anda lakukan?<br>
-  a Memberikan pemahaman kepada wali murid agar dapat meninggalkan budaya memberi hadiah kepada guru.<br>
-  b Menjelaskan bahwa mengajar adalah kewajiban Anda dan tidak seharusnya wali murid memberikan hadiah.<br>
-  c Memberikan pemahaman kepada wali murid tentang dampak dan risiko apabila Anda menerima hadiah mereka.<br>
-  d Menerima simbolis seperti surat ucapan atau karya buatan tangan siswa yang tidak memiliki nilai materi tinggi.<br>
-  e Menegur wali murid untuk tidak memberikan hadiah kepada guru karena hal ini telah melanggar kode etik guru.
-</div>
-
-<div class="soal">
-  4. Anda adalah seorang guru yang mengajar di sebuah sekolah di kota besar. Salah satu siswa baru Anda, Rudi, baru saja pindah dari desa bersama keluarganya karena orang tuanya pindah pekerjaan. Rudi tampak canggung dan kesulitan beradaptasi dengan lingkungan kota yang serba cepat dan penuh teknologi. Selain itu, la juga merasa asing dengan materi yang diajarkan di kelas karena tidak relevan dengan latar belakangnya yang terbiasa dengan kehidupan desa. Sebagai guru, Anda ingin memfasilitasi kebutuhan belajar Rudi yang mungkin berbeda dengan siswa lainnya. Namun Anda khawatir hal tersebut dapat berdampak pada keseimbangan dengan kebutuhan siswa lainnya. Dalam kondisi ini, tindakan apa yang akan Anda lakukan?<br>
-  a Mengajak Rudi berdiskusi pribadi untuk memahami latar belakang dan kesulitan belajarnya sebelum merancang strategi pembelajaran untuknya.<br>
-  b Memberikan bimbingan belajar tambahan khusus kepada Rudi secara berkala agar la dapat beradaptasi lebih cepat secara akademik dan sosial.<br>
-  c Menggunakan media pembelajaran berbasis proyek ( project-based learning) yang bisa dihubungkan dengan pengalaman Rudi di desa dan juga dengan kehidupan modern.<br>
-  d Melibatkan orang tua Rudi dalam komunikasi rutin untuk memahami dukungan belajar di rumah dan menjembatani kesenjangan budaya.<br>
-  e Mengimbau Rudi untuk beradaptasi di lingkungan baru dan memintanya untuk menghubungi Anda apabila la membutuhkan.
-</div>
-
-<div class="soal">
-  5. Pak Ilmo adalah guru Bahasa Indonesia di sebuah SMP. Saat ujian, salah satu siswanya, Febi, datang terlambat dan tidak dapat menyelesaikan seluruh soal karena kehabisan waktu. Febi menceritakan kepada Pak Ilmo bahwa la terlambat karena harus merawat ibunya yang sedang sakit. Kemudian la memohon kepada Pak Ilmo untuk diberikan waktu tambahan agar dapat menyelesaikan seluruh soal. Pak Ilmo memahami bahwa kondisi ibunya memang sedang sakit dan membutuhkan kehadiran dan bantuan dari Febi. Namun di sisi lain, memberi waktu tambahan hanya kepada Febi dapat dianggap tidak adil bagi siswa lainnya yang mengikuti aturan dan menyelesaikan ujian sesuai waktu yang ditetapkan. Dalam kondisi ini, tindakan apa yang Anda lakukan apabila menjadi Pak Ilmo?<br>
-  a Memberikan Febi waktu tambahan hanya jika la dapat menunjukkan bukti konkret mengenai keterlambatannya dan kebijakan ini berlaku untuk lainnya.<br>
-  b Memberikan Febi waktu tambahan, tetapi hanya pada soal- soal yang belum dikerjakan dan memastikan bahwa keputusan ini tidak merugikan siswa lain.<br>
-  c Memberikan Febi waktu tambahan karena Anda merasa perlu memberikan empati dan menyesuaikan kebijakan dengan situasi yang dihadapi siswa.<br>
-  d Memberikan Febi waktu tambahan karena Anda telah mengenal baik dengan Febi dan mengetahui bahwa la memiliki motivasi belajar yang tinggi.<br>
-  e Memberikan Febi waktu tambahan, namun Anda tetap menegurnya karena telah membuat Anda harus meluangkan waktu lebih untuk menunggunya.
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
-    <br></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "a",
-        3: "a",
-        4: "a",
-        5: "a"
-    };
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim();
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; // Hapus warna teks yang diatur oleh JS
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 FPPN 2</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-fppn-2/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-fppn-2/index.html</id>
-        <media:content url="https://deddme.id/media/posts/27/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-07-08T09:31:56+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/27/soal-ppg-2025.png" alt="Soal dan tryout PPG UKPPG 2025" />
-                    Soal PPG 2025 FPPN 2 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia cara penggunaan : klik pada pilihan untuk menjawab Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/27/soal-ppg-2025.png" class="type:primaryImage" alt="Soal dan tryout PPG UKPPG 2025" /></p>
-                <div id="menuju_keatas"><br>
-
-<blockquote>
-<p>Soal PPG 2025 FPPN 2 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia</p></blockquote>
-<p><mark>cara penggunaan : klik pada pilihan untuk menjawab</mark></p><div class="soal">
-  1. Bu Rina adalah guru kelas 4 SD yang sedang mengoreksi ulangan Bahasa Indonesia para siswa. Saat memeriksa bagian esai, la menyadari ada dua lembar jawaban milik siswa yang sangat mirip, bahkan kata-katanya pun sangat identik. Setelah diselidiki, ternyata salah satu dari mereka menyontek saat ulangan berlangsung. Bu Rina ingin menanamkan nilai kejujuran sejak dini dengan cara yang tegas dan mendidik, tetapi la juga khawatir apabila kasus ini dijadikan pelajaran akan membuat siswa yang melakukannya merasa malu dan kehilangan kepercayaan diri. Di sisi lain, la tidak ingin membiarkan tindakan tersebut dianggap hal yang biasa. Mengatasi situasi tersebut, Apa upaya yang perlu dilakukan Bu Rina?<br>
-  a Memfasilitasi mereka untuk merefleksikan kesalahannya dan memberikan konsekuensi nilai yang adil agar mereka tidak mengulangi, lalu merancang program kelas sederhana untuk menanamkan nilai kejujuran secara rutin.<br>
-  b Memberikan kesempatan kepada siswa yang bersangkutan untuk mengulang ujian dengan soal yang berbeda dengan pendampingan, lalu melakukan diskusi kelas mengenai pentingnya nilai-nilai kejujuran dalam kehidupan sehari-hari.<br>
-  c Memberikan nilai apa adanya disertai catatan pribadi di kertas ujian kedua siswa, lalu merencanakan penguatan karakter kejujuran berkolaborasi dengan guru BK dan wali kelas lainnya untuk menindaklanjuti kasus serupa.<br>
-  d Menceritakan masalah ketidakjujuran siswa dalam ulangan di kelas tanpa menyebutkan nama, lalu memberikan nasihat mengenai pentingnya menanamkan nilai-nilai kejujuran sejak dini dan memastikan komitmen para siswa untuk tidak menyontek.<br>
-  e Memanggil kedua siswa secara pribadi untuk mengonfirmasi kembali kejadian tersebut dan meminta mereka menyesali perbuatannya. Sebagai sanksi, mereka diberikan tugas menulis refleksi dan komitmen untuk tidak menyontek lagi.
-</div>
-
-<div class="soal">
-  2. Dalam ujian Matematika, Pak Andi memperbolehkan siswanya menggunakan kalkulator untuk membantu menghitung. Akan tetapi Pak Andi menemukan bahwa sebagian siswanya tidak hanya menggunakan kalkulator, melainkan juga menggunakan Artificial Intelligence (AI). Pak Andi menyayangkan kejadian ini karena penggunaan Al membuat siswa langsung mendapatkan jawaban tanpa harus mengetahui caranya sehingga dapat menghilangkan esensi belajar siswa. Akan tetapi, Pak Andi juga menyadari bahwa la tidak menyebutkan pelarangan penggunaan Al sebagai peraturan ujian sehingga Pak Andi tidak dapat menyalahkan siswanya. Dalam kondisi ini, tindakan apa yang akan Anda lakukan?<br>
-  a Mengadakan sesi tentang etika penggunaan Al dalam konteks ujian dan tugas sehingga mereka memahami penggunaan Al secara bijak.<br>
-  b Memberikan kesempatan siswa yang menggunakan Al untuk mengerjakan ulang ujian untuk memastikan pemahaman terhadap konsep yang diuji.<br>
-  c Membuat kebijakan yang lebih jelas untuk ujian berikutnya dengan menyebutkan secara spesifik alat bantu yang diperbolehkan dan yang dilarang.<br>
-  d Menggali hambatan-hambatan siswa pada saat mengerjakan ujian yang membuat mereka memutuskan menggunakan Al saat ujian.<br>
-  e Mengimbau pelarangan siswa menggunakan Al di ujian berikutnya demi menjaga integritas akademik dan kemampuan berpikir kritis siswa.
-</div>
-
-<div class="soal">
-  3. Saat perayaan hari besar keagamaan, beberapa wali murid datang ke rumah Anda untuk melakukan silahturahmi. Selain itu, orang tua juga memberikan buah tangan kepada Anda. Anda merasa tersentuh atas niat baik mereka dan ingin menerima hadiah tersebut sebagai bentuk menghargai wali murid. Namun, Anda juga menyadari bahwa sebagai seorang pendidik, menerima hadiah dari siswa maupun wali murid dapat dikategorikan sebagai bentuk gratifikasi yang bertentangan peraturan yang berlaku di lingkungan pendidikan. Sementara, apabila Anda tidak menerima hadiah tersebut dapat memicu kekecewaan dari para wali murid. Dalam situasi ini, tindakan apa yang Anda lakukan?<br>
-  a Memberikan pemahaman kepada wali murid agar dapat meninggalkan budaya memberi hadiah kepada guru.<br>
-  b Menjelaskan bahwa mengajar adalah kewajiban Anda dan tidak seharusnya wali murid memberikan hadiah.<br>
-  c Memberikan pemahaman kepada wali murid tentang dampak dan risiko apabila Anda menerima hadiah mereka.<br>
-  d Menerima simbolis seperti surat ucapan atau karya buatan tangan siswa yang tidak memiliki nilai materi tinggi.<br>
-  e Menegur wali murid untuk tidak memberikan hadiah kepada guru karena hal ini telah melanggar kode etik guru.
-</div>
-
-<div class="soal">
-  4. Anda adalah seorang guru yang mengajar di sebuah sekolah di kota besar. Salah satu siswa baru Anda, Rudi, baru saja pindah dari desa bersama keluarganya karena orang tuanya pindah pekerjaan. Rudi tampak canggung dan kesulitan beradaptasi dengan lingkungan kota yang serba cepat dan penuh teknologi. Selain itu, la juga merasa asing dengan materi yang diajarkan di kelas karena tidak relevan dengan latar belakangnya yang terbiasa dengan kehidupan desa. Sebagai guru, Anda ingin memfasilitasi kebutuhan belajar Rudi yang mungkin berbeda dengan siswa lainnya. Namun Anda khawatir hal tersebut dapat berdampak pada keseimbangan dengan kebutuhan siswa lainnya. Dalam kondisi ini, tindakan apa yang akan Anda lakukan?<br>
-  a Mengajak Rudi berdiskusi pribadi untuk memahami latar belakang dan kesulitan belajarnya sebelum merancang strategi pembelajaran untuknya.<br>
-  b Memberikan bimbingan belajar tambahan khusus kepada Rudi secara berkala agar la dapat beradaptasi lebih cepat secara akademik dan sosial.<br>
-  c Menggunakan media pembelajaran berbasis proyek ( project-based learning) yang bisa dihubungkan dengan pengalaman Rudi di desa dan juga dengan kehidupan modern.<br>
-  d Melibatkan orang tua Rudi dalam komunikasi rutin untuk memahami dukungan belajar di rumah dan menjembatani kesenjangan budaya.<br>
-  e Mengimbau Rudi untuk beradaptasi di lingkungan baru dan memintanya untuk menghubungi Anda apabila la membutuhkan.
-</div>
-
-<div class="soal">
-  5. Pak Ilmo adalah guru Bahasa Indonesia di sebuah SMP. Saat ujian, salah satu siswanya, Febi, datang terlambat dan tidak dapat menyelesaikan seluruh soal karena kehabisan waktu. Febi menceritakan kepada Pak Ilmo bahwa la terlambat karena harus merawat ibunya yang sedang sakit. Kemudian la memohon kepada Pak Ilmo untuk diberikan waktu tambahan agar dapat menyelesaikan seluruh soal. Pak Ilmo memahami bahwa kondisi ibunya memang sedang sakit dan membutuhkan kehadiran dan bantuan dari Febi. Namun di sisi lain, memberi waktu tambahan hanya kepada Febi dapat dianggap tidak adil bagi siswa lainnya yang mengikuti aturan dan menyelesaikan ujian sesuai waktu yang ditetapkan. Dalam kondisi ini, tindakan apa yang Anda lakukan apabila menjadi Pak Ilmo?<br>
-  a Memberikan Febi waktu tambahan hanya jika la dapat menunjukkan bukti konkret mengenai keterlambatannya dan kebijakan ini berlaku untuk lainnya.<br>
-  b Memberikan Febi waktu tambahan, tetapi hanya pada soal- soal yang belum dikerjakan dan memastikan bahwa keputusan ini tidak merugikan siswa lain.<br>
-  c Memberikan Febi waktu tambahan karena Anda merasa perlu memberikan empati dan menyesuaikan kebijakan dengan situasi yang dihadapi siswa.<br>
-  d Memberikan Febi waktu tambahan karena Anda telah mengenal baik dengan Febi dan mengetahui bahwa la memiliki motivasi belajar yang tinggi.<br>
-  e Memberikan Febi waktu tambahan, namun Anda tetap menegurnya karena telah membuat Anda harus meluangkan waktu lebih untuk menunggunya.
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
-    <br></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "a",
-        3: "a",
-        4: "a",
-        5: "a"
-    };
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim();
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; // Hapus warna teks yang diatur oleh JS
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Soal PPG 2025 FPPN 1</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/soal-ppg-2025-fppn-1/index.html"/>
-        <id>https://deddme.id/artikel/soal-ppg-2025-fppn-1/index.html</id>
-        <media:content url="https://deddme.id/media/posts/26/soal-ppg-2025.png" medium="image" />
-            <category term="Soal PPG"/>
-
-        <updated>2025-07-08T09:27:16+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/26/soal-ppg-2025.png" alt="Soal dan tryout PPG UKPPG 2025" />
-                    Soal PPG 2025 FPPN 1 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia cara penggunaan : klik pada pilihan untuk menjawab Ulangi Soal
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/26/soal-ppg-2025.png" class="type:primaryImage" alt="Soal dan tryout PPG UKPPG 2025" /></p>
-                <div id="menuju_keatas"><br>
-
-<blockquote>
-<p>Soal PPG 2025 FPPN 1 (Filosofi Pendidikan dan Pendidikan Nilai), merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia</p></blockquote>
-<p><mark>cara penggunaan : klik pada pilihan untuk menjawab</mark></p><div class="soal">
-  1. Rivael adalah siswa pindahan dari luar negeri yang baru saja bergabung di kelas Anda. la dikenal cerdas dan memiliki potensi akademik yang baik, namun sedang mengalami kesulitan beradaptasi. la merasa kewalahan dengan banyaknya materi pelajaran yang berbeda dari negara asalnya. Hal ini menyebabkan la enggan mengerjakan tugas di beberapa mata pelajaran. Anda telah mencoba mendorongnya untuk menyesuaikan diri dengan sistem belajar di sekolah ini, namun la menunjukkan resistensi dan tampak tidak termotivasi. Sebagai guru, bagaimana cara menyikapi kondisi ini?<br>
-  a Mengajak Rivael berdiskusi secara pribadi untuk memahami kesulitan yang la hadapi dan mencari solusi bersama.<br>
-  b Memberikan arahan kepada Rivael untuk secara bertahap beradaptasi dengan sistem belajar dan kurikulum sekolah ini.<br>
-  c Melibatkan orang tua Rivael untuk mengarahkan Rivael beradaptasi dan berkenan mengikuti kurikulum di sekolah ini.<br>
-  d Menginstruksikan teman-teman sekelasnya untuk memberi bantuan akademik dan emosional kepadanya.<br>
-  e Mengurangi beban tugas Rivael sementara waktu untuk membantunya menyesuaikan diri di sekolah ini.
-</div>
-
-<div class="soal">
-  2. Anda adalah guru Bahasa Indonesia yang bermaksud melakukan literasi menulis pada peserta didik di sekolah Anda. Literasi ini akan membantu peserta didik menuangkan gagasan ke dalam tulisan dengan susunan kata dan bahasa yang efektif dan efisien. Namun demikian, kemahiran menulis setiap peserta didik beragam, dari yang mahir menulis karangan ilmiah hingga yang baru dapat menuliskan reportase kejadian, cerita, dan sebagainya. Apa yang Anda lakukan kemudian pada penugasan kali ini?<br>
-  a Membuat proyek menulis kolaboratif antar peserta didik yang kemahiran menulisnya beragam<br>
-  b Memberi penugasan yang berbeda dalam hal tema, jenis, dan detil ketentuan tulisan<br>
-  c Mencoba memberikan panduan atau tugas menulis dalam kategori yang bervariasi<br>
-  d Memahami bahwa dibutuhkan latihan menulis yang berbeda berdasarkan kemampuan peserta didik<br>
-  e Meminta semua peserta didik membuat tulisan dengan kategori dan tema yang sama
-</div>
-
-<div class="soal">
-  3. Anda adalah guru matematika kelas 1 SD. Selain ingin mengenalkan bilangan 1 hingga 10, Anda ingin peserta didik juga dapat menuliskan bilangan-bilangan tersebut. Hanya saja, Anda mengamati bahwa ada di antara mereka yang belum mahir dalam memegang alat tulis. Bila Anda menghadapi situasi ini, apa prioritas tindakan yang Anda lakukan?<br>
-  a Membedakan target kompetensi dengan mengidentifikasi kemampuan motorik halus peserta didik<br>
-  b Meminta peserta didik menulis bilangan 1 hingga 5 terlebih dahulu<br>
-  c Berupaya untuk menurunkan banyaknya bilangan yang harus ditulis peserta didik<br>
-  d Menyadari bahwa tidak semua peserta didik di kelas 1 SD sudah terampil dalam menulis<br>
-  e Menggunakan alat bantu seperti pensil ergonomis atau pegangan pensil khusus
-</div>
-
-<div class="soal">
-  4. Anda mengampu mata pelajaran PJOK dan akan mengajarkan materi tentang permainan bola voli yang menuntut penguasaan pengetahuan dan keterampilan. Di sisi lain, sekolah Anda tidak memiliki sarana dan prasarana yang memadai untuk melakukan praktik, sehingga Anda cukup kesulitan untuk melakukan proses pembelajaran dan penilaian. Jika menemui situasi tersebut, apa yang akan Anda lakukan?<br>
-  a Membuat panduan observasi yang dapat digunakan semua guru PJOK meskipun sarana praktik di sekolah terbatas<br>
-  b Tetap akan melakukan penilaian keterampilan dengan meminjam lapangan bola voli terdekat<br>
-  c Berusaha menyusun pedoman observasi sederhana pada gerakan-gerakan yang bersifat dasar<br>
-  d Memahami pentingnya metode observasi untuk mengetahui keterampilan praktik peserta didik dalam bermain voli<br>
-  e Hanya akan memberikan tes yang bersifat tertulis dikarenakan keterbatasan sarana dan prasarana praktik tersebut
-</div>
-
-<div class="soal">
-  5. Anda adalah guru kelas dengan peserta didik yang selama ini seluruhnya berasal dari suku Jawa. Kebetulan semester ini ada peserta didik baru yang pindah dari luar Jawa, dan tentu saja ia tidak menguasai Bahasa Jawa. Padahal selama ini Anda terbiasa ketika di kelas menyelipkan Bahasa Jawa ketika menjelaskan sesuatu, meskipun bahasa pengantar pembelajaran secara resmi adalah Bahasa Indonesia. Apa kemudian tindakan Anda saat menghadapi situasi di atas?<br>
-  a Melibatkan peserta didik lain di kelas untuk mendiskusikan materi dalam bahasa Indonesia<br>
-  b Menggunakan bahasa Indonesia pada semua materi yang diajarkan di kelas<br>
-  c Berniat membiasakan diri agar selanjutnya dapat konsisten menggunakan Bahasa Indonesia ketika mengajar<br>
-  d Menyadari tantangan yang dihadapi peserta didik pindahan dalam memahami materi<br>
-  e Meminta peserta didik yang baru pindah untuk segera belajar bahasa Jawa
-</div>
-
-<p><button class="soal-button" onclick="ulangSoal()">Ulangi Soal</button>
-        <br></p><div id="hasil"></div>
-
-<script>
-    const jawabanBenar = {
-        1: "a",
-        2: "a",
-        3: "a",
-        4: "a",
-        5: "a"
-    };
-    window.onload = function () {
-        document.querySelectorAll(".soal").forEach(div => {
-            div.setAttribute("data-asli", div.innerHTML.replace(/&nbsp;|\bbsp;\s*/g, ''));
-        });
-        renderSoalUlang();
-    };
-
-    function renderSoalUlang() {
-        const hasilElement = document.getElementById("hasil");
-        if (hasilElement) {
-            hasilElement.innerHTML = "";
-        }
-
-        document.querySelectorAll(".soal").forEach((div, index) => {
-            const originalContent = div.getAttribute("data-asli").trim();
-
-            const isi = originalContent.split("<br>");
-            const pertanyaan = isi[0].replace(/<\/?p[^>]*>/g, '').trim();
-            const pilihanTeks = isi.slice(1).map(teks => teks.trim()).filter(text => text.length > 0);
-
-            const pilihan = pilihanTeks.map(item => ({
-                kode: item[0],
-                teks: item.slice(2).trim()
-            }));
-
-            const acak = pilihan.sort(() => Math.random() - 0.5);
-
-            div.innerHTML = `<p class="question-text">${pertanyaan}</p>
-                <ul class="soal-options" data-index="${index + 1}" data-dijawab="false"></ul>
-                <div class="soal_feedback"></div>`;
-
-            const ul = div.querySelector("ul");
-
-            acak.forEach(obj => {
-                const li = document.createElement("li");
-                li.textContent = obj.teks;
-                li.setAttribute("data-kode", obj.kode);
-                li.onclick = () => {
-                    if (ul.getAttribute("data-dijawab") === "true") return;
-                    ul.querySelectorAll("li").forEach(x => {
-                        x.style.backgroundColor = "";
-                        x.removeAttribute("data-user");
-                        x.removeAttribute("data-feedback");
-                        x.style.color = ""; // Hapus warna teks yang diatur oleh JS
-                        x.textContent = x.textContent.replace(/ ✓| ✗/, '');
-                    });
-                    li.setAttribute("data-user", "true");
-
-                    const nomor = ul.getAttribute("data-index");
-                    const benar = jawabanBenar[nomor];
-                    const userKode = li.getAttribute("data-kode");
-                    const feedbackElement = ul.nextElementSibling;
-                    let feedbackText = "";
-
-                    if (userKode === benar) {
-                        li.setAttribute("data-feedback", "correct");
-                        li.textContent += " ✓";
-                        feedbackText = "✅ **BENAR!** Jawaban Anda tepat.";
-                    } else {
-                        li.setAttribute("data-feedback", "incorrect");
-                        li.textContent += " ✗";
-                        feedbackText = "❌ **SALAH!** Silakan periksa kembali.";
-                        ul.querySelectorAll("li").forEach(otherLi => {
-                            if (otherLi.getAttribute("data-kode") === benar) {
-                                otherLi.setAttribute("data-feedback", "correct-shown");
-                                otherLi.textContent += " ✓";
-                            }
-                        });
-                    }
-                    feedbackElement.innerHTML = `<strong>${feedbackText}</strong>`;
-                    ul.setAttribute("data-dijawab", "true");
-                };
-                ul.appendChild(li);
-            });
-        });
-    }
-
-    function ulangSoal() {
-        renderSoalUlang();
-        const scrollTarget = document.querySelector("#menuju_keatas");
-        if (scrollTarget) {
-            scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-    }
-</script>
-
             ]]>
         </content>
     </entry>
