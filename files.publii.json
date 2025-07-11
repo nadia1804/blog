@@ -55,6 +55,16 @@
         "md5": "9844e720489bbb91520d75c1d47cec7f"
     },
     {
+        "path": "artikel/back-to-school",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/back-to-school/index.html",
+        "type": "file",
+        "md5": "918f890a946b648dea0fef664d1849f9"
+    },
+    {
         "path": "artikel/halaman",
         "type": "directory",
         "md5": false
@@ -102,7 +112,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "de2bd9287826a2a31b5a96d02dca7a02"
+        "md5": "30ebef4fbc426919405552632e80dfd6"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -462,17 +472,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "701958351a8db0fa7c7263b969e906f5"
+        "md5": "79a71f389ac222b53c58591c08f59300"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "b9486579550168bfc7ed2dc777391486"
+        "md5": "59d21b6a32510c16fe340417bc958f14"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "9906f9c889eb3b24332f82ae718420c2"
+        "md5": "b0b6db0ee7ddafa622e4cac225495cd9"
     },
     {
         "path": "kategori",
@@ -487,7 +497,7 @@
     {
         "path": "/kategori/2025-2026/index.html",
         "type": "file",
-        "md5": "e1ffde26d66123f7a390e2d7c74dc606"
+        "md5": "f48009a987df762821d59158785703e9"
     },
     {
         "path": "kategori/blogspot",
@@ -522,7 +532,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "c5574eaa51f44584be8ba0d615cdec43"
+        "md5": "a4decf837da5288a161189a1ef4df4bb"
     },
     {
         "path": "kategori/javascript",
@@ -542,7 +552,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "f4ed58f374e449a06b70709f2b9c53ef"
+        "md5": "5b6e2d6b3f589f7369433232633edf13"
     },
     {
         "path": "kategori/ppg",
@@ -1665,6 +1675,41 @@
         "md5": "fd2c449749f62f16ee5e2731b75b5236"
     },
     {
+        "path": "media/posts/39",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/39/Back-to-school.png",
+        "type": "file",
+        "md5": "ea6d5fe6f1c15e0949fb937668ad98ec"
+    },
+    {
+        "path": "media/posts/39/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/39/responsive/Back-to-school-md.webp",
+        "type": "file",
+        "md5": "dc6bc1d239931edcae5106088e60f36d"
+    },
+    {
+        "path": "/media/posts/39/responsive/Back-to-school-sm.webp",
+        "type": "file",
+        "md5": "dc6bc1d239931edcae5106088e60f36d"
+    },
+    {
+        "path": "/media/posts/39/responsive/Back-to-school-xl.webp",
+        "type": "file",
+        "md5": "dc6bc1d239931edcae5106088e60f36d"
+    },
+    {
+        "path": "/media/posts/39/responsive/Back-to-school-xs.webp",
+        "type": "file",
+        "md5": "b658f1b00b54bb331e36b76876e8594d"
+    },
+    {
         "path": "media/posts/4",
         "type": "directory",
         "md5": false
@@ -1877,7 +1922,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "ed614a7b3274ac4d9184ab808b5f9550"
+        "md5": "f1c2c5258ae6d9c8314ffc1dfe0d139a"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/3",
@@ -1887,12 +1932,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/3/index.html",
         "type": "file",
-        "md5": "aee33dd315b33804db7f93efec98177b"
+        "md5": "69092f7c2524c9a3f7e121420fc1e818"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "551f13059e59d1af2e6999e7ad277220"
+        "md5": "17f0720fbf2300edc9d5de5483df014b"
     },
     {
         "path": "robots.txt",
@@ -1907,7 +1952,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "924f5f8762afb5892d4e0b0ca733a199"
+        "md5": "0370b724482ff94c91b6c2ba842a554d"
     },
     {
         "path": "sitemap.xsl",
