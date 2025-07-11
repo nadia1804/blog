@@ -62,7 +62,7 @@
     {
         "path": "/artikel/back-to-school/index.html",
         "type": "file",
-        "md5": "918f890a946b648dea0fef664d1849f9"
+        "md5": "9f41f2f662e237c6acc7a8d25e05ca84"
     },
     {
         "path": "artikel/halaman",
@@ -472,12 +472,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "79a71f389ac222b53c58591c08f59300"
+        "md5": "0ac28740511a2225c25b22e4e1c98aaa"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "59d21b6a32510c16fe340417bc958f14"
+        "md5": "014fd89fe009460c78474f2c56b14522"
     },
     {
         "path": "index.html",
