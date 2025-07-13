@@ -77,7 +77,7 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "c689b583d4f1615ba399417a188feee5"
+        "md5": "3490397ed6dc42690a2bd7ab611f85dd"
     },
     {
         "path": "artikel/halaman/3",
@@ -87,7 +87,7 @@
     {
         "path": "/artikel/halaman/3/index.html",
         "type": "file",
-        "md5": "775e6d79f069d6353ce05d90dedb0e03"
+        "md5": "4fcc77fc872f476083a0bd819e725f55"
     },
     {
         "path": "artikel/halaman/4",
@@ -97,7 +97,7 @@
     {
         "path": "/artikel/halaman/4/index.html",
         "type": "file",
-        "md5": "e26bf151eb81018652cf3825f565a4be"
+        "md5": "3bd10e2fcb739657e4e1c429fca888ab"
     },
     {
         "path": "artikel/hari-libur-dan-cuti-bersama-2025-2026",
@@ -112,7 +112,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "8ab68adf4593c967848429af6fde454f"
+        "md5": "be80bf13b6d6fba866b17c6a074d3e05"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -162,7 +162,7 @@
     {
         "path": "/artikel/kumpulan-soal-ppg-dan-tryout-ukppg-2025/index.html",
         "type": "file",
-        "md5": "1c3a7eb138cfa278eb604659d121411b"
+        "md5": "b4f150c958474955b3a59d0a985b3198"
     },
     {
         "path": "artikel/mengganti-url-localhost-pada-ghost",
@@ -345,6 +345,16 @@
         "md5": "a261798220f2fd5acd1e1bdcde81fd37"
     },
     {
+        "path": "artikel/soal-tryout-ukppg-2025-kemampuan-pedagogik-dan-manajemen-kelas",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/soal-tryout-ukppg-2025-kemampuan-pedagogik-dan-manajemen-kelas/index.html",
+        "type": "file",
+        "md5": "3a2cda1f533344ad6d582fb7c74f0dfe"
+    },
+    {
         "path": "artikel/telaah-kalender-pendidikan-2025-2026",
         "type": "directory",
         "md5": false
@@ -472,17 +482,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "0b1951d20267de988404f9a55bd6e150"
+        "md5": "54bc0bee60497baaac2883535d8b09cd"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "7547df01fcbc29966622003d02bc4ec4"
+        "md5": "373193f76e21caf0505839a96bcd64cf"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "1138c9eec0ed05db5169eaa51adc3729"
+        "md5": "48e88557213b114b99844db2b56ab7fd"
     },
     {
         "path": "kategori",
@@ -532,7 +542,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "111c8d5b79e09c9081a153073f5d7a61"
+        "md5": "424fafdb0a12b4a8aa614837451de29a"
     },
     {
         "path": "kategori/javascript",
@@ -582,12 +592,12 @@
     {
         "path": "/kategori/soal/halaman/2/index.html",
         "type": "file",
-        "md5": "e9590a9afcdd1e0a851511291b5efab5"
+        "md5": "bed5209f1b66f191e8527daad48911c3"
     },
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "e51b1d7017008edfadee8bc1c660d542"
+        "md5": "1b30a87e64a422e36419d4b1405ab559"
     },
     {
         "path": "kategori/tools",
@@ -1745,6 +1755,41 @@
         "md5": "5076c455d5491de56299fa6f4b2e236a"
     },
     {
+        "path": "media/posts/40",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/40/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-md.webp",
+        "type": "file",
+        "md5": "0895436dd27bc21d361009aa34d39dfb"
+    },
+    {
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-sm.webp",
+        "type": "file",
+        "md5": "bf0629509274a68d51b08497906b9451"
+    },
+    {
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-xl.webp",
+        "type": "file",
+        "md5": "de204b735e000ac30987afc8a05ee1b2"
+    },
+    {
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-xs.webp",
+        "type": "file",
+        "md5": "a556ccc50a27d9528d77ae40838c080a"
+    },
+    {
+        "path": "/media/posts/40/Tryout-UKPPG-2025-deddme.id.png",
+        "type": "file",
+        "md5": "2ed0450be43eae489fe193ac7fb63919"
+    },
+    {
         "path": "media/posts/5",
         "type": "directory",
         "md5": false
@@ -1922,7 +1967,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "fb2329a9dba2172f16033cda4eac1e1c"
+        "md5": "b437248621cd5e29abf76bb3d3b9ad62"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/3",
@@ -1932,12 +1977,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/3/index.html",
         "type": "file",
-        "md5": "422d70493448a2fc5401a7d39dabed84"
+        "md5": "a02ffdf7eca03c90302ba1195a31669b"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "dd2212228480f2f2538db137ae0e0d1b"
+        "md5": "9f73a9ac6ac4c0b8f974f4ecb70b81f1"
     },
     {
         "path": "robots.txt",
@@ -1952,7 +1997,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "0370b724482ff94c91b6c2ba842a554d"
+        "md5": "505205780e535e26fe2b641debfd4bae"
     },
     {
         "path": "sitemap.xsl",
