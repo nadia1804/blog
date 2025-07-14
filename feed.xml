@@ -3,12 +3,114 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-13T22:54:44+08:00</updated>
+    <updated>2025-07-14T20:23:23+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
     <id>https://deddme.id</id>
 
+    <entry>
+        <title> 10 Jenis Lisensi Digital yang wajib kamu ketahui !</title>
+        <author>
+            <name>Deddy Hidayat</name>
+        </author>
+        <link href="https://deddme.id/artikel/10-jenis-lisensi-digital-yang-wajib-kamu-ketahui/index.html"/>
+        <id>https://deddme.id/artikel/10-jenis-lisensi-digital-yang-wajib-kamu-ketahui/index.html</id>
+        <media:content url="https://deddme.id/media/posts/41/web-deddme-2.png" medium="image" />
+            <category term="Web"/>
+
+        <updated>2025-07-14T20:19:19+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://deddme.id/media/posts/41/web-deddme-2.png" alt="" />
+                    Lisensi digital adalah aturan hukum yang mengatur bagaimana karya digital—seperti software, gambar, musik, atau tulisan—boleh digunakan, dimodifikasi, dan dibagikan. Setiap lisensi hadir dengan tujuan yang berbeda tergantung pada filosofi penciptanya dan kebutuhan distribusi. Artikel ini membahas 10 jenis lisensi populer, lengkap dengan kepanjangan, pengertian, penemu atau komunitas pembuat, tujuan spesifik,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://deddme.id/media/posts/41/web-deddme-2.png" class="type:primaryImage" alt="" /></p>
+                <p>Lisensi digital adalah aturan hukum yang mengatur bagaimana karya digital—seperti software, gambar, musik, atau tulisan—boleh digunakan, dimodifikasi, dan dibagikan. Setiap lisensi hadir dengan tujuan yang berbeda tergantung pada filosofi penciptanya dan kebutuhan distribusi. </p><p>Artikel ini membahas 10 jenis lisensi populer, lengkap dengan kepanjangan, pengertian, penemu atau komunitas pembuat, tujuan spesifik, versi turunannya beserta fungsinya, kegunaan terbaik, dan contoh situs pengguna.</p><hr>
+<h2 id="daftar-isi">Daftar Isi</h2>
+<ol>
+<li><a href="#1-copyright-license-hak-cipta">Copyright License</a></li>
+<li><a href="#2-creative-commons-license">Creative Commons License</a></li>
+<li><a href="#3-gnu-gpl-license">GNU GPL License</a></li>
+<li><a href="#4-proprietary-license">Proprietary License</a></li>
+<li><a href="#5-mit-license">MIT License</a></li>
+<li><a href="#6-apache-license">Apache License</a></li>
+<li><a href="#7-bsd-license">BSD License</a></li>
+<li><a href="#8-public-domain">Public Domain</a></li>
+<li><a href="#9-eula">EULA</a></li>
+<li><a href="#10-copyleft">Copyleft</a></li>
+</ol>
+<hr>
+<h2 id="1-copyright-license-hak-cipta">1. Copyright License (Hak Cipta)</h2>
+<p><strong>Pengertian:</strong> Hak eksklusif atas karya orisinal. Pemilik karya dapat menentukan penggunaan, penggandaan, dan distribusi.<br><strong>Penemu / Komunitas:</strong> Statute of Anne, Inggris (1710)<br><strong>Tujuan:</strong> Melindungi hak pencipta atas karya dan memungkinkan kontrol atas bagaimana karya digunakan.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>Fair Use:</strong> Penggunaan terbatas tanpa izin untuk edukasi, kritik, atau peliputan berita.</li>
+<li><strong>Moral Rights:</strong> Hak pencipta untuk mendapat pengakuan dan menjaga integritas karyanya.</li>
+</ul>
+<p><strong>Cocok digunakan untuk:</strong> Musik, film, desain eksklusif, tulisan profesional<br><strong>Contoh situs:</strong> Netflix, Spotify, Pixar</p><hr>
+<h2 id="2-creative-commons-license">2. Creative Commons License</h2>
+<p>Url : <a href="https://creativecommons.org/share-your-work/cclicenses/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://creativecommons.org/share-your-work/cclicenses/</a></p><p><strong>Pengertian:</strong> Lisensi terbuka yang memungkinkan pembagian dan penggunaan karya dengan berbagai batasan.<br><strong>Penemu / Komunitas:</strong> Lawrence Lessig &amp; Creative Commons Foundation (2001)<br><strong>Tujuan:</strong> Mendorong kolaborasi, berbagi pengetahuan, dan distribusi terbuka dengan tetap melindungi hak pencipta.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>CC BY:</strong> Bebas digunakan dan dimodifikasi dengan mencantumkan atribusi.</li>
+<li><strong>CC BY-SA:</strong> Bebas digunakan, turunan harus tetap pakai lisensi yang sama.</li>
+<li><strong>CC BY-NC:</strong> Hanya untuk penggunaan non-komersial, tetap wajib atribusi.</li>
+<li><strong>CC BY-ND:</strong> Tidak boleh dimodifikasi, hanya boleh digunakan dengan atribusi.</li>
+<li><strong>CC BY-NC-SA:</strong> Non-komersial dan turunan wajib menggunakan lisensi serupa.</li>
+<li><strong>CC BY-NC-ND:</strong> Non-komersial, tidak boleh dimodifikasi.</li>
+<li><strong>CC0:</strong> Melepas semua hak cipta; karya masuk domain publik.</li>
+</ul>
+<p><strong>Cocok digunakan untuk:</strong> Blog, foto stok, konten edukatif<br><strong>Contoh situs:</strong> Wikipedia, Unsplash, Wikimedia Commons</p><hr>
+<h2 id="3-gnu-gpl-license">3. GNU GPL License</h2>
+<p>  url : <a href="https://www.gnu.org/gnu/gnu-history.html"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://www.gnu.org/gnu/gnu-history.html</a></p><p><strong>Pengertian:</strong> GNU (“GNU’s Not Unix.”) GPL (General Public License) Lisensi copyleft yang mewajibkan turunan software tetap open-source.<br><strong>Penemu / Komunitas:</strong> Richard Stallman &amp; Free Software Foundation (1989)<br><strong>Tujuan:</strong> Menjaga kebebasan pengguna atas software dan memastikan kolaborasi terus berjalan secara terbuka.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>LGPL:</strong> Versi ringan yang mengizinkan integrasi dengan software proprietary.</li>
+<li><strong>AGPL:</strong> Menjamin keterbukaan walau software hanya digunakan melalui server.<br><strong>Cocok digunakan untuk:</strong> Sistem backend, CMS, software komunitas<br><strong>Contoh situs:</strong> WordPress, Blender, GIMP</li>
+</ul>
+<hr>
+<h2 id="4-proprietary-license">4. Proprietary License</h2>
+<p>url : <a href="https://en.wikipedia.org/wiki/Proprietary_software"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://en.wikipedia.org/wiki/Proprietary_software</a></p><p><strong>Pengertian:</strong> Lisensi tertutup yang membatasi penggunaan, modifikasi, dan distribusi karya.<br><strong>Penemu / Komunitas:</strong> Microsoft, Adobe, Autodesk<br><strong>Tujuan:</strong> Memberikan kontrol penuh kepada pemilik produk dan memungkinkan monetisasi langsung.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>Trial License:</strong> Digunakan gratis dalam batas waktu tertentu.</li>
+<li><strong>OEM License:</strong> Lisensi terikat pada perangkat.</li>
+<li><strong>Volume License:</strong> Untuk penggunaan massal dalam organisasi.</li>
+</ul>
+<p><strong>Cocok digunakan untuk:</strong> Software premium, aplikasi bisnis<br><strong>Contoh situs:</strong> Microsoft, Adobe, Autodesk</p><hr>
+<h2 id="5-mit-license">5. MIT License</h2>
+<p>url : <a href="https://mit-license.org/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://mit-license.org/</a></p><p><strong>Pengertian:</strong> MIT (Massachusetts Institute of Technology License)  Lisensi open-source sangat permisif yang hanya mensyaratkan atribusi.<br><strong>Penemu / Komunitas:</strong> Institut Massachusetts (1980-an)<br><strong>Tujuan:</strong> Memudahkan distribusi dan penggunaan software dalam skala luas, termasuk penggunaan komersial.<br><strong>Versi Turunan dan Fungsinya:</strong> Tidak memiliki versi resmi; sering dijadikan dasar modifikasi untuk proyek baru.<br><strong>Cocok digunakan untuk:</strong> Library JavaScript, proyek startup, pengembangan frontend<br><strong>Contoh situs:</strong> Vue.js, React, jQuery</p><hr>
+<h2 id="6-apache-license">6. Apache License</h2>
+<p>url : <a href="https://www.apache.org/licenses/LICENSE-2.0"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://www.apache.org/licenses/LICENSE-2.0</a></p><p><strong>Pengertian:</strong> Apache Software License, open-source yang melindungi dari tuntutan hukum paten dan mewajibkan atribusi.<br><strong>Penemu / Komunitas:</strong> Apache Software Foundation (1999)<br><strong>Tujuan:</strong> Mendukung distribusi software open-source dengan perlindungan paten yang kuat.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>Apache 1.1:</strong> Versi awal tanpa proteksi paten.</li>
+<li><strong>Apache 2.0:</strong> Menambahkan proteksi hukum dan pengakuan kontribusi.<br><strong>Cocok digunakan untuk:</strong> Backend server, distribusi komputasi data<br><strong>Contoh situs:</strong> Apache HTTP Server, Hadoop, Airflow</li>
+</ul>
+<hr>
+<h2 id="7-bsd-license">7. BSD License</h2>
+<p>url : <a href="https://www.freebsd.org/copyright/license/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://www.freebsd.org/copyright/license/</a></p><p><strong>Pengertian:</strong> BSD (Berkeley Software Distribution License) Lisensi open-source yang sangat fleksibel dan cocok untuk penggunaan komersial.<br><strong>Penemu / Komunitas:</strong> University of California, Berkeley<br><strong>Tujuan:</strong> Mendorong adopsi luas dengan batasan legal minimal, mendukung kebebasan distribusi software.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>BSD 2-Clause:</strong> Memberikan izin penggunaan dengan atribusi dan disclaimer.</li>
+<li><strong>BSD 3-Clause:</strong> Mencegah penggunaan nama pencipta untuk promosi produk.<br><strong>Cocok digunakan untuk:</strong> Sistem operasi ringan, proyek Unix<br><strong>Contoh situs:</strong> FreeBSD, OpenBSD</li>
+</ul>
+<hr>
+<h2 id="8-public-domain">8. Public Domain</h2>
+<p>url : <a href="https://creativecommons.org/public-domain/"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://creativecommons.org/public-domain/</a></p><p><strong>Pengertian:</strong> Karya yang tidak memiliki hak cipta dan bebas digunakan oleh siapa pun.<br><strong>Penemu / Komunitas:</strong> Konsep hukum universal<br><strong>Tujuan:</strong> Membebaskan karya untuk digunakan, diubah, dan disebarluaskan tanpa batasan hukum.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>CC0:</strong> Deklarasi resmi pelepasan hak cipta oleh pencipta.<br><strong>Cocok digunakan untuk:</strong> Literatur klasik, data statistik, dokumen publik<br><strong>Contoh situs:</strong> Project Gutenberg, NASA, Data.gov</li>
+</ul>
+<hr>
+<h2 id="9-eula">9. EULA</h2>
+<p>url : <a href="https://id.wikipedia.org/wiki/EULA"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://id.wikipedia.org/wiki/EULA</a></p><p><strong>Pengertian:</strong> EULA (End User License Agreement) Perjanjian hukum antara pembuat software dan pengguna akhir tentang syarat penggunaan.<br><strong>Penemu / Komunitas:</strong> Perusahaan perangkat lunak komersial<br><strong>Tujuan:</strong> Melindungi pembuat software dengan menetapkan batasan penggunaan dan tanggung jawab.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>Shrink-Wrap:</strong> Disetujui secara fisik saat membuka produk.</li>
+<li><strong>Click-Wrap:</strong> Disetujui saat klik “I Agree”.</li>
+<li><strong>Browse-Wrap:</strong> Persetujuan otomatis saat pengguna mengakses layanan.<br><strong>Cocok digunakan untuk:</strong> Aplikasi desktop, software berbayar<br><strong>Contoh situs:</strong> WhatsApp, Adobe Reader</li>
+</ul>
+<hr>
+<h2 id="10-copyleft">10. Copyleft</h2>
+<p>url : <a href="https://id.wikipedia.org/wiki/Copyleft"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://id.wikipedia.org/wiki/Copyleft</a></p><p><strong>Pengertian:</strong> Bukan singkatan — istilah hukum terkait filosofi lisensi terbuka, Lisensi yang mewajibkan semua karya turunan tetap terbuka dan bebas digunakan.<br><strong>Penemu / Komunitas:</strong> Richard Stallman &amp; Free Software Foundation<br><strong>Tujuan:</strong> Menjamin kebebasan akses dan mendorong kolaborasi terbuka dalam pengembangan software.<br><strong>Versi Turunan dan Fungsinya:</strong></p><ul>
+<li><strong>Strong Copyleft:</strong> Semua bagian turunan wajib menggunakan lisensi terbuka (misalnya GPL).</li>
+<li><strong>Weak Copyleft:</strong> Hanya bagian tertentu dari turunan yang harus terbuka (misalnya MPL).<br><strong>Cocok digunakan untuk:</strong> Proyek komunitas, software edukatif<br><strong>Contoh situs:</strong> GNU, Debian, LibreOffice</li>
+</ul>
+<hr>
+<h2 id="bonus">Bonus</h2>
+<p>Masih belum tahu lisensi mana yang tepat untuk kamu, berikut Daftar lisensi open-source : <a href="https://opensource.org/licenses"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://opensource.org/licenses</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas</title>
         <author>
@@ -16,19 +118,19 @@
         </author>
         <link href="https://deddme.id/artikel/soal-tryout-ukppg-2025-kemampuan-pedagogik-dan-manajemen-kelas/index.html"/>
         <id>https://deddme.id/artikel/soal-tryout-ukppg-2025-kemampuan-pedagogik-dan-manajemen-kelas/index.html</id>
-        <media:content url="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme.id.png" medium="image" />
+        <media:content url="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme-2.png" medium="image" />
             <category term="Soal PPG"/>
 
         <updated>2025-07-13T22:19:37+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme.id.png" alt="Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas" />
+                        <img src="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme-2.png" alt="Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas" />
                     Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas, merupakan soal tryout UKPPG. yang disusun menjadi pilihan ganda interaktif. anda dapat berlatih disini dengan cara klik pada pilihan yang tersedia cara penggunaan : klik pada pilihan untuk menjawab Ulangi Soal
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme.id.png" class="type:primaryImage" alt="Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas" /></p>
+                    <p><img src="https://deddme.id/media/posts/40/Tryout-UKPPG-2025-deddme-2.png" class="type:primaryImage" alt="Soal Tryout UKPPG 2025 - kemampuan pedagogik dan Manajemen kelas" /></p>
                 <div id="menuju_keatas"><br>
 
 <blockquote>
@@ -1011,20 +1113,20 @@ function filterKaldikByMonth() {
         </author>
         <link href="https://deddme.id/artikel/10-script-ampuh-agar-website-kamu-ngebut/index.html"/>
         <id>https://deddme.id/artikel/10-script-ampuh-agar-website-kamu-ngebut/index.html</id>
-        <media:content url="https://deddme.id/media/posts/35/web-deddme.png" medium="image" />
+        <media:content url="https://deddme.id/media/posts/35/web-deddme-2.png" medium="image" />
             <category term="Web"/>
             <category term="JavaScript"/>
 
         <updated>2025-07-11T09:00:29+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://deddme.id/media/posts/35/web-deddme.png" alt="10 Script Ampuh agar website Kamu Ngebut! " />
+                        <img src="https://deddme.id/media/posts/35/web-deddme-2.png" alt="10 Script Ampuh agar website Kamu Ngebut! " />
                     Kalau kamu pengen cara plug and play yang anti ribet, ada 10 script ringan tapi ampuh yang bisa langsung kamu pasang untuk meningkatkan kecepatan situs kamu. Jika tidak cocok? ya dihapus saja, Yuk, simak daftarnya dan lihat perubahan instan! Url : https://getquick.link/ Fungsi: Bayangin gini, kamu baru mau ngeklik sebuah&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/35/web-deddme.png" class="type:primaryImage" alt="10 Script Ampuh agar website Kamu Ngebut! " /></p>
+                    <p><img src="https://deddme.id/media/posts/35/web-deddme-2.png" class="type:primaryImage" alt="10 Script Ampuh agar website Kamu Ngebut! " /></p>
                 <p>Kalau kamu pengen cara plug and play yang anti ribet, ada 10 script ringan tapi ampuh yang bisa langsung kamu pasang untuk meningkatkan kecepatan situs kamu. Jika tidak cocok? ya dihapus saja, Yuk, simak daftarnya dan lihat perubahan instan!</p><h2 id="daftar-isi">Daftar Isi</h2>
 <ul>
 <li><a href="#1-quicklinkjs">1. Quicklink.js</a>  </li>
@@ -1556,193 +1658,6 @@ Alih-alih menggunakan <em>widget</em> <em>share button</em> pihak ketiga yang me
 Tentang MPLS (Paud, SD, Dan SMP)</a></li>
 <li><a href="https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/">Telaah Panduan MPLS Ramah SD Sederajat</a></li>
 </ol>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Telaah Panduan MPLS Ramah SD Sederajat</title>
-        <author>
-            <name>Deddy Hidayat</name>
-        </author>
-        <link href="https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html"/>
-        <id>https://deddme.id/artikel/telaah-panduan-mpls-ramah-sd-sederajat/index.html</id>
-        <media:content url="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" medium="image" />
-            <category term="Pendidikan"/>
-            <category term="2025-2026"/>
-
-        <updated>2025-07-08T12:59:33+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" alt="Panduan MPLS Ramah SD Sederajat" />
-                    artikel ini merupakan panduan kegiatan untuk MPLS Ramah yang kami sarikan dari buku Rujukan Kegiatan Masa Pengenalan Lingkungan Satuan Pendidikan Ramah (MPLS Ramah) untuk Sekolah Dasar Sederajat Geser tabel kekiri –&gt; kanan Pada hari pertama, murid baru diperkenalkan secara menyeluruh kepada lingkungan dan budaya sekolah untuk membuat mereka merasa diterima&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://deddme.id/media/posts/31/Rujukan-MPLS-Ramah-2025-2.png" class="type:primaryImage" alt="Panduan MPLS Ramah SD Sederajat" /></p>
-                <blockquote>
-<p>artikel ini merupakan panduan kegiatan untuk MPLS Ramah yang kami sarikan dari buku Rujukan Kegiatan Masa Pengenalan Lingkungan Satuan Pendidikan Ramah (MPLS Ramah) untuk Sekolah Dasar Sederajat</p></blockquote>
-<h2 id="tabel-ringkasan-harian">Tabel Ringkasan Harian</h2>
-<p>Geser tabel kekiri –&gt; kanan</p><!-- Artikel dengan Link Resource Terintegrasi -->
-<div style="overflow-x:auto; width:100%; box-sizing:border-box;">
-  <table style="width:100%; border-collapse:collapse; min-width:600px;">
-    <thead>
-      <tr>
-        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Hari</th>
-        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Tujuan Utama</th>
-        <th style="border:1px solid #ccc; padding:8px; text-align:left;">Sorotan Kegiatan &amp; Link</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="border:1px solid #ccc; padding:8px;">Hari Pertama</td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Murid baru merasa <strong>diterima</strong> dan antusias mengenal sekolah
-        </td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Pengisian Formulir Identitas (10 m),  
-          Pengenalan Profil Lulusan (20 m),  
-          <a href="https://s.id/senam_SAIH" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Senam Anak Indonesia Hebat</a> &amp;  
-          <a href="https://s.id/jinglemplsramah" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Jinggel MPLS Ramah</a> (30 m),<br>
-          Tur “Menemukan Harta Karun” (<a href="https://s.id/Rambu_PapanInformasiBencana" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Rambu Kesiapsiagaan</a>) (60 m),  
-          Refleksi Singkat (10 m)
-        </td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:8px;">Hari Kedua</td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Memupuk <strong>inklusivitas</strong> dan saling menghargai
-        </td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Presensi Mandiri Kreatif (15 m),  
-          Berkenalan Lewat Pasangan (15 m),  
-          Storytelling “Tujuh Kebiasaan Anak Hebat” (pakai  
-          <a href="https://s.id/album7kaih" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Album 7 Kebiasaan</a>) (45 m),  
-          Kegiatan “Garis Pemisah” (15 m),  
-          Feedback Cepat (10 m)
-        </td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:8px;">Hari Ketiga</td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Mengasah <strong>keterampilan berbicara</strong> dan empati mendengarkan
-        </td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Pasang Cerita Temanku (35 m),  
-          Cerita “Sekolahku Hebat” (35 m),  
-          Lingkaran Berbagi Minat (30 m),  
-          Afirmasi Penutup (15 m)
-        </td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:8px;">Hari Keempat</td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Menginternalisasi <strong>PHBS</strong> (Hidup Bersih &amp; Sehat)
-        </td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Cek Kuku &amp; Gigi + Mewarnai “Aku Bersih” (30 m),  
-          Aksi Pungut Sampah (40 m),  
-          <a href="https://www.youtube.com/results?search_query=aku+anak+hebat+berani+imunisasi" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Video “Aku Anak Hebat, Berani Imunisasi”</a> (30 m),  
-          Komitmen Kebersihan (15 m)
-        </td>
-      </tr>
-      <tr>
-        <td style="border:1px solid #ccc; padding:8px;">Hari Kelima</td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Merayakan tujuh kebiasaan &amp; menetapkan <strong>komitmen kolektif</strong>
-        </td>
-        <td style="border:1px solid #ccc; padding:8px;">
-          Demo Ekstrakurikuler &amp; Pramuka (40 m),  
-          Cap Tangan Komitmen Bersama (30 m),  
-          Persembahan Lagu “Tujuh Kebiasaan Anak Hebat” (pakai  
-          <a href="https://s.id/lagu7kaih" target="_blank" class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Lagu 7 Kebiasaan</a>) (30 m),  
-          Apresiasi Simbolik (15 m)
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<hr>
-<h2 id="detail-kegiatan">Detail kegiatan</h2>
-<h3 id="🔹-hari-pertama-sekolahku-menggembirakan">🔹 Hari Pertama: Sekolahku Menggembirakan</h3>
-<p>Pada hari pertama, murid baru diperkenalkan secara menyeluruh kepada lingkungan dan budaya sekolah untuk membuat mereka merasa <strong>diterima</strong> dan <strong>antusias</strong> memulai pembelajaran.</p><p><strong>Agenda Utama</strong>  </p><ul>
-<li>📝 <strong>Pengisian Formulir Identitas</strong> (10 m) – Formulir dapat diunduh di <a href="https://s.id/formulirsd_mplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/formulirsd_mplsramah</a>.  </li>
-<li>🎤 <strong>Pengenalan Profil Lulusan</strong> (20 m) – Presentasi delapan dimensi profil lulusan melalui slide atau cetakan resmi sekolah.  </li>
-<li>🤸 <strong>Senam Anak Indonesia Hebat</strong> (30 m) – Video panduan di <a href="https://s.id/senam_SAIH"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/senam_SAIH</a>, diikuti dengan lagu jinggel di <a href="https://s.id/jinglemplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/jinglemplsramah</a>.  </li>
-<li>👋 <strong>Permainan Nama &amp; Hobi</strong> (30 m) – Siapkan bola ringan dan kartu pertanyaan dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a> untuk variasi pertanyaan.  </li>
-<li>🗺️ <strong>Tur “Menemukan Harta Karun”</strong> (60 m) – Gunakan petunjuk pada peta atau cetak rambu kesiapsiagaan dari <a href="https://s.id/Rambu_PapanInformasiBencana"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/Rambu_PapanInformasiBencana</a>.  </li>
-<li>🔔 <strong>Refleksi Singkat</strong> (10 m) – Tampilkan kartu ekspresi dan lagu penutup dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.</li>
-</ul>
-<hr>
-<h3 id="🔹-hari-kedua-aku-mengenal-teman-dan-guru">🔹 Hari Kedua: Aku Mengenal Teman dan Guru</h3>
-<p>Fokus hari kedua adalah memperkuat <strong>inklusivitas</strong> dan rasa saling menghargai antar murid serta guru.</p><p><strong>Agenda Utama</strong>  </p><ul>
-<li>📝 <strong>Presensi Mandiri Kreatif</strong> (15 m) – Stiker nama atau kartu kehadiran dapat dicetak dari <a href="https://s.id/formulirsd_mplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/formulirsd_mplsramah</a>.  </li>
-<li>🤗 <strong>Berkenalan Lewat Pasangan</strong> (15 m) – Gunakan musik latar dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a> untuk suasana hangat.  </li>
-<li>📖 <strong>Storytelling “Tujuh Kebiasaan Anak Hebat”</strong> (45 m) – Naskah dan lagu tematik tersedia di <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.  </li>
-<li>↔️ <strong>Kegiatan “Garis Pemisah”</strong> (15 m) – Sediakan lakban warna dan kartu pernyataan sederhana.  </li>
-<li>🔍 <strong>Mini-Jelajah Pelajaran</strong> (15 m) – Gambar mata pelajaran bisa diunduh di pustaka sekolah atau [repositori visual guru].  </li>
-<li>🎤 <strong>Bernyanyi Lagu Tema</strong> (15 m) – Lagu “Tujuh Kebiasaan Anak Hebat” diputar dari <a href="https://s.id/lagu7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/lagu7kaih</a>.  </li>
-<li>🔔 <strong>Feedback Cepat</strong> (10 m) – Kartu ekspresi dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.</li>
-</ul>
-<hr>
-<h3 id="🔹-hari-ketiga-aku-berbagi-cerita">🔹 Hari Ketiga: Aku Berbagi Cerita</h3>
-<p>Hari ketiga menitikberatkan pada keterampilan <strong>berbicara</strong> dan <strong>mendengarkan</strong> dengan empati.</p><p><strong>Agenda Utama</strong>  </p><ul>
-<li>📝 <strong>Presensi &amp; Sapaan Pagi</strong> (15 m) – Tombol presensi mandiri dan musik sapaan di <a href="https://s.id/jinglemplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/jinglemplsramah</a>.  </li>
-<li>🗣️ <strong>Pasang Cerita Temanku</strong> (35 m) – Gunakan boneka tangan sebagai alat bicara; contoh template di <a href="https://s.id/formulirsd_mplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/formulirsd_mplsramah</a> lampiran.  </li>
-<li>📚 <strong>Cerita “Sekolahku Hebat”</strong> (35 m) – Gambar visi misi sekolah dapat diunduh di situs sekolah.  </li>
-<li>🔄 <strong>Lingkaran Berbagi Minat</strong> (30 m) – Siapkan tikar dan bola bicara; referensi pertanyaan di <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.  </li>
-<li>🔔 <strong>Afirmasi Penutup</strong> (15 m) – Lagu penutup dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.</li>
-</ul>
-<hr>
-<h3 id="🔹-hari-keempat-aku-bersih-dan-sehat">🔹 Hari Keempat: Aku Bersih dan Sehat</h3>
-<p>Hari keempat memupuk <strong>PHBS</strong> (Perilaku Hidup Bersih &amp; Sehat) pada diri dan lingkungan.</p><p><strong>Agenda Utama</strong>  </p><ul>
-<li>💅 <strong>Cek Kuku &amp; Gigi + Mewarnai “Aku Bersih”</strong> (30 m) – Cetak lembar mewarnai dari <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>.  </li>
-<li>🗑️ <strong>Aksi Pungut Sampah</strong> (40 m) – Murid membawa kantong dari rumah; materi “Cara Pungut Sampah” di lampiran.  </li>
-<li>🎥 <strong>Nonton “Aku Anak Hebat, Berani Imunisasi”</strong> (30 m) – Video tersedia di YouTube:<br><a href="https://www.youtube.com/watch?v=example_imunisasi"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">https://www.youtube.com/watch?v=example_imunisasi</a>  </li>
-<li>🔔 <strong>Komitmen Kebersihan</strong> (15 m) – Template banner komitmen diunduh dari <a href="https://s.id/ckeditor"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/ckeditor</a>.</li>
-</ul>
-<hr>
-<h3 id="🔹-hari-kelima-ceria-bersama-di-sekolah">🔹 Hari Kelima: Ceria Bersama di Sekolah</h3>
-<p>Penutup MPLS dengan <strong>perayaan</strong> dan <strong>komitmen kolektif</strong> untuk mengakhiri rangkaian kegiatan.</p><p><strong>Agenda Utama</strong>  </p><ul>
-<li>🏅 <strong>Demo Ekstrakurikuler &amp; Pramuka</strong> (40 m) – Siapkan seragam dan atribut ekskul; dokumentasi di portal sekolah.  </li>
-<li>✋ <strong>Cap Tangan Komitmen Bersama</strong> (30 m) – Cat tangan dan spanduk tersedia di <a href="https://s.id/ckeditor"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/ckeditor</a>.  </li>
-<li>🎤 <strong>Persembahan Lagu “Tujuh Kebiasaan Anak Hebat”</strong> (30 m) – Audio di <a href="https://s.id/lagu7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/lagu7kaih</a>.  </li>
-<li>🎁 <strong>Apresiasi Simbolik</strong> (15 m) – Sertifikat partisipasi digital template dari <a href="https://s.id/formulirsd_mplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/formulirsd_mplsramah</a>.</li>
-</ul>
-<hr>
-<h2 id="🌐-referensi-digital-mpls-ramah">🌐 Referensi Digital MPLS Ramah</h2>
-<p>Berikut adalah semua tautan penting dari dokumen “Rujukan Kegiatan MPLS Ramah Jenjang SD Sederajat”:</p><h3 id="🎵-musik--lagu">🎵 Musik &amp; Lagu</h3>
-<ul>
-<li><strong>Jinggel MPLS Ramah</strong>: <a href="https://s.id/jinglemplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/jinglemplsramah</a>  </li>
-<li><strong>Senam Anak Indonesia Hebat (SAIH)</strong>: <a href="https://s.id/senam_SAIH"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/senam_SAIH</a>  </li>
-<li><strong>Album Lagu “Tujuh Kebiasaan Anak Indonesia Hebat”</strong>: <a href="https://s.id/album7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/album7kaih</a>  </li>
-<li><strong>Lagu “Tujuh Kebiasaan Anak Indonesia Hebat” (versi tunggal)</strong>: <a href="https://s.id/lagu7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/lagu7kaih</a>  </li>
-<li><strong>Lagu “Makan Sehat, Kita Hebat!”</strong>: <a href="https://s.id/makansehat7kaih"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/makansehat7kaih</a>  </li>
-<li><strong>Lagu 3B dan BBMK</strong> (untuk penutup dan refleksi): <a href="https://s.id/Lagu3B_BBMK"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/Lagu3B_BBMK</a></li>
-</ul>
-<h3 id="📋-formulir--poster">📋 Formulir &amp; Poster</h3>
-<ul>
-<li><strong>Formulir Identitas Diri Murid Baru</strong> (termasuk lampiran pengembangan murid): <a href="https://s.id/formulirsd_mplsramah"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/formulirsd_mplsramah</a>  </li>
-<li><strong>Poster 7 Kebiasaan Anak Indonesia Hebat</strong>: <a href="https://cerdasberkarakter.kemendikdasmen.go.id/gerakan7kebiasaan"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">cerdasberkarakter.kemendikdasmen.go.id/gerakan7kebiasaan</a>  </li>
-<li><strong>Poster “Isi Piringku” (referensi makan sehat bergizi)</strong>: <a href="https://s.id/isipiringkusehat"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/isipiringkusehat</a></li>
-</ul>
-<h3 id="❄️-ice-breaking--edukasi">❄️ Ice Breaking &amp; Edukasi</h3>
-<ul>
-<li><strong>Video Ice Breaking “Tepuk Ramtamtam”</strong>: <a href="https://s.id/ramtamtam"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/ramtamtam</a>  </li>
-<li><strong>Video “Aku Anak Hebat, Berani Imunisasi”</strong> (YouTube): <a href="https://www.youtube.com/results?search_query=aku+anak+hebat+berani+imunisasi"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">Cari di YouTube</a></li>
-</ul>
-<h3 id="🧭-kesiapsiagaan--simulasi">🧭 Kesiapsiagaan &amp; Simulasi</h3>
-<ul>
-<li><strong>Rambu dan Papan Informasi Bencana</strong> (untuk Tur Harta Karun &amp; titik kumpul): <a href="https://s.id/Rambu_PapanInformasiBencana"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">s.id/Rambu_PapanInformasiBencana</a></li>
-</ul>
-<h3 id="📝-evaluasi-daring">📝 Evaluasi Daring</h3>
-<ul>
-<li><strong>Evaluasi MPLS oleh Kepala Sekolah</strong>: <a href="https://bit.ly/empls25ks1"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">bit.ly/empls25ks1</a>  </li>
-<li><strong>Evaluasi MPLS oleh Orang Tua/Wali</strong>: <a href="https://bit.ly/empls25o"  class="extlink extlink-icon-10"  rel="nofollow noopener noreferrer">bit.ly/empls25o</a></li>
-</ul>
-<hr>
 
             ]]>
         </content>

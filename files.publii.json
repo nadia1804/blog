@@ -35,6 +35,16 @@
         "md5": "f9d3bee226d5ba50471043aad6c5c7ed"
     },
     {
+        "path": "artikel/10-jenis-lisensi-digital-yang-wajib-kamu-ketahui",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/10-jenis-lisensi-digital-yang-wajib-kamu-ketahui/index.html",
+        "type": "file",
+        "md5": "99e13c8433231ec6ec65b49a9d68d3c1"
+    },
+    {
         "path": "artikel/10-script-ampuh-agar-website-kamu-ngebut",
         "type": "directory",
         "md5": false
@@ -42,7 +52,7 @@
     {
         "path": "/artikel/10-script-ampuh-agar-website-kamu-ngebut/index.html",
         "type": "file",
-        "md5": "d8387990d8829b858f4b5d9274615d9b"
+        "md5": "af6757671d19db4d2fb8e1dd31e3c00d"
     },
     {
         "path": "artikel/apa-itu-mpls-ramah",
@@ -77,7 +87,7 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "3490397ed6dc42690a2bd7ab611f85dd"
+        "md5": "b4b31cd54a897d4b8db0ee0be39cbf02"
     },
     {
         "path": "artikel/halaman/3",
@@ -87,7 +97,7 @@
     {
         "path": "/artikel/halaman/3/index.html",
         "type": "file",
-        "md5": "4fcc77fc872f476083a0bd819e725f55"
+        "md5": "de527e17cbb5c7259564cc64fe248267"
     },
     {
         "path": "artikel/halaman/4",
@@ -97,7 +107,7 @@
     {
         "path": "/artikel/halaman/4/index.html",
         "type": "file",
-        "md5": "3bd10e2fcb739657e4e1c429fca888ab"
+        "md5": "9daf0bd31ecb63e53af1405d5336d9ec"
     },
     {
         "path": "artikel/hari-libur-dan-cuti-bersama-2025-2026",
@@ -112,7 +122,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "be80bf13b6d6fba866b17c6a074d3e05"
+        "md5": "454f86381676b546510b338baa61e5b3"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -152,7 +162,7 @@
     {
         "path": "/artikel/kode-anti-copy-paste-untuk-website/index.html",
         "type": "file",
-        "md5": "a3dd24dcc60e3ed95949da9032044ce1"
+        "md5": "cf298e97d9eb133357863caf3413f0d1"
     },
     {
         "path": "artikel/kumpulan-soal-ppg-dan-tryout-ukppg-2025",
@@ -352,7 +362,7 @@
     {
         "path": "/artikel/soal-tryout-ukppg-2025-kemampuan-pedagogik-dan-manajemen-kelas/index.html",
         "type": "file",
-        "md5": "3a2cda1f533344ad6d582fb7c74f0dfe"
+        "md5": "25a3d0f96a8b97be8046281552251d41"
     },
     {
         "path": "artikel/telaah-kalender-pendidikan-2025-2026",
@@ -482,17 +492,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "54bc0bee60497baaac2883535d8b09cd"
+        "md5": "615e7c3cdd651ffae647d66bd641bedd"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "373193f76e21caf0505839a96bcd64cf"
+        "md5": "3777f9b83b53d13aedc16bc745e79882"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "48e88557213b114b99844db2b56ab7fd"
+        "md5": "9646909e45b77bbcfd7853f00e61881d"
     },
     {
         "path": "kategori",
@@ -542,7 +552,7 @@
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "424fafdb0a12b4a8aa614837451de29a"
+        "md5": "adf826d7a4e4156d7a341b28db8129fb"
     },
     {
         "path": "kategori/javascript",
@@ -552,7 +562,7 @@
     {
         "path": "/kategori/javascript/index.html",
         "type": "file",
-        "md5": "75eb8b11e0c104b1e304eea035d062d0"
+        "md5": "64880ee9a8e81962c9a2596414d5cfe3"
     },
     {
         "path": "kategori/pendidikan",
@@ -597,7 +607,7 @@
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "1b30a87e64a422e36419d4b1405ab559"
+        "md5": "fa047d9173e820a5732065ac5441f100"
     },
     {
         "path": "kategori/tools",
@@ -617,7 +627,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "779298a40ca32c86548f56f94432528e"
+        "md5": "991726f4b96a896bb85e6bf4bd439eca"
     },
     {
         "path": "media",
@@ -1555,29 +1565,29 @@
         "md5": false
     },
     {
-        "path": "/media/posts/35/responsive/web-deddme-md.webp",
+        "path": "/media/posts/35/responsive/web-deddme-2-md.webp",
         "type": "file",
-        "md5": "ffbcecac08a520aad9ea6149fc3f5332"
+        "md5": "51da9e3bfe7f0327445148fa49f0ea50"
     },
     {
-        "path": "/media/posts/35/responsive/web-deddme-sm.webp",
+        "path": "/media/posts/35/responsive/web-deddme-2-sm.webp",
         "type": "file",
-        "md5": "b5161815ef3d62e89bcdc877189470d5"
+        "md5": "abcfa8f553f73ef4811a5175ad9e3528"
     },
     {
-        "path": "/media/posts/35/responsive/web-deddme-xl.webp",
+        "path": "/media/posts/35/responsive/web-deddme-2-xl.webp",
         "type": "file",
-        "md5": "ea6695b1603b2a72dd83af4e267a882d"
+        "md5": "3718d7ec9e2b741513a531e0d27aa0a6"
     },
     {
-        "path": "/media/posts/35/responsive/web-deddme-xs.webp",
+        "path": "/media/posts/35/responsive/web-deddme-2-xs.webp",
         "type": "file",
-        "md5": "935e3e6826b25756d9abb6b224c0aa9a"
+        "md5": "17d3a2f70e88b9435256b64736952833"
     },
     {
-        "path": "/media/posts/35/web-deddme.png",
+        "path": "/media/posts/35/web-deddme-2.png",
         "type": "file",
-        "md5": "423c2de40891a0fbf6ba69d4dc8ff29a"
+        "md5": "98bb4b32fce9a91f1c9a175d6abf5487"
     },
     {
         "path": "media/posts/36",
@@ -1765,29 +1775,64 @@
         "md5": false
     },
     {
-        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-md.webp",
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme-2-md.webp",
         "type": "file",
-        "md5": "0895436dd27bc21d361009aa34d39dfb"
+        "md5": "d0872479f75baa63a2da860397556223"
     },
     {
-        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-sm.webp",
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme-2-sm.webp",
         "type": "file",
-        "md5": "bf0629509274a68d51b08497906b9451"
+        "md5": "14b59667d41601463056b03013de14b5"
     },
     {
-        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-xl.webp",
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme-2-xl.webp",
         "type": "file",
-        "md5": "de204b735e000ac30987afc8a05ee1b2"
+        "md5": "c0249cbd238be9791c8c0ec8c1348b11"
     },
     {
-        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme.id-xs.webp",
+        "path": "/media/posts/40/responsive/Tryout-UKPPG-2025-deddme-2-xs.webp",
         "type": "file",
-        "md5": "a556ccc50a27d9528d77ae40838c080a"
+        "md5": "832139c2ad02814b2c1445f6c49c6e32"
     },
     {
-        "path": "/media/posts/40/Tryout-UKPPG-2025-deddme.id.png",
+        "path": "/media/posts/40/Tryout-UKPPG-2025-deddme-2.png",
         "type": "file",
-        "md5": "2ed0450be43eae489fe193ac7fb63919"
+        "md5": "2e99aa047dddc402903e614163b891d9"
+    },
+    {
+        "path": "media/posts/41",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/41/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/41/responsive/web-deddme-2-md.webp",
+        "type": "file",
+        "md5": "51da9e3bfe7f0327445148fa49f0ea50"
+    },
+    {
+        "path": "/media/posts/41/responsive/web-deddme-2-sm.webp",
+        "type": "file",
+        "md5": "abcfa8f553f73ef4811a5175ad9e3528"
+    },
+    {
+        "path": "/media/posts/41/responsive/web-deddme-2-xl.webp",
+        "type": "file",
+        "md5": "3718d7ec9e2b741513a531e0d27aa0a6"
+    },
+    {
+        "path": "/media/posts/41/responsive/web-deddme-2-xs.webp",
+        "type": "file",
+        "md5": "17d3a2f70e88b9435256b64736952833"
+    },
+    {
+        "path": "/media/posts/41/web-deddme-2.png",
+        "type": "file",
+        "md5": "98bb4b32fce9a91f1c9a175d6abf5487"
     },
     {
         "path": "media/posts/5",
@@ -1967,7 +2012,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "b437248621cd5e29abf76bb3d3b9ad62"
+        "md5": "f734f553eb2f290ab025cbf258eb4a5b"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/3",
@@ -1977,12 +2022,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/3/index.html",
         "type": "file",
-        "md5": "a02ffdf7eca03c90302ba1195a31669b"
+        "md5": "348a042b74e780763ba5c9eeca6a584d"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "9f73a9ac6ac4c0b8f974f4ecb70b81f1"
+        "md5": "1233d69e708d62418c75991e87746f19"
     },
     {
         "path": "robots.txt",
@@ -1997,7 +2042,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "505205780e535e26fe2b641debfd4bae"
+        "md5": "b82d7a0be92ae32e63acc48fb74bc0c4"
     },
     {
         "path": "sitemap.xsl",
