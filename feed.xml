@@ -3,7 +3,7 @@
     <title>deddme</title>
     <link href="https://deddme.id/feed.xml" rel="self" />
     <link href="https://deddme.id" />
-    <updated>2025-07-15T21:20:49+08:00</updated>
+    <updated>2025-07-16T01:33:17+08:00</updated>
     <author>
         <name>Deddy Hidayat</name>
     </author>
@@ -34,7 +34,7 @@
 <li><strong>Ujian Tertulis (UTBK)</strong><br>• Tes Objektif: PCK &amp; SJT<br>• Tes Subjektif: Uraian Reflektif  </li>
 <li><strong>Ujian Kinerja (UKIN)</strong><br>• Perangkat Pembelajaran<br>• Video Praktik Pembelajaran<br>• Layanan Khusus BK (jika relevan)</li>
 </ul>
-<h2 id="link-panduan-ukppg">Link panduan UKPPG</h2>
+<h2 id="1-link-panduan-ukppg">1. Link panduan UKPPG</h2>
 <ol>
 <li><a href="https://deddme.id/artikel/panduan-lengkap-utbk-ukppg">Panduan UBTK ujian zoom - Klik disini</a></li>
 <li><a href="https://deddme.id/artikel/panduan-lengkap-ukin-ukppg">Panduan UKIN pembuatan video - Klik disini</a></li>
@@ -77,50 +77,50 @@
 </tr>
 </tbody></table>
 <hr>
-<h2 id="2-rincian-setiap-tahapan">2. Rincian Setiap Tahapan</h2>
-<p>Bagian ini menjelaskan setiap tahapan pada jadwal diatas</p><h3 id="21-pendaftaran--pemutakhiran-profil-719-juli">2.1 Pendaftaran &amp; Pemutakhiran Profil (7–19 Juli)</h3>
+<h2 id="3-rincian-setiap-tahapan">3. Rincian Setiap Tahapan</h2>
+<p>Bagian ini menjelaskan setiap tahapan pada jadwal diatas</p><h3 id="pendaftaran--pemutakhiran-profil-719-juli">Pendaftaran &amp; Pemutakhiran Profil (7–19 Juli)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Memastikan data peserta terbarui (biodata, NIK, NIM, alamat domisili).  </li>
 <li><strong>Keluaran:</strong> Akun aktif, profil valid, siap cetak kartu ujian.  </li>
 <li><strong>Risiko:</strong> Data tidak sinkron → gagal cetak kartu; koneksi lambat saat pendaftaran.  </li>
 <li><strong>Tips:</strong> Siapkan dokumen pendukung (KTP, NIM), periksa ulang data sebelum submit.</li>
 </ul>
-<h3 id="22-pemilihan-kesediaan-mengikuti-ujian-719-juli">2.2 Pemilihan Kesediaan Mengikuti Ujian (7–19 Juli)</h3>
+<h3 id="pemilihan-kesediaan-mengikuti-ujian-719-juli">Pemilihan Kesediaan Mengikuti Ujian (7–19 Juli)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Menyatakan komitmen ikut UTBK &amp; UKIN.  </li>
 <li><strong>Keluaran:</strong> Status “Siap Ujian” di dashboard peserta.  </li>
 <li><strong>Risiko:</strong> Lupa klik “Ikut Ujian” → tidak tercatat.  </li>
 <li><strong>Tips:</strong> Cek status tiap hari terakhir pendaftaran.</li>
 </ul>
-<h3 id="23-pembayaran-biaya-ujian-retaker-719-juli">2.3 Pembayaran Biaya Ujian (Retaker) (7–19 Juli)</h3>
-<ul>
+<h3 id="pembayaran-biaya-ujian-retaker-719-juli">Pembayaran Biaya Ujian (Retaker) (7–19 Juli)</h3>
+<p><strong>NOTE : biaya ujian ini untuk retaker (yang ikut ujian ulang karena tahap ini belum lulus)</strong> budayakan membaca agar tidak salah paham ! </p><ul>
 <li><strong>Tujuan:</strong> Melunasi biaya UTBK (Rp200.000) dan UKIN (Rp265.000).  </li>
 <li><strong>Keluaran:</strong> Bukti pembayaran valid, status peserta “Lunas”.  </li>
 <li><strong>Risiko:</strong> Transaksi gagal, VA kadaluarsa.  </li>
 <li><strong>Tips:</strong> Bayar di awal periode, simpan struk, konfirmasi status di dashboard.</li>
 </ul>
-<h3 id="24-unggah-dokumen--video-praktik-ukin-2026-juli">2.4 Unggah Dokumen &amp; Video Praktik UKIN (20–26 Juli)</h3>
+<h3 id="unggah-dokumen--video-praktik-ukin-2026-juli">Unggah Dokumen &amp; Video Praktik UKIN (20–26 Juli)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Memenuhi syarat UKIN dengan RPP/RPL dan video praktik.  </li>
 <li><strong>Keluaran:</strong> Semua file “Sudah Upload”, siap dinilai.  </li>
 <li><strong>Risiko:</strong> Link Drive mati, format file salah, kuota penuh.  </li>
 <li><strong>Tips:</strong> Upload awal periode, verifikasi link, cek format PDF/MP4.</li>
 </ul>
-<h3 id="25-simulasi-ujian--latihan-soal-try-out-2729-juli">2.5 Simulasi Ujian &amp; Latihan Soal (Try Out) (27–29 Juli)</h3>
+<h3 id="simulasi-ujian--latihan-soal-try-out-2729-juli">Simulasi Ujian &amp; Latihan Soal (Try Out) (27–29 Juli)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Familiarisasi antarmuka Exambppp &amp; format soal UTBK.  </li>
 <li><strong>Keluaran:</strong> Peserta paham alur, kesiapan teknis teruji.  </li>
 <li><strong>Risiko:</strong> Gagal login, server padat.  </li>
 <li><strong>Tips:</strong> Coba satu hari pertama, catat kendala, lapor panitia.</li>
 </ul>
-<h3 id="26-pelaksanaan-utbk--ukin-30-juli2-agustus">2.6 Pelaksanaan UTBK &amp; UKIN (30 Juli–2 Agustus)</h3>
+<h3 id="pelaksanaan-utbk--ukin-30-juli2-agustus">Pelaksanaan UTBK &amp; UKIN (30 Juli–2 Agustus)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Menjalankan ujian tertulis dan kinerja sesuai jadwal.  </li>
 <li><strong>Keluaran:</strong> Rekaman UTBK, dokumen &amp; video UKIN terkirim.  </li>
 <li><strong>Risiko:</strong> Koneksi putus, server down, gangguan listrik.  </li>
 <li><strong>Tips:</strong> Siapkan cadangan koneksi (HP tethering), power bank, UPS kecil.</li>
 </ul>
-<h3 id="27-penilaian-dokumen--video-ukin-623-agustus">2.7 Penilaian Dokumen &amp; Video UKIN (6–23 Agustus)</h3>
+<h3 id="penilaian-dokumen--video-ukin-623-agustus">Penilaian Dokumen &amp; Video UKIN (6–23 Agustus)</h3>
 <ul>
 <li><strong>Tujuan:</strong> Penguji menilai perangkat pembelajaran dan video praktik.  </li>
 <li><strong>Keluaran:</strong> Nilai akhir UKIN terbit.  </li>
@@ -128,7 +128,7 @@
 <li><strong>Tips:</strong> Cek notifikasi aplikasi, siapkan dokumen pendukung jika diminta.</li>
 </ul>
 <hr>
-<h2 id="3-hubungan-antar-tahapan">3. Hubungan antar Tahapan</h2>
+<h2 id="4-hubungan-antar-tahapan">4. Hubungan antar Tahapan</h2>
 <ol>
 <li><strong>Profil valid →</strong> Cetak kartu &amp; ikut UTBK  </li>
 <li><strong>Pembayaran lunas →</strong> Status siap ukin  </li>
@@ -137,7 +137,7 @@
 <li><strong>Hari H sukses →</strong> Masuk penilaian akhir</li>
 </ol>
 <hr>
-<h2 id="4-saran-strategi-persiapan">4. Saran Strategi Persiapan</h2>
+<h2 id="5-saran-strategi-persiapan">5. Saran Strategi Persiapan</h2>
 <ul>
 <li>Buat <strong>timeline pribadi</strong> dengan pengingat harian  </li>
 <li>Siapkan <strong>dokumen PDF</strong> dan <strong>video MP4</strong> jauh-jauh hari  </li>

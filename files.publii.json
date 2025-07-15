@@ -222,7 +222,7 @@
     {
         "path": "/artikel/panduan-lengkap-ukppg/index.html",
         "type": "file",
-        "md5": "d95ddada5843cc1efe57e61ecd39e96f"
+        "md5": "3bdd1fda7131c33f77cd87e5c11b6c93"
     },
     {
         "path": "artikel/panduan-lengkap-utbk-ukppg",
@@ -532,12 +532,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "e2c4f723330d979a88210888f7e99224"
+        "md5": "7a01a16dc8bd09b3c6087fa449e9a5f1"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "ac1b5242b820139eb6c7cc9f7ff7a454"
+        "md5": "10cb6b6ca0f89c84361e3eb92b9aa4fb"
     },
     {
         "path": "index.html",
