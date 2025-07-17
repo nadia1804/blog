@@ -87,7 +87,7 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "5a4be9fd96f848fb676884bc8791aeee"
+        "md5": "2402c943f312ea1c87c20b120dbfd377"
     },
     {
         "path": "artikel/halaman/3",
@@ -97,7 +97,7 @@
     {
         "path": "/artikel/halaman/3/index.html",
         "type": "file",
-        "md5": "adfe9ec945037ee80ead188351f826c4"
+        "md5": "8a156cdf3e352beda4f10ea13ebae721"
     },
     {
         "path": "artikel/halaman/4",
@@ -107,7 +107,7 @@
     {
         "path": "/artikel/halaman/4/index.html",
         "type": "file",
-        "md5": "aaf1eee0253e7242528ff3f19339e7b9"
+        "md5": "3ee4d110324afef0ae63f4e996727ffc"
     },
     {
         "path": "artikel/halaman/5",
@@ -117,7 +117,7 @@
     {
         "path": "/artikel/halaman/5/index.html",
         "type": "file",
-        "md5": "373257bdc5890ed34030107ce98f02c8"
+        "md5": "51ca9fc8e3d8db91a40e6120cb2396d0"
     },
     {
         "path": "artikel/hari-libur-dan-cuti-bersama-2025-2026",
@@ -132,7 +132,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "01948d565f951632c7036783577c2e6b"
+        "md5": "91be0349e818f2504f75a073e56ecb1d"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -405,6 +405,16 @@
         "md5": "25a3d0f96a8b97be8046281552251d41"
     },
     {
+        "path": "artikel/sumber-sejarah",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/sumber-sejarah/index.html",
+        "type": "file",
+        "md5": "da5e75365e722cf0c903cdbed86d1261"
+    },
+    {
         "path": "artikel/telaah-kalender-pendidikan-2025-2026",
         "type": "directory",
         "md5": false
@@ -532,17 +542,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "7a01a16dc8bd09b3c6087fa449e9a5f1"
+        "md5": "b86c46cbc5ebb77339d2cd9fc5e96c51"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "10cb6b6ca0f89c84361e3eb92b9aa4fb"
+        "md5": "347d230ca01750e047bc939c2eff450c"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "58b35c5cb4d3cd5f0cf13dda80c8bdd2"
+        "md5": "71ee3b73d5a92cb3d02f04a6245e9f67"
     },
     {
         "path": "kategori",
@@ -557,7 +567,7 @@
     {
         "path": "/kategori/2025-2026/index.html",
         "type": "file",
-        "md5": "bc854615424d8a8b3d2ee26e6f85a6d3"
+        "md5": "528cb367495665657883dbe5c94b34d7"
     },
     {
         "path": "kategori/blogspot",
@@ -567,7 +577,7 @@
     {
         "path": "/kategori/blogspot/index.html",
         "type": "file",
-        "md5": "81e4e435ee69a02f5bd262097b5a7d7e"
+        "md5": "a385d1b17866a102e6002c3fce83027e"
     },
     {
         "path": "kategori/even",
@@ -577,7 +587,7 @@
     {
         "path": "/kategori/even/index.html",
         "type": "file",
-        "md5": "197775114c2389ee72e2527223281932"
+        "md5": "efed8b97d4c99fd679c68c9cd07933c1"
     },
     {
         "path": "kategori/ghost",
@@ -587,12 +597,12 @@
     {
         "path": "/kategori/ghost/index.html",
         "type": "file",
-        "md5": "60ffc26ba952d8c4bbe9bceb084b5c6d"
+        "md5": "d7756bf6f7222232034425c4b6f89da8"
     },
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "fb978412de33628cd8704df7a8275218"
+        "md5": "bf102853f7cf6e5ed963f0045050c7ae"
     },
     {
         "path": "kategori/javascript",
@@ -602,7 +612,27 @@
     {
         "path": "/kategori/javascript/index.html",
         "type": "file",
-        "md5": "64880ee9a8e81962c9a2596414d5cfe3"
+        "md5": "47a187578664b1a658ced6027310878d"
+    },
+    {
+        "path": "kategori/kelas-x",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/kelas-x/index.html",
+        "type": "file",
+        "md5": "987c1e3e6b4aae08b278cad114d4f889"
+    },
+    {
+        "path": "kategori/materi-pelajaran",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/materi-pelajaran/index.html",
+        "type": "file",
+        "md5": "a326d9e7b04802ecee4d1f4da2d2f22d"
     },
     {
         "path": "kategori/pendidikan",
@@ -612,7 +642,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "5208e9efa6212161f360bffdb1827dcb"
+        "md5": "832b8d636bc04f020780927d10ed549c"
     },
     {
         "path": "kategori/ppg",
@@ -622,7 +652,17 @@
     {
         "path": "/kategori/ppg/index.html",
         "type": "file",
-        "md5": "27ee07f7a9006cef4f501b8d7fa487ae"
+        "md5": "2dce858ddd34b475cdec8e8cbaeb4378"
+    },
+    {
+        "path": "kategori/sejarah",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/sejarah/index.html",
+        "type": "file",
+        "md5": "9f8a67ea65abab77e49e29f93d27296f"
     },
     {
         "path": "kategori/soal",
@@ -642,12 +682,12 @@
     {
         "path": "/kategori/soal/halaman/2/index.html",
         "type": "file",
-        "md5": "bed5209f1b66f191e8527daad48911c3"
+        "md5": "621aba55f5590c1b5a2927892138876f"
     },
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "fa047d9173e820a5732065ac5441f100"
+        "md5": "5927cd3d7502769e93adb7562f943737"
     },
     {
         "path": "kategori/tools",
@@ -657,7 +697,7 @@
     {
         "path": "/kategori/tools/index.html",
         "type": "file",
-        "md5": "d1450631e60396afbaa61b70e25ac111"
+        "md5": "345ca3de09230cd9e5b03fcc14408a05"
     },
     {
         "path": "kategori/web",
@@ -667,7 +707,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "fd5fc0f033f8bb988f190721e8ef698f"
+        "md5": "f5afb57922b2fe20a8686d4aa5ff0eb0"
     },
     {
         "path": "media",
@@ -1980,6 +2020,41 @@
         "md5": "cddc5ab0024f33880241924d361ef82f"
     },
     {
+        "path": "media/posts/45",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/45/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/45/responsive/sejarah-deddme.id-md.webp",
+        "type": "file",
+        "md5": "e204f334599c40c3e2648ade7df379da"
+    },
+    {
+        "path": "/media/posts/45/responsive/sejarah-deddme.id-sm.webp",
+        "type": "file",
+        "md5": "d4cace09d3b6f7e4a210d5a488bc40c8"
+    },
+    {
+        "path": "/media/posts/45/responsive/sejarah-deddme.id-xl.webp",
+        "type": "file",
+        "md5": "aa09fff50d0acfa76ae2b9f38936676e"
+    },
+    {
+        "path": "/media/posts/45/responsive/sejarah-deddme.id-xs.webp",
+        "type": "file",
+        "md5": "03ac2a3aa26b7c7be9a61ae73171e156"
+    },
+    {
+        "path": "/media/posts/45/sejarah-deddme.id.png",
+        "type": "file",
+        "md5": "24eee3f1222f693ac4384cda40a1ec76"
+    },
+    {
         "path": "media/posts/5",
         "type": "directory",
         "md5": false
@@ -2157,7 +2232,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "05e8b9ec34ba9c78d898ed6c7617bde9"
+        "md5": "780c10b393f5ba283cfeaa5f51e01ee1"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/3",
@@ -2167,7 +2242,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/3/index.html",
         "type": "file",
-        "md5": "0192565251be118eadb40e802ef04dae"
+        "md5": "dad026a9e1a8262254ee8cdfae5eb546"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/4",
@@ -2177,12 +2252,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/4/index.html",
         "type": "file",
-        "md5": "1b67a8772524b13c1b4cb9221cf0f191"
+        "md5": "6e129c5c6e6bbd50c73fb955ff1e6c33"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "32f567ef8a3f5cba4fb4ce27a3bfdf1e"
+        "md5": "40b65fe2de30263ecc071121d9658c34"
     },
     {
         "path": "robots.txt",
@@ -2197,7 +2272,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "1049c3e7261943536978788b398100ee"
+        "md5": "cc1fb698595ce47eff92682e0dcabf77"
     },
     {
         "path": "sitemap.xsl",
