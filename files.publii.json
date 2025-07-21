@@ -412,7 +412,7 @@
     {
         "path": "/artikel/sumber-sejarah/index.html",
         "type": "file",
-        "md5": "cd71a5021cfe2843b22fe0f99dfec7ed"
+        "md5": "8d4acf3555986378f867f7bf386921d8"
     },
     {
         "path": "artikel/telaah-kalender-pendidikan-2025-2026",
@@ -542,12 +542,12 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "b7f1dfc2c6287dd5cae373b0225fdc7f"
+        "md5": "68302d639577ee5621494d61efdd528e"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "999ea909d96d7bbccfd8fd6e697dd46e"
+        "md5": "2c359dcf0ad46eba7100b998f85aba5f"
     },
     {
         "path": "index.html",
