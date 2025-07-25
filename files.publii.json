@@ -75,6 +75,16 @@
         "md5": "f103e5e7cf229436bc12dcff64ad0494"
     },
     {
+        "path": "artikel/download-logo-hut-ri-80",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/artikel/download-logo-hut-ri-80/index.html",
+        "type": "file",
+        "md5": "1c7053eb943a3546fa07cc65c07df314"
+    },
+    {
         "path": "artikel/halaman",
         "type": "directory",
         "md5": false
@@ -87,7 +97,7 @@
     {
         "path": "/artikel/halaman/2/index.html",
         "type": "file",
-        "md5": "78243ab3dac5a32ba2e4a1e5139d4c5a"
+        "md5": "b6f95a6ff0b147366e133dffbeea1457"
     },
     {
         "path": "artikel/halaman/3",
@@ -97,7 +107,7 @@
     {
         "path": "/artikel/halaman/3/index.html",
         "type": "file",
-        "md5": "81b859efd3cb3e076a289ea0f62673fe"
+        "md5": "fac0be618e5a386b3d8793c6d954ed5e"
     },
     {
         "path": "artikel/halaman/4",
@@ -107,7 +117,7 @@
     {
         "path": "/artikel/halaman/4/index.html",
         "type": "file",
-        "md5": "0026ee1731303ce41175f904ef43a412"
+        "md5": "5c46a1300d3766b581558be470970c08"
     },
     {
         "path": "artikel/halaman/5",
@@ -117,7 +127,7 @@
     {
         "path": "/artikel/halaman/5/index.html",
         "type": "file",
-        "md5": "f7bc3d4a412110813e78873d2190c3c9"
+        "md5": "59a7c8995a6cd6c325ac485b9149eb21"
     },
     {
         "path": "artikel/hari-libur-dan-cuti-bersama-2025-2026",
@@ -132,7 +142,7 @@
     {
         "path": "/artikel/index.html",
         "type": "file",
-        "md5": "ed03bd5191837fdd364c31fcac4f9691"
+        "md5": "09639a62678621dd95503b4453519f8c"
     },
     {
         "path": "artikel/install-ghost-local-di-windows-11",
@@ -542,17 +552,17 @@
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "68302d639577ee5621494d61efdd528e"
+        "md5": "a7f277049cdd66db7501930df6ed7727"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "2c359dcf0ad46eba7100b998f85aba5f"
+        "md5": "f9264f9fa18ea0e91515a06864e278ef"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "5706ac0ac1ea1caac682fe8805d7ec43"
+        "md5": "049ccc8417541fee60cda4ac02d70e12"
     },
     {
         "path": "kategori",
@@ -567,7 +577,7 @@
     {
         "path": "/kategori/2025-2026/index.html",
         "type": "file",
-        "md5": "58709b0fc9c3e2d45351b436fa2f2573"
+        "md5": "a193a726df7a77e3a0c19b94835a4bd0"
     },
     {
         "path": "kategori/blogspot",
@@ -577,7 +587,7 @@
     {
         "path": "/kategori/blogspot/index.html",
         "type": "file",
-        "md5": "b2625bd7b0aab76d95125d49a458caad"
+        "md5": "69158162745a03de491caa1630ea2452"
     },
     {
         "path": "kategori/even",
@@ -587,7 +597,7 @@
     {
         "path": "/kategori/even/index.html",
         "type": "file",
-        "md5": "cfc8edbbc6360d088ad476840bfffbc4"
+        "md5": "a897c4a2e37616bb7c9353bb2a0dc7d3"
     },
     {
         "path": "kategori/ghost",
@@ -597,12 +607,12 @@
     {
         "path": "/kategori/ghost/index.html",
         "type": "file",
-        "md5": "0eb80920caa80d35f61c94133ad980d0"
+        "md5": "fd9ce4ada9cd0d2319d8c08225abbf73"
     },
     {
         "path": "/kategori/index.html",
         "type": "file",
-        "md5": "eb7681c6944ff01b1635573d46bdc42a"
+        "md5": "4921aba9c6f331174f1dd853d77ddc28"
     },
     {
         "path": "kategori/javascript",
@@ -612,7 +622,7 @@
     {
         "path": "/kategori/javascript/index.html",
         "type": "file",
-        "md5": "40c95ac258caf35c9faea00d0a8917fc"
+        "md5": "d512f58b539a78ba9c426d51f89e4f42"
     },
     {
         "path": "kategori/kelas-x",
@@ -622,7 +632,17 @@
     {
         "path": "/kategori/kelas-x/index.html",
         "type": "file",
-        "md5": "31c14da13e431f1f8f023ae6fd28543c"
+        "md5": "e5168776d6146426b66d7e9e8ca976ed"
+    },
+    {
+        "path": "kategori/logo",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/kategori/logo/index.html",
+        "type": "file",
+        "md5": "48749ff3cd4a83451cac92e3e7910e75"
     },
     {
         "path": "kategori/materi-pelajaran",
@@ -632,7 +652,7 @@
     {
         "path": "/kategori/materi-pelajaran/index.html",
         "type": "file",
-        "md5": "dcad491236cbfd97e3854686dd90fe0e"
+        "md5": "3b7119531a810ee889319f44d953ddb7"
     },
     {
         "path": "kategori/pendidikan",
@@ -642,7 +662,7 @@
     {
         "path": "/kategori/pendidikan/index.html",
         "type": "file",
-        "md5": "c5fe2b51fea364ad9e2b668702467b9d"
+        "md5": "1246347aed1ab01b0e453c582b9a1e5d"
     },
     {
         "path": "kategori/ppg",
@@ -652,7 +672,7 @@
     {
         "path": "/kategori/ppg/index.html",
         "type": "file",
-        "md5": "8fe94faaed60a9c59b36bbfbf5ea4267"
+        "md5": "e43b921e5c59002d1800e27656e8b989"
     },
     {
         "path": "kategori/sejarah",
@@ -662,7 +682,7 @@
     {
         "path": "/kategori/sejarah/index.html",
         "type": "file",
-        "md5": "f63fbd80b9080e17a316ff3c961c90bf"
+        "md5": "4530dc3a00ec62d10a5bf2ee68e54740"
     },
     {
         "path": "kategori/soal",
@@ -682,12 +702,12 @@
     {
         "path": "/kategori/soal/halaman/2/index.html",
         "type": "file",
-        "md5": "eda3e880a18c3bbab1c85a6f26251d8d"
+        "md5": "cc63c8c0d8272ee42be62c5d39d0fcab"
     },
     {
         "path": "/kategori/soal/index.html",
         "type": "file",
-        "md5": "1620e27a7f3635337b8e8220a588033b"
+        "md5": "61ad96c2f39117a3fda725ff62664cfd"
     },
     {
         "path": "kategori/tools",
@@ -697,7 +717,7 @@
     {
         "path": "/kategori/tools/index.html",
         "type": "file",
-        "md5": "b9eb6c86a17f120c7f45737409ea5386"
+        "md5": "c6a4072bbb35d13adaab1c255ce7de1d"
     },
     {
         "path": "kategori/web",
@@ -707,7 +727,7 @@
     {
         "path": "/kategori/web/index.html",
         "type": "file",
-        "md5": "0f00c041265d02c6e0855f542edc4505"
+        "md5": "e20717b5c43bd3ff6569b73ac9c19ed1"
     },
     {
         "path": "media",
@@ -730,6 +750,36 @@
         "md5": false
     },
     {
+        "path": "media/plugins/coreLightboxGallery",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/plugins/coreLightboxGallery/photoswipe-lightbox.esm.min.js",
+        "type": "file",
+        "md5": "b505ee081119c5be142e0dbac4762f99"
+    },
+    {
+        "path": "/media/plugins/coreLightboxGallery/photoswipe-lightbox.umd.min.js",
+        "type": "file",
+        "md5": "96c2a65aa83c62a874ddcd85cbdf69fb"
+    },
+    {
+        "path": "/media/plugins/coreLightboxGallery/photoswipe.esm.min.js",
+        "type": "file",
+        "md5": "97ca880233a37aa88ecd4e06b53c45bd"
+    },
+    {
+        "path": "/media/plugins/coreLightboxGallery/photoswipe.min.css",
+        "type": "file",
+        "md5": "bbfcfcfc7aff4620107555b1d668227d"
+    },
+    {
+        "path": "/media/plugins/coreLightboxGallery/photoswipe.umd.min.js",
+        "type": "file",
+        "md5": "80574f1ec4486c3613d668756ad7e600"
+    },
+    {
         "path": "media/plugins/pagePrefetching",
         "type": "directory",
         "md5": false
@@ -738,6 +788,21 @@
         "path": "/media/plugins/pagePrefetching/quicklink.umd.js",
         "type": "file",
         "md5": "9bf2c039e22db3d0962eb567cbe5954d"
+    },
+    {
+        "path": "media/plugins/simpleLightboxGallery",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/plugins/simpleLightboxGallery/venobox.min.css",
+        "type": "file",
+        "md5": "930f3a77f1401f46699d08c218ad3969"
+    },
+    {
+        "path": "/media/plugins/simpleLightboxGallery/venobox.min.js",
+        "type": "file",
+        "md5": "5142acef8a10cb59560be26621ce59d5"
     },
     {
         "path": "media/plugins (Salinan berkonflik DESKTOP-85U58QQ 2025-07-07)",
@@ -2055,6 +2120,161 @@
         "md5": "24eee3f1222f693ac4384cda40a1ec76"
     },
     {
+        "path": "media/posts/46",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/46/download_logo_hut_ri_80_2025_deddme.id.png",
+        "type": "file",
+        "md5": "24fdbe634c1ad4400172e293e142a8aa"
+    },
+    {
+        "path": "media/posts/46/gallery",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_Black-2-thumbnail.webp",
+        "type": "file",
+        "md5": "cfeb540496665b05f03801b4e11299d8"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_Black-2.png",
+        "type": "file",
+        "md5": "345953600b4f21b82cf60aff9c96703d"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_Red-2-thumbnail.webp",
+        "type": "file",
+        "md5": "33919dce55e2727162bc678667d250b5"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_Red-2.png",
+        "type": "file",
+        "md5": "f05e20092df074f3dea294c73879b39a"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_White-2-thumbnail.webp",
+        "type": "file",
+        "md5": "fc111cafc14ca40910453e04fcbb779d"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Logogram_White-2.png",
+        "type": "file",
+        "md5": "a69c08a06da23f8b0d092c9e2a7f340f"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_Black-2-thumbnail.webp",
+        "type": "file",
+        "md5": "1b1f5e9b78cc1839526b13f21696ca9d"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_Black-2.png",
+        "type": "file",
+        "md5": "372379829183d7411c03291b8d3adf84"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_Red-2-thumbnail.webp",
+        "type": "file",
+        "md5": "0eb380b7b866b154ab15eedf121df20a"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_Red-2.png",
+        "type": "file",
+        "md5": "5039c961b285dff3a7da3c005d91e1f9"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_White-2-thumbnail.webp",
+        "type": "file",
+        "md5": "3f7cdef95a46f11a4195187011305695"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Main-Logo_White-2.png",
+        "type": "file",
+        "md5": "e60100c16a2315d9c08683663f460575"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_Black-2-thumbnail.webp",
+        "type": "file",
+        "md5": "03ac2a3aa26b7c7be9a61ae73171e156"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_Black-2.png",
+        "type": "file",
+        "md5": "ed98dd779907feb3babc3362bac2bd7b"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_Red-2-thumbnail.webp",
+        "type": "file",
+        "md5": "431ccd6572fd64fb80b99421a21f27dc"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_Red-2.png",
+        "type": "file",
+        "md5": "f77d69085ec33f48bb229503ba3ed95f"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_White-2-thumbnail.webp",
+        "type": "file",
+        "md5": "aed2d817dfb24dfbc5c961ada10dbaa8"
+    },
+    {
+        "path": "/media/posts/46/gallery/HUTRI80_FA_Secondary-Logo_White-2.png",
+        "type": "file",
+        "md5": "a3e9c873e3d2f47370d37a49e4532334"
+    },
+    {
+        "path": "/media/posts/46/HUTRI80_FA_Palet-Warna-Identitas.png",
+        "type": "file",
+        "md5": "df7bc463bda2aca3ea8854d3c8b79298"
+    },
+    {
+        "path": "media/posts/46/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/46/responsive/download_logo_hut_ri_80_2025_deddme.id-md.webp",
+        "type": "file",
+        "md5": "da7dda738197a9d62a47e5fd2b5dca7d"
+    },
+    {
+        "path": "/media/posts/46/responsive/download_logo_hut_ri_80_2025_deddme.id-sm.webp",
+        "type": "file",
+        "md5": "8ab81a9da9b3053f0ca4853643595ab0"
+    },
+    {
+        "path": "/media/posts/46/responsive/download_logo_hut_ri_80_2025_deddme.id-xl.webp",
+        "type": "file",
+        "md5": "4d6f6cd8ddfbdf707326d0df49608966"
+    },
+    {
+        "path": "/media/posts/46/responsive/download_logo_hut_ri_80_2025_deddme.id-xs.webp",
+        "type": "file",
+        "md5": "1f7520894d1607aa230dd50cf46097e2"
+    },
+    {
+        "path": "/media/posts/46/responsive/HUTRI80_FA_Palet-Warna-Identitas-md.webp",
+        "type": "file",
+        "md5": "38cc706e3166a0df87c5239b646849b7"
+    },
+    {
+        "path": "/media/posts/46/responsive/HUTRI80_FA_Palet-Warna-Identitas-sm.webp",
+        "type": "file",
+        "md5": "8778a596fe38fd12870f8a8c1df5103b"
+    },
+    {
+        "path": "/media/posts/46/responsive/HUTRI80_FA_Palet-Warna-Identitas-xl.webp",
+        "type": "file",
+        "md5": "9bfea87d1f7a7a1edc3eae794cb90f2b"
+    },
+    {
+        "path": "/media/posts/46/responsive/HUTRI80_FA_Palet-Warna-Identitas-xs.webp",
+        "type": "file",
+        "md5": "9dd7a1c599b1dc089ffec9fe2f942036"
+    },
+    {
         "path": "media/posts/5",
         "type": "directory",
         "md5": false
@@ -2232,7 +2452,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/2/index.html",
         "type": "file",
-        "md5": "5a3411abcb50346cb1459176ce7b857f"
+        "md5": "d765396f2a84911c41344f85c9724cb5"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/3",
@@ -2242,7 +2462,7 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/3/index.html",
         "type": "file",
-        "md5": "114662e587b26fb6bd8821793884108f"
+        "md5": "564ec447c5eecac6dcb744935e6f1063"
     },
     {
         "path": "penulis/deddy-hidayat/halaman/4",
@@ -2252,12 +2472,12 @@
     {
         "path": "/penulis/deddy-hidayat/halaman/4/index.html",
         "type": "file",
-        "md5": "bae9bba186ef99a393d25d79776e6e1f"
+        "md5": "72d72904d6627f6f2a1220e488171eea"
     },
     {
         "path": "/penulis/deddy-hidayat/index.html",
         "type": "file",
-        "md5": "321d6ceb4a5604e02f830cbb7a58fe03"
+        "md5": "698d527e2652ca3e683ebd278b2c212a"
     },
     {
         "path": "robots.txt",
@@ -2272,7 +2492,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "cc1fb698595ce47eff92682e0dcabf77"
+        "md5": "cea8702c8842cf7c1929d33bd9c7c5b2"
     },
     {
         "path": "sitemap.xsl",
